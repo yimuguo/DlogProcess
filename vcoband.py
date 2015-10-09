@@ -14,4 +14,5 @@ for line in SkewLotsDlog:
     LineBuffer.append(line)
     if line[15:25] == '1         1':
         NewDevice = 0
-        PassDlog.write
+        PassDlog.writelines(LineBuffer)
+
