@@ -1,7 +1,5 @@
 __author__ = 'yguo'
 
-import re
-
 
 def screen_pass(lotnumber, original_dlog):
     data_buffer = []
@@ -25,7 +23,7 @@ screen_pass('FF', SkewLotsDlog)
 with open(".\\examples\\21MY_HOT_5P49V5901_FT_754_J750-05_1A.txt", 'r') as data:
     SkewLotsDlog = data.read().splitlines()
 screen_pass('SS', SkewLotsDlog)
-
+# SkewLotsDlog.clear()
 # devices = open('PassUnits_FF.txt', 'r').read()
 # print("There are " + str(devices.count('Device#:')) + " units passed dlog in this file")
 # devices = open('PassUnits_SS.txt', 'r').read()
