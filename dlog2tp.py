@@ -8,7 +8,7 @@ tp_txt.write("Min Values:\tMax Values\t:\n")
 ###Find Test Num and filter out float
 def keyword_limit(keyword,dlog,tp_txt):
     import re
-    test=filter(lambda x: keyword in x, dlog)
+    test=[x for x in dlog if keyword in x]
     splitlimit=[]
     for x in test:
         x=re.split("\s+",x)
@@ -16,11 +16,11 @@ def keyword_limit(keyword,dlog,tp_txt):
     tmin=[]
     tmax=[]
     for x in splitlimit:
-        if x[2]=='0' and len(x)>12:
-            if x[4]!=('OutputLeakage' or 'InputLeadkage') and (x[8]=='uA' or x[8]=='mV'):
+        if len(x)>12:
+            if x[4]!=('OutputLeakage' or 'InputLeakage') and (x[8]=='uA' or x[8]=='mV'):
                 x[7]=str(float(x[7])/1000) 
             tmin.append(x[7])
-            if x[4]!=('OutputLeakage' or 'InputLeadkage') and (x[12]=='uA' or x[12]=='mV'):
+            if x[4]!=('OutputLeakage' or 'InputLeakage') and (x[12]=='uA' or x[12]=='mV'):
                 x[11]=str(float(x[11])/1000)
             tmax.append(x[11])
         elif len(x)<=17:
@@ -35,18 +35,18 @@ def keyword_limit(keyword,dlog,tp_txt):
 ###Read into Datalog
 #filename=raw_input("Enter dlog full path:\n")
 
-os.chdir("S://Test_Eng//J750_HW_SW//VC5//AK652_008_748//doc//")
+os.chdir("S://Test_Eng//J750_HW_SW//VC5//AK652_008_772_IBM//dlog//")
 
-for file in glob.glob("*QA*.txt"):
+for file in glob.glob("*qa*.txt"):
     filename = file
 with open(filename) as data:
     dlog=data.read().splitlines()
 
-keyword_limit('IDD18_dynamic',dlog,tp_txt)
-keyword_limit('IDD18_3s',dlog,tp_txt)
-keyword_limit('IDD18_SD',dlog,tp_txt)
-keyword_limit('IOS_LVDS18',dlog,tp_txt)
-keyword_limit('OutputLeadkage',dlog,tp_txt)
+keyword_limit('IDD33_dynamic',dlog,tp_txt)
+keyword_limit('IDD33_3s',dlog,tp_txt)
+keyword_limit('IDD33_SD',dlog,tp_txt)
+keyword_limit('VOLH_HCSL33',dlog,tp_txt)
+keyword_limit('VOLH33',dlog,tp_txt)
 
 #keyword_limit('IDD',dlog,tp_txt)
 #tmin1,tmax1=keyword_limit('LDO
