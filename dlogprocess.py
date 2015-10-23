@@ -25,14 +25,24 @@ class Dlog(object):
             if self.dlog_data[line][:73] == '=========================================================================':
                 new_device = 0
                 if self.dlog_data[line-1][14:25] == '1         1':
-                    for x in data_buffer:
-                        pass_dlog.extend(x)
+                    # for x in data_buffer:
+                    pass_dlog.extend(data_buffer)
                 data_buffer = []
         if write_to_file == 1:
             pass_dlog_txt = open('PassUnits_%s.txt' % lot_number, 'w+')
             pass_dlog_txt.writelines(["%s\n" % item for item in pass_dlog])
             pass_dlog_txt.close()
         return pass_dlog
+
+    def vco_band_monitor_on(self):
+        band_info = []
+        band_line = []
+        for x in range(0, len(self.dlog_data)):
+            if 'VCO_Band is' in self.dlog_data[x]:
+                band_line = re.split("\s+", self.dlog_data[x])
+                band_info.append(band_line[3])
+                band_line = []
+        return band_info
 
     def get_vco_band(self):
         band_info = []
