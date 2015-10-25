@@ -1,34 +1,26 @@
+from dlogprocess import *
+
 __author__ = 'Eame'
 
 
-def get_band(dlogfile):
-    with open(dlogfile) as data:
-        dlog_data = data.read().splitlines()
-    band_info = []
-
-    for x in range(0, len(dlog_data)):
-        if 'Read All VCO band across configs for record:' in dlog_data[x]:
-            band_info.append(dlog_data[x+2][14:16])
-            band_info.append(dlog_data[x+4][14:16])
-            band_info.append(dlog_data[x+6][14:16])
-            band_info.append(dlog_data[x+8][14:15])
-    return band_info
-
-
-FF_band = get_band("PassUnits_FF.txt")
-print(FF_band)
-print('band 14H has ' + str(FF_band.count('14')/3) + ' units')
-print('band 13H has ' + str(FF_band.count('13')/3) + ' units')
-print('band 15H has ' + str(FF_band.count('15')/3) + ' units')
-print('band CH has ' + str(FF_band.count('C')) + ' units')
-print('band BH has ' + str(FF_band.count('B')) + ' units')
-print('band DH has ' + str(FF_band.count('D')) + ' units')
-
-SS_band = get_band("PassUnits_SS.txt")
-print(SS_band)
-print('band 14H has ' + str(SS_band.count('14')/3) + ' units')
-print('band 13H has ' + str(SS_band.count('13')/3) + ' units')
-print('band 15H has ' + str(SS_band.count('15')/3) + ' units')
-print('band CH has ' + str(SS_band.count('C')) + ' units')
-print('band BH has ' + str(SS_band.count('B')) + ' units')
-print('band DH has ' + str(SS_band.count('D')) + ' units')
+VCOBandDatang = Dlog()
+BandInfo = []
+BandBuffer = []
+for unit in range(1, 99):
+    VCOBandDatang.read_dlog(
+        '.\\examples\\VCOCal\\U' + str(unit) + '.txt')
+    for x in range(0, len(VCOBandDatang.dlog_data)):
+        if 'Turn Off Test_VCO_band and Calibrate VCO Band' in VCOBandDatang.dlog_data[x]:
+            BandBuffer.append(VCOBandDatang.dlog_data[x+4][14:16])
+    BandInfo.append(BandBuffer)
+    for i in range(0, 10):
+        if BandBuffer[i] != BandBuffer[i+1]:
+            print("Unit " + str(unit) + " multiple band values during calibration")
+            print(BandBuffer)
+            break
+    BandBuffer = []
+Band98 = []
+for line in range(0, len(BandInfo)):
+    Band98.append(BandInfo[line][0])
+print("Band Ch has %s units" % str(Band98.count('CH')))
+print("Band Bh has %s units" % str(Band98.count('BH')))
