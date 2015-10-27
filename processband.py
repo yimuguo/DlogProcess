@@ -18,6 +18,10 @@ for unit in range(1, 99):
             print("Unit " + str(unit) + " multiple band values during calibration")
             print(BandBuffer)
             break
+        if i == 9 and BandBuffer[i] == 'CH':
+            print("Unit " + str(unit) + " calibrated to Band Ch")
+        elif i == 9 and BandBuffer[i] == "BH":
+            print("Unit " + str(unit) + " calibrated to Band Bh")
     BandBuffer = []
 Band98 = []
 for line in range(0, len(BandInfo)):
