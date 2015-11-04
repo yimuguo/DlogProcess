@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import re
 import os
+from collections import Counter
 __author__ = 'Eame'
 
 
@@ -11,11 +12,11 @@ class Dlog(object):
     dlog_data_site1 = []
     dlog_data_site2 = []
     dlog_data_site3 = []
-    # lot_number = 'TT'
 
-    def read_dlog(self, dlog_path):
+    def __init__(self, dlog_path, lotnumber='TT'):
         with open(dlog_path, 'r') as data:
             self.dlog_data = data.read().splitlines()
+        self.lotnumber = lotnumber
 
     def define_site(self, site):
         if site == 0:
@@ -29,7 +30,7 @@ class Dlog(object):
         else:
             os.error("SITE NOT ACTIVE")
 
-    def screen_pass(self, lot_number='TT', write_to_file=1):
+    def screen_pass(self, write_to_file=1):
         data_buffer = []
         pass_dlog = []
         new_device = 0
@@ -45,10 +46,39 @@ class Dlog(object):
                     pass_dlog.extend(data_buffer)
                 data_buffer = []
         if write_to_file == 1:
-            pass_dlog_txt = open('PassUnits_%s.txt' % lot_number, 'w+')
+            pass_dlog_txt = open('PassUnits_%s.txt' % self.lotnumber, 'w+')
             pass_dlog_txt.writelines(["%s\n" % item for item in pass_dlog])
             pass_dlog_txt.close()
         return pass_dlog
+
+    def get_target_vco_band(self, vco_freq):
+        vco_freq_band = []
+        for line in range(0, len(self.dlog_data)):
+            if self.dlog_data[line][23:27] == str(vco_freq):
+                for x in range(5, 13):
+                    if self.dlog_data[line+x][1:4] == 'VCO' and \
+                                    self.dlog_data[line+x][14:16] != '0H':
+                        vco_freq_band.append(self.dlog_data[line+x][14:16])
+        return vco_freq_band
+
+    def print_vco_band_detail(self, start_freq=2500, stop_freq=3000, step=25):
+        for vco in range(start_freq, stop_freq+step, step):
+            spec_band = self.get_target_vco_band(vco)
+            if vco == start_freq:
+                print("Total Record:" + str(len(spec_band)))
+            print("\nLot " + self.lotnumber + " VCO Frequency: " + str(vco) + 'Mhz')
+            # print(spec_band)
+            # Number of bands appeared during calibration
+            print(str(len(Counter(spec_band).keys())) + ' possible bands')
+            for keys in Counter(spec_band):
+                print(str(vco) + " {0:.2f}".format(int(Counter(spec_band)[keys])/len(spec_band)*100) +
+                      "% of the units calibrated to Band" + keys + " " + str(Counter(spec_band)[keys]))
+                # print(str(vco*25) + 'Mhz')
+                # print(keys)
+                # print(Counter(spec_band)[keys])
+
+            # print(Counter(spec_band).keys())
+            # print(Counter(spec_band).values())
 
     def vco_band_monitor_on(self):
         band_info = []
@@ -80,7 +110,7 @@ class Dlog(object):
         tmin = []
         tmax = []
         for x in split_data:
-            if x[2] == '0' and len(x)>12:
+            if x[2] == '0' and len(x) > 12:
                 if x[4] != ('OutputLeakage' or 'InputLeakage') and (x[8] == 'uA' or x[8] == 'mV'):
                     x[7] = str(float(x[7])/1000)
                 tmin.append(x[7])
