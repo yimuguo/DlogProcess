@@ -7,11 +7,27 @@ __author__ = 'Eame'
 class Dlog(object):
 
     dlog_data = []
+    dlog_data_site0 = []
+    dlog_data_site1 = []
+    dlog_data_site2 = []
+    dlog_data_site3 = []
     # lot_number = 'TT'
 
     def read_dlog(self, dlog_path):
         with open(dlog_path, 'r') as data:
             self.dlog_data = data.read().splitlines()
+
+    def define_site(self, site):
+        if site == 0:
+            self.dlog_data = self.dlog_data_site0
+        elif site == 1:
+            self.dlog_data = self.dlog_data_site1
+        elif site == 2:
+            self.dlog_data = self.dlog_data_site2
+        elif site == 3:
+            self.dlog_data = self.dlog_data_site3
+        else:
+            os.error("SITE NOT ACTIVE")
 
     def screen_pass(self, lot_number='TT', write_to_file=1):
         data_buffer = []
@@ -41,11 +57,12 @@ class Dlog(object):
             if 'VCO_Band is' in self.dlog_data[x]:
                 band_line = re.split("\s+", self.dlog_data[x])
                 band_info.append(band_line[3])
-                band_line = []
+                band_line.clear()
         return band_info
 
-    def get_vco_band(self):
+    def get_vco_band(self, site=0):
         band_info = []
+
         for x in range(0, len(self.dlog_data)):
             if 'Read All VCO band across configs for record:' in self.dlog_data[x]:
                 band_info.append(self.dlog_data[x+2][14:16])
