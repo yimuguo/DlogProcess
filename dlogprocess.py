@@ -61,6 +61,14 @@ class Dlog(object):
                         vco_freq_band.append(self.dlog_data[line+x][14:16])
         return vco_freq_band
 
+    def filter_keyword(self, identifier, col, rows=1, offset=0):
+        filtered_lst = []
+        for line in range(0, len(self.dlog_data)):
+            if identifier in self.dlog_data[line]:
+                for row in range(0, rows + 1):
+                    target_line = re.split("\s+", self.dlog_data[line + row + offset])
+                    filtered_lst.append(target_line[col])
+
     def print_vco_band_detail(self, start_freq=2500, stop_freq=3000, step=25):
         for vco in range(start_freq, stop_freq+step, step):
             spec_band = self.get_target_vco_band(vco)
