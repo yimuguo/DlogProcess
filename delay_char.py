@@ -51,7 +51,7 @@ class DlyLineDlog(Dlog):
                            float(volh_meas_buffer10[x]), "10mA"])
                     df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "VOL",
                            float(volh_meas_buffer1[x]), "1mA"])
-            elif "VOH(mV) across Vcc(V)" in self.dlog_data[line]:
+            elif "VOH(V) across Vcc(V)" in self.dlog_data[line]:
                 for x in range(3, 13):
                     vdd_buffer = re.split("\s+", self.dlog_data[line + 2])
                     volh_meas_buffer10 = re.split("\s+", self.dlog_data[line + 4])
@@ -60,6 +60,15 @@ class DlyLineDlog(Dlog):
                            float(volh_meas_buffer10[x]), "10mA"])
                     df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "VOH",
                            float(volh_meas_buffer1[x]), "1mA"])
+            elif "IDDO(mA) across Vcc(V)" in self.dlog_data[line]:
+                for x in range(3, 13):
+                    vdd_buffer = re.split("\s+", self.dlog_data[line + 2])
+                    idd_meas_buffer = re.split("\s+", self.dlog_data[line + 4])
+                    idd_meas_buffer_dyn = re.split("\s+", self.dlog_data[line + 6])
+                    df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "IDD",
+                           float(idd_meas_buffer[x]), "STATIC"])
+                    df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "IDD",
+                           float(idd_meas_buffer_dyn[x]), "DYNAMIC"])
         return df_lst
 
     def get_dly_val(self):
