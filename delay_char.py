@@ -12,9 +12,55 @@ class DlyLineDlog(Dlog):
     dly_range2 = []
     dly_range3 = []
 
-    def __init__(self, dlogpath):
+    def __init__(self, dlogpath, temp, lotnumber):
         super(DlyLineDlog, self).__init__(dlogpath)
         self.dlog_data = self.screen_pass(write_to_file=0)
+        self.temp = temp
+        self.lotnumber = lotnumber
+
+    def df_splt_append_lst(self, lst_in, dev_number, rows, line_offset, test_type, data1=None):
+        for row in range(0, rows):
+            line_buffer = re.split("\s+", self.dlog_data[line_offset + row])
+            lst_in.append([self.lotnumber, self.temp, int(dev_number), line_buffer[1], test_type,
+                           float(line_buffer[2]), data1])
+
+    # Data list: [LOT_num, Temp, Dev#, VDD, Test_Instance, Data0, Data1]
+    def gen_df_lst(self):
+        df_lst = []
+        for line in range(0, len(self.dlog_data)):
+            if "Device#:" in self.dlog_data[line]:
+                dev_num = re.split("\s+", self.dlog_data[line])[2]
+            elif "Delay=" in self.dlog_data[line]:
+                dly_setting = self.dlog_data[line][11:15]
+                self.df_splt_append_lst(df_lst, dev_num, 10, line + 4, "Delay", dly_setting)
+            elif "Delay = " in self.dlog_data[line]:
+                dly_setting = self.dlog_data[line][12:17]
+                dly_setting = dly_setting.replace("(", "")
+                if dly_setting != '4000':
+                    self.df_splt_append_lst(df_lst, dev_num, 10, line + 4, "Delay", dly_setting)
+            elif "Search_VIL_SDA" in self.dlog_data[line]:
+                self.df_splt_append_lst(df_lst, dev_num, 10, line + 5, "VIL")
+            elif "Search_VIH_SDA" in self.dlog_data[line]:
+                self.df_splt_append_lst(df_lst, dev_num, 10, line + 5, "VIH")
+            elif "VOL(mV) across Vcc(V)" in self.dlog_data[line]:
+                for x in range(3, 13):
+                    vdd_buffer = re.split("\s+", self.dlog_data[line + 2])
+                    volh_meas_buffer10 = re.split("\s+", self.dlog_data[line + 4])
+                    volh_meas_buffer1 = re.split("\s+", self.dlog_data[line + 5])
+                    df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "VOL",
+                           float(volh_meas_buffer10[x]), "10mA"])
+                    df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "VOL",
+                           float(volh_meas_buffer1[x]), "1mA"])
+            elif "VOH(mV) across Vcc(V)" in self.dlog_data[line]:
+                for x in range(3, 13):
+                    vdd_buffer = re.split("\s+", self.dlog_data[line + 2])
+                    volh_meas_buffer10 = re.split("\s+", self.dlog_data[line + 4])
+                    volh_meas_buffer1 = re.split("\s+", self.dlog_data[line + 5])
+                    df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "VOH",
+                           float(volh_meas_buffer10[x]), "10mA"])
+                    df_lst.append([self.lotnumber, self.temp, int(dev_num), vdd_buffer[x], "VOH",
+                           float(volh_meas_buffer1[x]), "1mA"])
+        return df_lst
 
     def get_dly_val(self):
         for x in range(2000, 4100, 100):
@@ -33,3 +79,10 @@ class DlyLineDlog(Dlog):
     def process_val(self):
         df = pd.DataFrame(self.dly_range1, [x for x in range(2000, 4100, 100)])
         print(df.head())
+
+if __name__ == '__main__':
+    lot_num = "RC01927M"
+    temp = '25C'
+    dly = DlyLineDlog(os.path.join(".\\data\\Delay_line\\", lot_num, temp, "summary_" + temp + '.txt'), temp, lot_num)
+    df_lst = dly.gen_df_lst()
+    df = pd.DataFrame(df_lst)
