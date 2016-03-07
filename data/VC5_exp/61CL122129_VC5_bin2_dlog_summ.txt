@@ -1,0 +1,432 @@
+Datalog report
+10/30/2015 17:16:39
+      Prog Name:    5P49V5901B_FT_25C_bandexp.xls
+       Job Name:    5P49V5901B_FT_25C_bandexp.xls
+            Lot:     
+       Operator:    Admin
+      Test Mode:    
+      Node Name:    J750-04
+      Part Type:     
+    Channel map:    ChanMSE
+    Environment:    
+
+    Site Number:    
+         0,  1,  2,  3
+
+    Device#: 1
+
+
+ Number     Site  Result   Test Name                 Pin       Channel   Low            Measured       High           Force          Loc
+ 4005000     1    PASS     PPST                      VDDD      2         -500.0000 uA   8.8142 uA      500.0000 uA    300.0000 mV    0         
+ 4005001     1    PASS     PPST                      VDDA      0         -500.0000 uA   9.2818 uA      500.0000 uA    300.0000 mV    0         
+ 4005002     1    PASS     PPST                      VDDX      1         -500.0000 uA   -1.3344 uA     500.0000 uA    300.0000 mV    0         
+ 4005003     1    PASS     PPST                      VDDO      3         -500.0000 uA   9.6363 uA      500.0000 uA    300.0000 mV    0         
+ 4006000     1    PASS     Cont2gnd_X2               X2        174       -800.0000 mV   -660.5358 mV   -200.0000 mV   -100.0000 uA   0         
+  
+Cont2gnd with forcing current = -0.0001A
+ 4006000     1    PASS     Cont2gnd                  SDAsel1   179       -800.0000 mV   -455.9949 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006001     1    PASS     Cont2gnd                  SCLsel0   180       -800.0000 mV   -455.3694 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006002     1    PASS     Cont2gnd                  CLKSEL    177       -800.0000 mV   -586.8823 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006003     1    PASS     Cont2gnd                  SDOE      178       -800.0000 mV   -586.5695 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006004     1    PASS     Cont2gnd                  OUT4      184       -800.0000 mV   -485.3937 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006005     1    PASS     Cont2gnd                  OUT4B     185       -800.0000 mV   -487.2702 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006006     1    PASS     Cont2gnd                  OUT3      186       -800.0000 mV   -485.3937 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006007     1    PASS     Cont2gnd                  OUT3B     187       -800.0000 mV   -487.8958 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006008     1    PASS     Cont2gnd                  OUT2      188       -800.0000 mV   -491.4924 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006009     1    PASS     Cont2gnd                  OUT2B     189       -800.0000 mV   -493.0562 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006010     1    PASS     Cont2gnd                  OUT1      190       -800.0000 mV   -493.9944 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006011     1    PASS     Cont2gnd                  OUT1B     191       -800.0000 mV   -490.2414 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006012     1    PASS     Cont2gnd                  OUT0_i2c  176       -800.0000 mV   -472.4144 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006013     1    PASS     Cont2gnd                  X1        175       -800.0000 mV   -709.0126 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006014     1    PASS     Cont2gnd                  CLKIN     172       -800.0000 mV   -593.2938 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006015     1    PASS     Cont2gnd                  CLKINB    173       -800.0000 mV   -593.6065 mV   -200.0000 mV   -100.0381 uA   0         
+  
+Cont2Vdd with forcing current = 0.0001A
+ 4007000     1    PASS     Cont2vdd                  SDAsel1   179       1.0000 V       1.3799 V       1.6000 V       100.0381 uA    0         
+ 4007001     1    PASS     Cont2vdd                  SCLsel0   180       1.0000 V       1.3805 V       1.6000 V       100.0381 uA    0         
+ 4007002     1    PASS     Cont2vdd                  CLKSEL    177       200.0000 mV    554.3559 mV    800.0000 mV    100.0381 uA    0         
+ 4007003     1    PASS     Cont2vdd                  SDOE      178       200.0000 mV    559.6727 mV    800.0000 mV    100.0381 uA    0         
+ 4007004     1    PASS     Cont2vdd                  OUT1      190       200.0000 mV    361.0741 mV    800.0000 mV    100.0381 uA    0         
+ 4007005     1    PASS     Cont2vdd                  OUT2      188       200.0000 mV    361.5433 mV    800.0000 mV    100.0381 uA    0         
+ 4007006     1    PASS     Cont2vdd                  OUT3      186       200.0000 mV    361.8560 mV    800.0000 mV    100.0381 uA    0         
+ 4007007     1    PASS     Cont2vdd                  OUT4      184       200.0000 mV    363.5762 mV    800.0000 mV    100.0381 uA    0         
+ 4007008     1    PASS     Cont2vdd                  X1        175       200.0000 mV    727.7778 mV    800.0000 mV    100.0381 uA    0         
+ 4007009     1    PASS     Cont2vdd                  CLKIN     172       200.0000 mV    562.3311 mV    800.0000 mV    100.0381 uA    0         
+ 4007010     1    PASS     Cont2vdd                  OUT1B     191       200.0000 mV    354.0372 mV    800.0000 mV    100.0381 uA    0         
+ 4007011     1    PASS     Cont2vdd                  OUT2B     189       200.0000 mV    354.5063 mV    800.0000 mV    100.0381 uA    0         
+ 4007012     1    PASS     Cont2vdd                  OUT3B     187       200.0000 mV    354.0372 mV    800.0000 mV    100.0381 uA    0         
+ 4007013     1    PASS     Cont2vdd                  OUT4B     185       200.0000 mV    358.2593 mV    800.0000 mV    100.0381 uA    0         
+ 4007014     1    PASS     Cont2vdd                  OUT0_i2c  176       200.0000 mV    357.6339 mV    800.0000 mV    100.0381 uA    0         
+ 4007015     1    PASS     Cont2vdd                  CLKINB    173       200.0000 mV    565.6151 mV    800.0000 mV    100.0381 uA    0         
+ 4007016     1    PASS     Cont2vdd                  X2        174       200.0000 mV    417.3698 mV    800.0000 mV    100.0381 uA    0         
+
+ Number     Site  Result   Test Name                 Pattern
+ 4007017     1    PASS     VCO_Band_Sweep            write0to51               
+ 4007018     1    PASS     VCO_Band_Sweep            write51to101             
+ 4007019     1    PASS     VCO_Band_Sweep            write101to150            
+ 4007020     1    PASS     VCO_Band_Sweep            write150to208            
+ wb_22 = x8C
+ 4007021     1    PASS     VCO_Band_Sweep            write1Byte               
+ wb_29 = xFD
+ 4007022     1    PASS     VCO_Band_Sweep            write1Byte               
+  
+ FBD_int = 100.  VCO = 2500MHz.  CLK1/2/3/4 = 89.2857142857143M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 13H site: 1
+ 4007023     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007024     1    PASS     VCO_Band_Sweep            OUT4B     185       89.2589 M      89.2905 M      89.3125 M      0.0000         0         
+ 4007025     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007026     1    PASS     VCO_Band_Sweep            OUT4B     185       90.3300 M      90.3592 M      90.3842 M      0.0000         0         
+ 4007027     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007028     1    PASS     VCO_Band_Sweep            OUT4B     185       88.1878 M      88.2173 M      88.2408 M      0.0000         0         
+  
+ FBD_int = 101.  VCO = 2525MHz.  CLK1/2/3/4 = 90.1785714285714M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 13H site: 1
+ 4007029     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007030     1    PASS     VCO_Band_Sweep            OUT4B     185       90.1515 M      90.1840 M      90.2056 M      0.0000         0         
+ 4007031     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007032     1    PASS     VCO_Band_Sweep            OUT4B     185       91.2333 M      91.2639 M      91.2881 M      0.0000         0         
+ 4007033     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007034     1    PASS     VCO_Band_Sweep            OUT4B     185       89.0697 M      89.1020 M      89.1232 M      0.0000         0         
+  
+ FBD_int = 102.  VCO = 2550MHz.  CLK1/2/3/4 = 91.0714285714286M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 12H site: 1
+ 4007035     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0012 M      25.0075 M      0.0000         0         
+ 4007036     1    PASS     VCO_Band_Sweep            OUT4B     185       91.0441 M      91.0776 M      91.0987 M      0.0000         0         
+ 4007037     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007038     1    PASS     VCO_Band_Sweep            OUT4B     185       92.1366 M      92.1685 M      92.1919 M      0.0000         0         
+ 4007039     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007040     1    PASS     VCO_Band_Sweep            OUT4B     185       89.9516 M      89.9823 M      90.0056 M      0.0000         0         
+  
+ FBD_int = 103.  VCO = 2575MHz.  CLK1/2/3/4 = 91.9642857142857M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 11H site: 1
+ 4007041     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0012 M      25.0075 M      0.0000         0         
+ 4007042     1    PASS     VCO_Band_Sweep            OUT4B     185       91.9367 M      91.9690 M      91.9919 M      0.0000         0         
+ 4007043     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007044     1    PASS     VCO_Band_Sweep            OUT4B     185       93.0399 M      93.0732 M      93.0958 M      0.0000         0         
+ 4007045     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007046     1    PASS     VCO_Band_Sweep            OUT4B     185       90.8335 M      90.8647 M      90.8880 M      0.0000         0         
+  
+ FBD_int = 104.  VCO = 2600MHz.  CLK1/2/3/4 = 92.8571428571429M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 11H site: 1
+ 4007047     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007048     1    PASS     VCO_Band_Sweep            OUT4B     185       92.8293 M      92.8647 M      92.8850 M      0.0000         0         
+ 4007049     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007050     1    PASS     VCO_Band_Sweep            OUT4B     185       93.9432 M      93.9756 M      93.9996 M      0.0000         0         
+ 4007051     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007052     1    PASS     VCO_Band_Sweep            OUT4B     185       91.7153 M      91.7472 M      91.7704 M      0.0000         0         
+  
+ FBD_int = 105.  VCO = 2625MHz.  CLK1/2/3/4 = 93.75M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 10H site: 1
+ 4007053     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007054     1    PASS     VCO_Band_Sweep            OUT4B     185       93.7219 M      93.7561 M      93.7781 M      0.0000         0         
+ 4007055     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3015 M      25.3076 M      0.0000         0         
+ 4007056     1    PASS     VCO_Band_Sweep            OUT4B     185       94.8465 M      94.8781 M      94.9035 M      0.0000         0         
+ 4007057     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007058     1    PASS     VCO_Band_Sweep            OUT4B     185       92.5972 M      92.6297 M      92.6528 M      0.0000         0         
+  
+ FBD_int = 106.  VCO = 2650MHz.  CLK1/2/3/4 = 94.6428571428571M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: FH site: 1
+ 4007059     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007060     1    PASS     VCO_Band_Sweep            OUT4B     185       94.6145 M      94.6497 M      94.6712 M      0.0000         0         
+ 4007061     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007062     1    PASS     VCO_Band_Sweep            OUT4B     185       95.7498 M      95.7827 M      95.8073 M      0.0000         0         
+ 4007063     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007064     1    PASS     VCO_Band_Sweep            OUT4B     185       93.4791 M      93.5100 M      93.5352 M      0.0000         0         
+  
+ FBD_int = 107.  VCO = 2675MHz.  CLK1/2/3/4 = 95.5357142857143M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: FH site: 1
+ 4007065     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007066     1    PASS     VCO_Band_Sweep            OUT4B     185       95.5071 M      95.5410 M      95.5644 M      0.0000         0         
+ 4007067     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007068     1    PASS     VCO_Band_Sweep            OUT4B     185       96.6531 M      96.6874 M      96.7112 M      0.0000         0         
+ 4007069     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007070     1    PASS     VCO_Band_Sweep            OUT4B     185       94.3610 M      94.3925 M      94.4176 M      0.0000         0         
+  
+ FBD_int = 108.  VCO = 2700MHz.  CLK1/2/3/4 = 96.4285714285714M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH site: 1
+ 4007071     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007072     1    PASS     VCO_Band_Sweep            OUT4B     185       96.3996 M      96.4346 M      96.4575 M      0.0000         0         
+ 4007073     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007074     1    PASS     VCO_Band_Sweep            OUT4B     185       97.5564 M      97.5898 M      97.6150 M      0.0000         0         
+ 4007075     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007076     1    PASS     VCO_Band_Sweep            OUT4B     185       95.2428 M      95.2749 M      95.3000 M      0.0000         0         
+  
+ FBD_int = 109.  VCO = 2725MHz.  CLK1/2/3/4 = 97.3214285714286M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH site: 1
+ 4007077     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007078     1    PASS     VCO_Band_Sweep            OUT4B     185       97.2922 M      97.3282 M      97.3506 M      0.0000         0         
+ 4007079     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007080     1    PASS     VCO_Band_Sweep            OUT4B     185       98.4597 M      98.4922 M      98.5188 M      0.0000         0         
+ 4007081     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007082     1    PASS     VCO_Band_Sweep            OUT4B     185       96.1247 M      96.1596 M      96.1824 M      0.0000         0         
+  
+ FBD_int = 110.  VCO = 2750MHz.  CLK1/2/3/4 = 98.2142857142857M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: DH site: 1
+ 4007083     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007084     1    PASS     VCO_Band_Sweep            OUT4B     185       98.1848 M      98.2195 M      98.2438 M      0.0000         0         
+ 4007085     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007086     1    PASS     VCO_Band_Sweep            OUT4B     185       99.3630 M      99.3969 M      99.4227 M      0.0000         0         
+ 4007087     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007088     1    PASS     VCO_Band_Sweep            OUT4B     185       97.0066 M      97.0399 M      97.0648 M      0.0000         0         
+  
+ FBD_int = 111.  VCO = 2775MHz.  CLK1/2/3/4 = 99.1071428571429M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: CH site: 1
+ 4007089     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007090     1    PASS     VCO_Band_Sweep            OUT4B     185       99.0774 M      99.1131 M      99.1369 M      0.0000         0         
+ 4007091     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007092     1    PASS     VCO_Band_Sweep            OUT4B     185       100.2663 M     100.3016 M     100.3265 M     0.0000         0         
+ 4007093     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007094     1    PASS     VCO_Band_Sweep            OUT4B     185       97.8885 M      97.9224 M      97.9472 M      0.0000         0         
+  
+ FBD_int = 112.  VCO = 2800MHz.  CLK1/2/3/4 = 100M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: CH site: 1
+ 4007095     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0012 M      25.0075 M      0.0000         0         
+ 4007096     1    PASS     VCO_Band_Sweep            OUT4B     185       99.9700 M      100.0067 M     100.0300 M     0.0000         0         
+ 4007097     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007098     1    PASS     VCO_Band_Sweep            OUT4B     185       101.1696 M     101.2040 M     101.2304 M     0.0000         0         
+ 4007099     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007100     1    PASS     VCO_Band_Sweep            OUT4B     185       98.7704 M      98.8049 M      98.8296 M      0.0000         0         
+  
+ FBD_int = 113.  VCO = 2825MHz.  CLK1/2/3/4 = 100.892857142857M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: BH site: 1
+ 4007101     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007102     1    PASS     VCO_Band_Sweep            OUT4B     185       100.8626 M     100.9002 M     100.9231 M     0.0000         0         
+ 4007103     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007104     1    PASS     VCO_Band_Sweep            OUT4B     185       102.0729 M     102.1087 M     102.1342 M     0.0000         0         
+ 4007105     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007106     1    PASS     VCO_Band_Sweep            OUT4B     185       99.6522 M      99.6874 M      99.7120 M      0.0000         0         
+  
+ FBD_int = 114.  VCO = 2850MHz.  CLK1/2/3/4 = 101.785714285714M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: BH site: 1
+ 4007107     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007108     1    PASS     VCO_Band_Sweep            OUT4B     185       101.7552 M     101.7916 M     101.8163 M     0.0000         0         
+ 4007109     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007110     1    PASS     VCO_Band_Sweep            OUT4B     185       102.9762 M     103.0111 M     103.0380 M     0.0000         0         
+ 4007111     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007112     1    PASS     VCO_Band_Sweep            OUT4B     185       100.5341 M     100.5698 M     100.5945 M     0.0000         0         
+  
+ FBD_int = 115.  VCO = 2875MHz.  CLK1/2/3/4 = 102.678571428571M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: BH site: 1
+ 4007113     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007114     1    PASS     VCO_Band_Sweep            OUT4B     185       102.6478 M     102.6851 M     102.7094 M     0.0000         0         
+ 4007115     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3015 M      25.3076 M      0.0000         0         
+ 4007116     1    PASS     VCO_Band_Sweep            OUT4B     185       103.8795 M     103.9135 M     103.9419 M     0.0000         0         
+ 4007117     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007118     1    PASS     VCO_Band_Sweep            OUT4B     185       101.4160 M     101.4501 M     101.4769 M     0.0000         0         
+  
+ FBD_int = 116.  VCO = 2900MHz.  CLK1/2/3/4 = 103.571428571429M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: AH site: 1
+ 4007119     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007120     1    PASS     VCO_Band_Sweep            OUT4B     185       103.5404 M     103.5765 M     103.6025 M     0.0000         0         
+ 4007121     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007122     1    PASS     VCO_Band_Sweep            OUT4B     185       104.7828 M     104.8204 M     104.8457 M     0.0000         0         
+ 4007123     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007124     1    PASS     VCO_Band_Sweep            OUT4B     185       102.2979 M     102.3348 M     102.3593 M     0.0000         0         
+  
+ FBD_int = 117.  VCO = 2925MHz.  CLK1/2/3/4 = 104.464285714286M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: AH site: 1
+ 4007125     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007126     1    PASS     VCO_Band_Sweep            OUT4B     185       104.4329 M     104.4723 M     104.4956 M     0.0000         0         
+ 4007127     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007128     1    PASS     VCO_Band_Sweep            OUT4B     185       105.6861 M     105.7228 M     105.7496 M     0.0000         0         
+ 4007129     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007130     1    PASS     VCO_Band_Sweep            OUT4B     185       103.1797 M     103.2151 M     103.2417 M     0.0000         0         
+  
+ FBD_int = 118.  VCO = 2950MHz.  CLK1/2/3/4 = 105.357142857143M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 9H site: 1
+ 4007131     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007132     1    PASS     VCO_Band_Sweep            OUT4B     185       105.3255 M     105.3636 M     105.3887 M     0.0000         0         
+ 4007133     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007134     1    PASS     VCO_Band_Sweep            OUT4B     185       106.5894 M     106.6275 M     106.6534 M     0.0000         0         
+ 4007135     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007136     1    PASS     VCO_Band_Sweep            OUT4B     185       104.0616 M     104.0976 M     104.1241 M     0.0000         0         
+  
+ FBD_int = 119.  VCO = 2975MHz.  CLK1/2/3/4 = 106.25M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 9H site: 1
+ 4007137     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0012 M      25.0075 M      0.0000         0         
+ 4007138     1    PASS     VCO_Band_Sweep            OUT4B     185       106.2181 M     106.2550 M     106.2819 M     0.0000         0         
+ 4007139     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007140     1    PASS     VCO_Band_Sweep            OUT4B     185       107.4927 M     107.5299 M     107.5573 M     0.0000         0         
+ 4007141     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7009 M      24.7074 M      0.0000         0         
+ 4007142     1    PASS     VCO_Band_Sweep            OUT4B     185       104.9435 M     104.9800 M     105.0065 M     0.0000         0         
+  
+ FBD_int = 120.  VCO = 3000MHz.  CLK1/2/3/4 = 107.142857142857M.  CMOSD33.  SS=0%.  VDD = VDDA = 3.3V.  VDD1,2,3,4 = 3.3V 
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: 8H site: 1
+ 4007143     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.9925 M      25.0016 M      25.0075 M      0.0000         0         
+ 4007144     1    PASS     VCO_Band_Sweep            OUT4B     185       107.1107 M     107.1486 M     107.1750 M     0.0000         0         
+ 4007145     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       25.2924 M      25.3011 M      25.3076 M      0.0000         0         
+ 4007146     1    PASS     VCO_Band_Sweep            OUT4B     185       108.3960 M     108.4324 M     108.4611 M     0.0000         0         
+ 4007147     1    PASS     VCO_Band_Sweep            OUT0_i2c  176       24.6926 M      24.7013 M      24.7074 M      0.0000         0         
+ 4007148     1    PASS     VCO_Band_Sweep            OUT4B     185       105.8254 M     105.8625 M     105.8889 M     0.0000         0         
+  
+  
+2. Output Leakgae Low.  Vin=0V.   CMOSD33.  VDD0 = VDDA = 3.6V.  VDDD = 3.6V.  VDD1,2,3,4 = 3.6V 
+ 2090000     1    PASS     OutputLeakage             OUT1      190       -2.0000 uA     2.8917 nA      2.0000 uA      0.0000 V       0         
+ 2090001     1    PASS     OutputLeakage             OUT2      188       -2.0000 uA     -3.7804 nA     2.0000 uA      0.0000 V       0         
+ 2090002     1    PASS     OutputLeakage             OUT3      186       -2.0000 uA     1.2237 nA      2.0000 uA      0.0000 V       0         
+ 2090003     1    PASS     OutputLeakage             OUT4      184       -2.0000 uA     5.3937 nA      2.0000 uA      0.0000 V       0         
+ 2090004     1    PASS     OutputLeakage             OUT1B     191       -2.0000 uA     -5.4484 nA     2.0000 uA      0.0000 V       0         
+ 2090005     1    PASS     OutputLeakage             OUT2B     189       -2.0000 uA     -8.7844 nA     2.0000 uA      0.0000 V       0         
+ 2090006     1    PASS     OutputLeakage             OUT3B     187       -2.0000 uA     -6.2824 nA     2.0000 uA      0.0000 V       0         
+ 2090007     1    PASS     OutputLeakage             OUT4B     185       -2.0000 uA     -3.7804 nA     2.0000 uA      0.0000 V       0         
+ 2090008     1    PASS     OutputLeakage             OUT0_i2c  176       -2.0000 uA     -46.3149 nA    2.0000 uA      0.0000 V       0         
+  
+2. Output Leakgae High.  Vin = 3.6V.  CMOSD33.  VDD0 = VDDA = 3.6V.  VDDD = 3.6V.  VDD1,2,3,4 = 3.6V 
+ 2090009     1    PASS     OutputLeakage             OUT1      190       -2.0000 uA     18.7379 nA     2.0000 uA      3.5999 V       0         
+ 2090010     1    PASS     OutputLeakage             OUT2      188       -2.0000 uA     12.8998 nA     2.0000 uA      3.5999 V       0         
+ 2090011     1    PASS     OutputLeakage             OUT3      186       -2.0000 uA     13.7338 nA     2.0000 uA      3.5999 V       0         
+ 2090012     1    PASS     OutputLeakage             OUT4      184       -2.0000 uA     14.5678 nA     2.0000 uA      3.5999 V       0         
+ 2090013     1    PASS     OutputLeakage             OUT1B     191       -2.0000 uA     4.5597 nA      2.0000 uA      3.5999 V       0         
+ 2090014     1    PASS     OutputLeakage             OUT2B     189       -2.0000 uA     2.8917 nA      2.0000 uA      3.5999 V       0         
+ 2090015     1    PASS     OutputLeakage             OUT3B     187       -2.0000 uA     4.5597 nA      2.0000 uA      3.5999 V       0         
+ 2090016     1    PASS     OutputLeakage             OUT4B     185       -2.0000 uA     8.7298 nA      2.0000 uA      3.5999 V       0         
+ 2090017     1    PASS     OutputLeakage             OUT0_i2c  176       13.0000 uA     19.3112 uA     22.0000 uA     3.5999 V       0         
+  
+  
+1. Input Leakgae Low.  Vin = 0V.   CMOSD33.  VDD0 = VDDA = 3.6V.  VDDD = 3.6V.  VDD1,2,3,4 = 3.6V 
+ 2091000     1    PASS     InputLeakage              X1        175       -2.0000 uA     -57.1570 nA    2.0000 uA      0.0000 V       0         
+ 2091001     1    PASS     InputLeakage              CLKSEL    177       -2.0000 uA     -48.8169 nA    2.0000 uA      0.0000 V       0         
+ 2091002     1    PASS     InputLeakage              SDOE      178       -2.0000 uA     -24.6306 nA    2.0000 uA      0.0000 V       0         
+ 2091003     1    PASS     InputLeakage              SDAsel1   179       -2.0000 uA     -17.1245 nA    2.0000 uA      0.0000 V       0         
+ 2091004     1    PASS     InputLeakage              SCLsel0   180       -2.0000 uA     -27.9667 nA    2.0000 uA      0.0000 V       0         
+ 2091005     1    PASS     InputLeakage              CLKIN     172       -2.0000 uA     -17.1245 nA    2.0000 uA      0.0000 V       0         
+ 2091006     1    PASS     InputLeakage              CLKINB    173       -2.0000 uA     -24.6306 nA    2.0000 uA      0.0000 V       0         
+  
+2. Input Leakgae High.  Vin=1.2v for X1,CLKin.  CMOSD33.  Other pins, Vin = 3.6V.  VDD0 = VDDA = 3.6V.  VDDD = 3.6V.  VDD1,2,3,4 = 3.6V 
+ 2091007     1    PASS     InputLeakage              X1        175       -2.0000 uA     705.1280 nA    2.0000 uA      1.2000 V       0         
+ 2091008     1    PASS     InputLeakage              CLKSEL    177       8.0000 uA      14.3153 uA     17.0000 uA     3.5999 V       0         
+ 2091009     1    PASS     InputLeakage              SDOE      178       8.0000 uA      14.2119 uA     17.0000 uA     3.5999 V       0         
+ 2091010     1    PASS     InputLeakage              SDAsel1   179       8.0000 uA      14.2861 uA     17.0000 uA     3.5999 V       0         
+ 2091011     1    PASS     InputLeakage              SCLsel0   180       8.0000 uA      14.4079 uA     17.0000 uA     3.5999 V       0         
+ 2091012     1    PASS     InputLeakage              CLKIN     172       5.0000 uA      8.7700 uA      11.0000 uA     1.2000 V       0         
+ 2091013     1    PASS     InputLeakage              CLKINB    173       5.0000 uA      8.7083 uA      11.0000 uA     1.2000 V       0         
+  
+
+ Site Failed tests/Executed tests
+------------------------------------
+    1         0       202
+
+ Site    Sort     Bin
+------------------------------------
+    1         1         1
+=========================================================================
+Summary report
+10/30/2015 17:16:48
+      Prog Name:    5P49V5901B_FT_25C_bandexp.xls
+       Job Name:    5P49V5901B_FT_25C_bandexp.xls
+            Lot:     
+       Operator:    Admin
+      Test Mode:    
+      Node Name:    J750-04
+      Part Type:     
+    Channel map:    ChanMSE
+    Environment:    
+
+    Site Number:    
+         0,  1,  2,  3
+
+
+Bin Total
+       Site      Bin      BinName      Parts   %/Total
+------------------------------------------------------------------------
+         1         1                       1    100.00
+
+
+                   1                       1    100.00
+
+Sort Total
+      Site      Sort     SortName     Parts    %/Total
+-------------------------------------------------------------------------
+         1         1                       1    100.00
+
+
+                   1                       1    100.00
+
+Total devices : 1 Total passed devices : 1 Total retested devices : 0
+
+=========================================================================
+

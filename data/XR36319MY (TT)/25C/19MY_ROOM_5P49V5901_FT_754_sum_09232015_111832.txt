@@ -1,0 +1,71 @@
+Summary report
+09/23/2015 12:13:22
+      Prog Name:    5P49V5901A_FT_754_HTOL_ROOM_COLD.xls
+       Job Name:    Prod_Test
+            Lot:    19MY_ROOM
+       Operator:    Admin
+      Test Mode:    Engineering
+      Node Name:    J750-05
+      Part Type:    5P49V5901A
+    Channel map:    ChanMSE
+    Environment:    
+
+    Site Number:    
+         0,  1,  2,  3
+
+
+Bin Total
+       Site      Bin      BinName      Parts   %/Total
+------------------------------------------------------------------------
+         0         1          Pass        48     34.29
+         0         2            DC         5      3.57
+         0         3          Func        87     62.14
+         2         4          Cont         6      2.33
+         2         2            DC        26     10.08
+         2         1          Pass       184     71.32
+         2         3          Func        42     16.28
+         3         1          Pass         1     12.50
+         3         4          Cont         1     12.50
+         3         2            DC         6     75.00
+
+
+                   4          Cont         7      1.72
+                   1          Pass       233     57.39
+                   2            DC        37      9.11
+                   3          Func       129     31.77
+
+Sort Total
+      Site      Sort     SortName     Parts    %/Total
+-------------------------------------------------------------------------
+         0         1          Pass        48     34.29
+         0        11             v        55     39.29
+         0        10             v        29     20.71
+         0        60             v         3      2.14
+         0        80             v         1      0.71
+         0        87             v         4      2.86
+         2         7                       2      0.78
+         2         6                       4      1.55
+         2         1          Pass       184     71.32
+         2        11             v        15      5.81
+         2        10             v        23      8.91
+         2        60             v         4      1.55
+         2        80             v        14      5.43
+         2        87             v        12      4.65
+         3         1          Pass         1     12.50
+         3         6                       1     12.50
+         3        80             v         6     75.00
+
+
+                   7                       2      0.49
+                   6                       5      1.23
+                   1          Pass       233     57.39
+                  11             v        70     17.24
+                  10             v        52     12.81
+                  60             v         7      1.72
+                  80             v        21      5.17
+                  87             v        16      3.94
+
+Total devices : 406 Total passed devices : 233 Total retested devices : 0
+
+=========================================================================
+

@@ -1,0 +1,135 @@
+    Device#: 15
+
+
+ Number     Site  Result   Test Name                 Pin       Channel   Low            Measured       High           Force          Loc
+ 4005000     1    PASS     PPST                      VDDD      2         -500.0000 uA   15.0706 uA     500.0000 uA    300.0000 mV    0         
+ 4005001     1    PASS     PPST                      VDDA      0         -500.0000 uA   11.0265 uA     500.0000 uA    300.0000 mV    0         
+ 4005002     1    PASS     PPST                      VDDX      1         -500.0000 uA   5.4109 uA      500.0000 uA    300.0000 mV    0         
+ 4005003     1    PASS     PPST                      VDDO      3         -500.0000 uA   17.9365 uA     500.0000 uA    300.0000 mV    0         
+  
+Cont2gnd with forcing current = -0.0001A
+ 4006000     1    PASS     Cont2gnd                  SDAsel1   179       -800.0000 mV   -449.8962 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006001     1    PASS     Cont2gnd                  SCLsel0   180       -800.0000 mV   -450.8344 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006002     1    PASS     Cont2gnd                  CLKSEL    177       -800.0000 mV   -580.1581 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006003     1    PASS     Cont2gnd                  SDOE      178       -800.0000 mV   -586.2568 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006004     1    PASS     Cont2gnd                  OUT4B     185       -800.0000 mV   -480.2333 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006005     1    PASS     Cont2gnd                  OUT4      184       -800.0000 mV   -480.2333 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006006     1    PASS     Cont2gnd                  OUT3B     187       -800.0000 mV   -481.3279 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006007     1    PASS     Cont2gnd                  OUT3      186       -800.0000 mV   -481.0152 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006008     1    PASS     Cont2gnd                  OUT2      188       -800.0000 mV   -480.8588 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006009     1    PASS     Cont2gnd                  OUT2B     189       -800.0000 mV   -482.2662 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006010     1    PASS     Cont2gnd                  OUT1      190       -800.0000 mV   -481.0152 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006011     1    PASS     Cont2gnd                  OUT1B     191       -800.0000 mV   -476.7930 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006012     1    PASS     Cont2gnd                  OUT0_i2c  176       -800.0000 mV   -460.2170 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006013     1    PASS     Cont2gnd                  X1        175       -800.0000 mV   -697.1280 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006014     1    PASS     Cont2gnd                  CLKIN     172       -800.0000 mV   -586.1004 mV   -200.0000 mV   -100.0381 uA   0         
+ 4006015     1    PASS     Cont2gnd                  CLKINB    173       -800.0000 mV   -584.6930 mV   -200.0000 mV   -100.0381 uA   0         
+  
+Cont2Vdd with forcing current = 0.0001A
+ 4007000     1    PASS     Cont2vdd                  SDAsel1   179       1.0000 V       1.3816 V       1.6000 V       100.0381 uA    0         
+ 4007001     1    PASS     Cont2vdd                  SCLsel0   180       1.0000 V       1.3824 V       1.6000 V       100.0381 uA    0         
+ 4007002     1    PASS     Cont2vdd                  CLKSEL    177       200.0000 mV    542.4713 mV    800.0000 mV    100.0381 uA    0         
+ 4007003     1    PASS     Cont2vdd                  SDOE      178       200.0000 mV    549.1955 mV    800.0000 mV    100.0381 uA    0         
+ 4007004     1    PASS     Cont2vdd                  OUT1      190       200.0000 mV    346.3747 mV    800.0000 mV    100.0381 uA    0         
+ 4007005     1    PASS     Cont2vdd                  OUT2      188       200.0000 mV    347.6257 mV    800.0000 mV    100.0381 uA    0         
+ 4007006     1    PASS     Cont2vdd                  OUT3      186       200.0000 mV    347.6257 mV    800.0000 mV    100.0381 uA    0         
+ 4007007     1    PASS     Cont2vdd                  OUT4      184       200.0000 mV    348.4076 mV    800.0000 mV    100.0381 uA    0         
+ 4007008     1    PASS     Cont2vdd                  X1        175       200.0000 mV    720.2717 mV    800.0000 mV    100.0381 uA    0         
+ 4007009     1    PASS     Cont2vdd                  CLKIN     172       200.0000 mV    556.2324 mV    800.0000 mV    100.0381 uA    0         
+ 4007010     1    PASS     Cont2vdd                  OUT1B     191       200.0000 mV    344.0291 mV    800.0000 mV    100.0381 uA    0         
+ 4007011     1    PASS     Cont2vdd                  OUT2B     189       200.0000 mV    342.7780 mV    800.0000 mV    100.0381 uA    0         
+ 4007012     1    PASS     Cont2vdd                  OUT3B     187       200.0000 mV    342.6217 mV    800.0000 mV    100.0381 uA    0         
+ 4007013     1    PASS     Cont2vdd                  OUT4B     185       200.0000 mV    345.9056 mV    800.0000 mV    100.0381 uA    0         
+ 4007014     1    PASS     Cont2vdd                  OUT0_i2c  176       200.0000 mV    346.2183 mV    800.0000 mV    100.0381 uA    0         
+ 4007015     1    PASS     Cont2vdd                  CLKINB    173       200.0000 mV    558.8908 mV    800.0000 mV    100.0381 uA    0         
+ 4007016     1    PASS     Cont2vdd                  X2        174       200.0000 mV    413.9295 mV    800.0000 mV    100.0381 uA    0         
+
+ Number     Site  Result   Test Name                 Pattern
+ 3020000     1    PASS     VCOBandTrim               B0_B103                  
+ 3020001     1    PASS     VCOBandTrim               B104_B207                
+ 3020002     1    PASS     VCOBandTrim               OTP_wconfig0             
+ wb_29 = xFD
+ wb_22 = x84
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+ 3020003     1    PASS     VCOBandTrim               OUT0_i2c  176       0.0000         0.0000         0.0000         0.0000         0         
+ 3020004     1    PASS     VCOBandTrim               OUT1      190       74.1535 M      74.1743 M      74.1981 M      0.0000         0         
+ 3020005     1    PASS     VCOBandTrim               OUT1B     191       0.0000         0.0000         0.0000         0.0000         0         
+ 3020006     1    PASS     VCOBandTrim               OUT2      188       24.5686 M      24.5754 M      24.5834 M      0.0000         0         
+ 3020007     1    PASS     VCOBandTrim               OUT2B     189       0.0000         0.0000         0.0000         0.0000         0         
+ 3020008     1    PASS     VCOBandTrim               OUT3      186       24.9925 M      24.9996 M      25.0075 M      0.0000         0         
+ 3020009     1    PASS     VCOBandTrim               OUT3B     187       0.0000         0.0000         0.0000         0.0000         0         
+ 3020010     1    PASS     VCOBandTrim               OUT4      184       66.6467 M      66.6657 M      66.6867 M      0.0000         0         
+ 3020011     1    PASS     VCOBandTrim               OUT4B     185       0.0000         0.0000         0.0000         0.0000         0         
+ 3010000     1    PASS     GrossFuncMin33            OTP_wconfig0             
+ Turn Off Test_VCO_band and Calibrate VCO Band ...
+ wb_28 = x1F
+ wb_28 = x9F
+ wb_28 = x1F
+ VCO_Band is: EH
+  
+ XIN SWconfig_0: Out1,Out2,Out3,Out4 = CMOS, CMOS, CMOS, CMOS .  SS=0%.  VDD0 = VDDA = 3V.  VDDD = 3V.  VDD1,2,3,4 = 3V 
+ 3010001     1    PASS     GrossFuncMin33            SwSelCFG_0               
+ 3010002     1    PASS     GrossFuncMin33            OUT0_i2c  176       0.0000         0.0000         0.0000         0.0000         0         
+ 3010003     1    PASS     GrossFuncMin33            OUT1      190       74.1535 M      74.1747 M      74.1981 M      0.0000         0         
+ 3010004     1    PASS     GrossFuncMin33            OUT1B     191       0.0000         0.0000         0.0000         0.0000         0         
+ 3010005     1    PASS     GrossFuncMin33            OUT2      188       24.5686 M      24.5754 M      24.5834 M      0.0000         0         
+ 3010006     1    PASS     GrossFuncMin33            OUT2B     189       0.0000         0.0000         0.0000         0.0000         0         
+  
+
+ Site Failed tests/Executed tests
+------------------------------------
+    1         0        56
+
+ Site    Sort     Bin
+------------------------------------
+    1         1         1
+=========================================================================

@@ -1,0 +1,50 @@
+Summary report
+09/23/2015 15:15:30
+      Prog Name:    5P49V5901A_FT_754_HTOL_ROOM_COLD.xls
+       Job Name:    Prod_Test
+            Lot:    20MY_ROOM
+       Operator:    Admin
+      Test Mode:    
+      Node Name:    J750-05
+      Part Type:    5P49V5901A
+    Channel map:    ChanMSE
+    Environment:    
+
+    Site Number:    
+         0,  1,  2,  3
+
+
+Bin Total
+       Site      Bin      BinName      Parts   %/Total
+------------------------------------------------------------------------
+         2         4          Cont         1      1.25
+         2         3          Func         4      5.00
+         2         2            DC         5      6.25
+         2         1          Pass        70     87.50
+
+
+                   4          Cont         1      1.25
+                   3          Func         4      5.00
+                   2            DC         5      6.25
+                   1          Pass        70     87.50
+
+Sort Total
+      Site      Sort     SortName     Parts    %/Total
+-------------------------------------------------------------------------
+         2        11             v         3      3.75
+         2         7                       1      1.25
+         2         1          Pass        70     87.50
+         2        60             v         1      1.25
+         2        80             v         5      6.25
+
+
+                  11             v         3      3.75
+                   7                       1      1.25
+                   1          Pass        70     87.50
+                  60             v         1      1.25
+                  80             v         5      6.25
+
+Total devices : 80 Total passed devices : 70 Total retested devices : 0
+
+=========================================================================
+
