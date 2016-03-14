@@ -1,5 +1,5 @@
 from unittest import TestCase
-from delay_char import DlyLineDlog
+from dlogprocess.char.delay_char import DlyLineDlog
 
 
 class TestDlyLineDlog(TestCase):
