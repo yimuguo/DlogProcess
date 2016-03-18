@@ -75,23 +75,3 @@ class CharDlog(Dlog):
                     continue
         return char_table
 
-        # def find_char_table(self):
-    #     table_start = 0
-    #     table_buffer = []
-    #     char_table = []
-    #     for line in range(0, len(self.dlog_data)):
-    #         if re.match('^\s+=+', self.dlog_data[line]):
-    #                 if self.ln_match_header(self.dlog_data[line+1]) and \
-    #                     (re.match('^\s+=+', self.dlog_data[line+2]) or
-    #                      re.match('^\s+=+', self.dlog_data[line+3])) and \
-    #                     (self.ln_match_char(self.dlog_data[line+3]) or
-    #                      self.ln_match_char(self.dlog_data[line+4])):
-    #                     table_start = 1
-    #                     table_buffer.append(self.dlog_data[line-1])
-    #         if table_start == 1:
-    #             table_buffer.append(self.dlog_data[line])
-    #             if not (self.ln_match_char(self.dlog_data[line+1]) or
-    #                     self.ln_match_header(self.dlog_data[line+1]) or
-    #                     re.match('^\s+=+', self.dlog_data[line+1])):
-    #                 table_start = 0
-    #     return char_table

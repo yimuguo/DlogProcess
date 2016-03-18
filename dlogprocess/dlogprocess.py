@@ -44,37 +44,27 @@ class Dlog(object):
                     # for x in data_buffer:
                     pass_dlog.extend(data_buffer)
                 data_buffer = []
-        if write_to_file == 1:
-            pass_dlog_txt = open('PassUnits_%s.txt' % self.lotnumber, 'w+')
-            pass_dlog_txt.writelines(["%s\n" % item for item in pass_dlog])
-            pass_dlog_txt.close()
         return pass_dlog
 
-    def get_test_limit(self, keyword, tp_txt):
-        test = filter(lambda search_for: keyword in search_for, self.dlog_data)
+    def get_test_pf(self):
+        test_line = re.compile(r' \d+\s+\d\s+(:?PASS|FALL)\s+[A-Za-z0-9_]+\s+[A-Za-z0-9_]+\s+\d+\s+[-+]\d+\.\d+ [a-zA-Z]+')
+        filtered = filter(test_line.match, self.dlog_data)
+        return filtered
+
+    def filter_test_details(self, test_name):
         split_data = []
-        for x in test:
+        filtered = self.get_test_pf()
+        test_details = []
+        for x in filtered:
             x = re.split("\s+", x)
+            del x[0]
             split_data.append(x)
-        tmin = []
-        tmax = []
-        for x in split_data:
-            if x[2] == '0' and len(x) > 12:
-                if x[4] != ('OutputLeakage' or 'InputLeakage') and (x[8] == 'uA' or x[8] == 'mV'):
-                    x[7] = str(float(x[7])/1000)
-                tmin.append(x[7])
-                if x[4] != ('OutputLeakage' or 'InputLeakage') and (x[12] == 'uA' or x[12] == 'mV'):
-                    x[11] = str(float(x[11])/1000)
-                tmax.append(x[11])
-            elif len(x) <= 17:
-                tmin.append('')
-                tmax.append('')
-        del re
-        i = 0
-        for x in range(0, len(tmin)):
-            if not (tmin[i] == tmin[i-1] and tmax[i] == tmax[i-1]):
-                tp_txt.write(tmin[i]+'\t'+tmax[i]+'\n')
-            i += 1
+        for test_instance in split_data:
+            if test_instance[3] == test_name:
+                # return list format: [Pinname, min, measured, max, unit, force, force unit]
+                test_details.append([test_instance[4], test_instance[6], test_instance[8], test_instance[10],
+                                     test_instance[11], test_instance[12], test_instance[13]])
+        return test_details
 
     def filter_keyword(self, identifier, col, rows=1, offset=0):
         filtered_lst = []
