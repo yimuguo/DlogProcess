@@ -11,10 +11,11 @@ class Dlog(object):
     dlog_data_site2 = []
     dlog_data_site3 = []
 
-    def __init__(self, dlog_path, lotnumber='TT'):
+    def __init__(self, dlog_path, lotnumber='TT', temp='25C'):
         with open(dlog_path, 'r') as data:
             self.dlog_data = data.read().splitlines()
         self.lotnumber = lotnumber
+        self.temp = temp
 
     def define_site(self, site):
         if site == 0:

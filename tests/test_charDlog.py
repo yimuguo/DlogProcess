@@ -1,5 +1,5 @@
 from unittest import TestCase
-from dlogprocess.char.clk_char import CharDlog
+from dlogprocess.char.char_dlog import CharDlog
 
 
 class TestCharDlog(TestCase):
