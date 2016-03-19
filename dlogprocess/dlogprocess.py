@@ -29,7 +29,7 @@ class Dlog(object):
         else:
             os.error("SITE NOT ACTIVE")
 
-    def screen_pass(self, write_to_file=1):
+    def screen_pass(self):
         data_buffer = []
         pass_dlog = []
         new_device = 0
@@ -47,24 +47,36 @@ class Dlog(object):
         return pass_dlog
 
     def get_test_pf(self):
-        test_line = re.compile(r' \d+\s+\d\s+(:?PASS|FALL)\s+[A-Za-z0-9_]+\s+[A-Za-z0-9_]+\s+\d+\s+[-+]\d+\.\d+ [a-zA-Z]+')
-        filtered = filter(test_line.match, self.dlog_data)
+        test_line = re.compile(
+            r' \d+\s+\d\s+(:?PASS|FALL)\s+[A-Za-z0-9_]+\s+[A-Za-z0-9_]+\s+\d+\s+[-+]\d+\.\d+ [a-zA-Z]+')
+        test_comment = re.compile(r'VDD[A-Z0-9]*\s*=\s*(\d*\.\d+|\d+)')
+        # filtered = filter(test_line.match, self.dlog_data)
+        filtered = []
+        for line in range(0, len(self.dlog_data)):
+            if test_line.match(self.dlog_data[line]):
+                if test_comment.search(self.dlog_data[line-1]):
+                    vdd_val = test_comment.search(self.dlog_data[line-1]).group(1)
+                    i = 0
+                    while test_line.match(self.dlog_data[line+i]):
+                        split_test = re.split('\s+', self.dlog_data[line+i])
+                        del split_test[0]
+                        split_test.extend(vdd_val)
+                        filtered.append(split_test)
+                        i += 1
+                    continue
+                split_test = re.split('\s+', self.dlog_data[line])
+                del split_test[0]
+                filtered.append(split_test)
         return filtered
 
     def filter_test_details(self, test_name):
-        split_data = []
-        filtered = self.get_test_pf()
-        test_details = []
-        for x in filtered:
-            x = re.split("\s+", x)
-            del x[0]
-            split_data.append(x)
-        for test_instance in split_data:
+        test_details = self.get_test_pf()
+        filtered = []
+        for test_instance in test_details:
             if test_instance[3] == test_name:
-                # return list format: [Pinname, min, measured, max, unit, force, force unit]
-                test_details.append([test_instance[4], test_instance[6], test_instance[8], test_instance[10],
-                                     test_instance[11], test_instance[12], test_instance[13]])
-        return test_details
+                # return list format: [Pin name, min, measured, max, unit, force, force unit]
+                filtered.append(test_instance)
+        return filtered
 
     def filter_keyword(self, identifier, col, rows=1, offset=0):
         filtered_lst = []

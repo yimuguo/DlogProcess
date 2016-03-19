@@ -39,32 +39,28 @@ class CharDlog(Dlog):
         table_buffer = []
         char_table = []
         for line in range(0, len(self.dlog_data)):
-            try:
-                next_ln_flg = self.ln_match_header(self.dlog_data[line+1])
-            except IndexError:
-                continue
-            if self.ln_match_eql(self.dlog_data[line]) and next_ln_flg:
-                if self.ln_match_eql(self.dlog_data[line+2]) and \
-                   self.ln_match_char(self.dlog_data[line+3]):
+            if self.ln_match_eql(self.dlog_data[line-1]) and self.ln_match_header(self.dlog_data[line]):
+                if self.ln_match_eql(self.dlog_data[line+1]) and \
+                   self.ln_match_char(self.dlog_data[line+2]):
                     table_type = 'SUMMARY'
                     table_buffer.append(table_type)
-                    for x in range(-1, 3):
+                    for x in range(-2, 2):
                         table_buffer.append(self.dlog_data[line+x])
-                    i = 3
+                    i = 2
                     while self.ln_match_char(self.dlog_data[line+i]):
                         table_buffer.append(self.dlog_data[line+i])
                         i += 1
                     char_table.append(table_buffer)
                     line += i
                     table_buffer = []
-                elif self.ln_match_header(self.dlog_data[line+2]) and \
-                        self.ln_match_eql(self.dlog_data[line+3]) and \
-                        self.ln_match_char(self.dlog_data[line+4]):
+                elif self.ln_match_header(self.dlog_data[line+1]) and \
+                        self.ln_match_eql(self.dlog_data[line+2]) and \
+                        self.ln_match_char(self.dlog_data[line+3]):
                     table_type = 'DC'
                     table_buffer.append(table_type)
-                    for x in range(-1, 4):
+                    for x in range(-2, 3):
                         table_buffer.append(self.dlog_data[line+x])
-                    i = 4
+                    i = 3
                     while self.ln_match_char(self.dlog_data[line+i]):
                         table_buffer.append(self.dlog_data[line+i])
                         i += 1
