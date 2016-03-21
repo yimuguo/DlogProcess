@@ -86,8 +86,8 @@ class CharDlog(Dlog):
                 pinnam = 'SMB'
                 for y in x:
                     if self.re_vco_freq_ln(y):
-                        vdd_line = re.split('\s+')
+                        vdd_line = re.split('\s+', y)
                     elif self.ln_match_char(y):
-                        test_line = re.split('\s+')
+                        test_line = re.split('\s+', y)
 
 
