@@ -24,7 +24,7 @@ class CharDlog(Dlog):
 
     @staticmethod
     def ln_match_char(str_in):
-        if re.match('^\s+[a-zA-Z]+_[a-zA-z0-9]+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+', str_in):
+        if re.match('^\s+[a-zA-Z]+-[a-zA-z0-9_]+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+', str_in):
             return 1
         if re.match('^\s+[a-zA-Z0-9:_]+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+', str_in):
             return 2   # SMB is the only one without pin name
@@ -43,6 +43,8 @@ class CharDlog(Dlog):
                 if self.ln_match_eql(self.dlog_data[line+1]) and \
                    self.ln_match_char(self.dlog_data[line+2]):
                     table_type = 'SUMMARY'
+                    if self.ln_match_char(self.dlog_data[line+2]) == 2:
+                        table_type = 'SMB'
                     table_buffer.append(table_type)
                     for x in range(-2, 2):
                         table_buffer.append(self.dlog_data[line+x])
@@ -70,4 +72,22 @@ class CharDlog(Dlog):
                 else:
                     continue
         return char_table
+
+    @staticmethod
+    def re_vco_freq_ln(str_in):
+        re_vco = re.compile(r'\s*Fmax\s+VCO\s*(for)?\s*(PLL\d*)?\s*[a-zA-Z]*\s*(\d*\.\d+|\d+)\s*([a-zA-Z]*)?')
+        return re_vco.search(str_in)
+
+    # List [LotNum, Part#, Temp, VDD, Pin, Test, Data, Comment]
+    def parse_table(self):
+        char_table = self.find_char_table()
+        for x in char_table:
+            if x[0] == 'SMB':
+                pinnam = 'SMB'
+                for y in x:
+                    if self.re_vco_freq_ln(y):
+                        vdd_line = re.split('\s+')
+                    elif self.ln_match_char(y):
+                        test_line = re.split('\s+')
+
 
