@@ -22,5 +22,17 @@ class TestCharDlog(unittest.TestCase):
         self.assertEqual(test_fmax.group(3), '0.92')
         self.assertEqual(test_fmax.group(2), 'PLL1')
 
+    # List [VDD, Test, Pin, Data, Load(forDCOnly)]
     def test_parse_table(self):
-        self.char.parse_table()
+        smb_data = self.char.parse_table(self.char.char_table[0])
+        self.assertEqual(smb_data[0][0], '3.6')
+        self.assertEqual(smb_data[0][1], 'tBUF')
+        self.assertEqual(smb_data[0][3], '0.220')
+        self.assertEqual(smb_data[12][3], '0.180')
+        self.assertEqual(smb_data[27][0], '2.3')
+        self.assertEqual(smb_data[27][3], '0.890')
+        for x in range(2, len(self.char.char_table[0])):
+            if self.char.ln_match_char(x):
+                test = x.split()
+                for y in range(1, len(test)):
+
