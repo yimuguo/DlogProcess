@@ -25,14 +25,15 @@ class TestCharDlog(unittest.TestCase):
     # List [VDD, Test, Pin, Data, Load(forDCOnly)]
     def test_parse_table(self):
         smb_data = self.char.parse_table(self.char.char_table[0])
-        self.assertEqual(smb_data[0][0], '3.6')
-        self.assertEqual(smb_data[0][1], 'tBUF')
-        self.assertEqual(smb_data[0][3], '0.220')
-        self.assertEqual(smb_data[12][3], '0.180')
-        self.assertEqual(smb_data[27][0], '2.3')
-        self.assertEqual(smb_data[27][3], '0.890')
-        for x in range(2, len(self.char.char_table[0])):
-            if self.char.ln_match_char(x):
-                test = x.split()
+        for x in range(5, len(self.char.char_table[0])):
+            if self.char.ln_match_char(self.char.char_table[0][x]):
+                test = self.char.char_table[0][x].split()
                 for y in range(1, len(test)):
+                    self.assertEqual(test[y], smb_data[(x-5)*14+y-1][3])
+        vihvil_data = self.char.parse_table(self.char.char_table[1])
+        for x in range(5, len(self.char.char_table[1])):
+            if self.char.ln_match_char(self.char.char_table[1][x]):
+                test = self.char.char_table[1][x].split()
+                for y in range(1, len(test)):
+                    self.assertEqual(test[y], vihvil_data[(x-5)*14+y-1][3])
 

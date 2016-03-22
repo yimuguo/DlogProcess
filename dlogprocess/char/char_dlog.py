@@ -11,7 +11,7 @@ class CharDlog(Dlog):
     @staticmethod
     def ln_match_header(str_in):
         # Search for " (any_char)VDD|VCC(any_char,w/o ())  +-float  +-float +-float
-        if re.match('^\s*[a-zA-Z0-9]*(:?VDD|VCC)[a-zA-Z0-9\(\)]*\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+', str_in):
+        if re.match('^\s*[a-zA-Z0-9_]*(:?VDD|VCC)[a-zA-Z0-9/_\(\)]*\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+[-+]?\d*\.\d+\s+', str_in):
             return True
         else:
             return False
@@ -66,7 +66,7 @@ class CharDlog(Dlog):
                     char_table.append(table_buffer)
                     line += i
                     table_buffer = []
-                elif self.ln_match_header(self.dlog_data[line+1]) and \
+                elif self.ln_match_load(self.dlog_data[line+1]) and \
                         self.ln_match_eql(self.dlog_data[line+2]) and \
                         self.ln_match_char(self.dlog_data[line+3]):
                     table_type = 'DC'
@@ -120,4 +120,3 @@ class CharDlog(Dlog):
                 for column in range(1, len(test_line[row])):
                     dataset.append([vdd_line[column], test, pinnam, test_line[row][column]])
         return dataset
-
