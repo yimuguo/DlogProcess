@@ -7,7 +7,10 @@ class TestCharDlog(unittest.TestCase):
 
     def test_find_char_table(self):
         self.char.find_char_table()
-        print(self.char.char_table)
+        with open('test_char_table.txt', 'w+') as wtest:
+            for x in self.char.char_table:
+                for y in x:
+                    wtest.write(y + '\n')
         pass
 
     def test_re_vc_freq_ln(self):
@@ -18,3 +21,6 @@ class TestCharDlog(unittest.TestCase):
         test_fmax = self.char.re_vco_freq_ln('  Fmax VCO  PLL1 is  0.92 Ghz')
         self.assertEqual(test_fmax.group(3), '0.92')
         self.assertEqual(test_fmax.group(2), 'PLL1')
+
+    def test_parse_table(self):
+        self.char.parse_table()

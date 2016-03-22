@@ -18,7 +18,9 @@ class TestDlog(TestCase):
     def test_get_test_details(self):
         test_lst = self.test_dlog.filter_test_details('OutputLeakage')
         self.assertEqual(test_lst[0][4], 'DIFF1')
-        self.assertEqual(test_lst[8][8], '55.4343')
+        self.assertEqual(test_lst[0][8], '-7.9504')
+        self.assertEqual(test_lst[8][8], '49.5962')
+        self.assertEqual(test_lst[8][9], 'nA')
         self.assertEqual(test_lst[2][14], '3.6')
         self.assertEqual(test_lst[9][14], '3.6')
 
