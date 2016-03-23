@@ -22,6 +22,12 @@ class TestCharDlog(unittest.TestCase):
         self.assertEqual(test_fmax.group(3), '0.92')
         self.assertEqual(test_fmax.group(2), 'PLL1')
 
+    def test_get_vco_max(self):
+        vco_table = self.char.get_vco_max()
+        self.assertEqual(vco_table[0][0], '3')
+        self.assertEqual(vco_table[0][2], 'PLL2')
+        self.assertEqual(vco_table[0][3], '1.6')
+
     # List [VDD, Test, Pin, Data, Load(forDCOnly)]
     def test_parse_table(self):
         smb_data = self.char.parse_table(self.char.char_table[0])
@@ -36,6 +42,11 @@ class TestCharDlog(unittest.TestCase):
         #         test = self.char.char_table[1][x].split()
         #         for y in range(1, len(test)):
         #             self.assertEqual(test[y], vihvil_data[(x-5)*14+y-1][3])
+
+    def test_get_test_table(self):
+        test_lkg = self.char.get_test_table("OutputLeakage")
+        self.assertEqual(test_lkg[0][0], '3.6')
+        self.assertEqual(test_lkg[0][3], '-5.4484')
 
     def test_gen_df(self):
         test_df = self.char.gen_df()

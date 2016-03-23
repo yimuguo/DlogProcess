@@ -45,21 +45,29 @@ class Dlog(object):
                 data_buffer = []
         return pass_dlog
 
-    def get_test_pf(self):
-        re_test_inst = re.compile(
-            r' \d+\s+\d\s+(:?PASS|FALL)\s+[A-Za-z0-9_]+\s+[A-Za-z0-9_]+\s+\d+\s+[-+]?\d+\.\d+ [a-zA-Z]+')
+    @staticmethod
+    def re_vdd_comment(str_in):
         re_test_comment = re.compile(r'VDD[A-Za-z0-9]*\s*=\s*(\d*\.\d+|\d+)')
+        return re_test_comment.search(str_in)
+
+    @staticmethod
+    def re_test_line(str_in):
+        re_test_inst = re.compile(
+            r'^ \d+\s+\d\s+(:?PASS|FALL)\s+[A-Za-z0-9_]+\s+[A-Za-z0-9_]+\s+\d+\s+[-+]?\d+\.\d+ [a-zA-Z]+')
+        return re_test_inst.search(str_in)
+
+    def get_test_pf(self):
         # filtered = filter(test_line.match, self.dlog_data)
         test_ln = []
         # new_inst = ''
         vdd_val = 'Unknown'
         line = 0
         while line < len(self.dlog_data):
-            if re_test_comment.search(self.dlog_data[line]):
-                vdd_val = re_test_comment.search(self.dlog_data[line]).group(1)
+            if self.re_vdd_comment(self.dlog_data[line]):
+                vdd_val = self.re_vdd_comment(self.dlog_data[line]).group(1)
                 line += 1
                 continue
-            if re_test_inst.match(self.dlog_data[line]):
+            if self.re_test_line(self.dlog_data[line]):
                 # if re_test_comment.search(self.dlog_data[line-1]):
                 #     vdd_val = re_test_comment.search(self.dlog_data[line-1]).group(1)
                 #     split_test = []
@@ -73,8 +81,8 @@ class Dlog(object):
                 # new_inst = split_test[3]
                 # line += i
                 # continue
-                split_test = re.split('\s+', self.dlog_data[line])
-                split_test = split_test[1:-2]
+                split_test = self.dlog_data[line].split()
+                split_test = split_test[:-1]
                 # if split_test[3] == new_inst:
                 split_test.append(vdd_val)
                 test_ln.append(split_test)
