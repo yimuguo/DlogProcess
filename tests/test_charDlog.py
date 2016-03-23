@@ -30,10 +30,12 @@ class TestCharDlog(unittest.TestCase):
                 test = self.char.char_table[0][x].split()
                 for y in range(1, len(test)):
                     self.assertEqual(test[y], smb_data[(x-5)*14+y-1][3])
-        vihvil_data = self.char.parse_table(self.char.char_table[1])
-        for x in range(5, len(self.char.char_table[1])):
-            if self.char.ln_match_char(self.char.char_table[1][x]):
-                test = self.char.char_table[1][x].split()
-                for y in range(1, len(test)):
-                    self.assertEqual(test[y], vihvil_data[(x-5)*14+y-1][3])
+        # vihvil_data = self.char.parse_table(self.char.char_table[1])
+        # for x in range(5, len(self.char.char_table[1])):
+        #     if self.char.ln_match_char(self.char.char_table[1][x]):
+        #         test = self.char.char_table[1][x].split()
+        #         for y in range(1, len(test)):
+        #             self.assertEqual(test[y], vihvil_data[(x-5)*14+y-1][3])
 
+    def test_gen_df(self):
+        test_df = self.char.gen_df()

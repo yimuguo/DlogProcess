@@ -1,10 +1,12 @@
 from dlogprocess.dlogprocess import Dlog
 import re
+import pandas as pd
+import warnings
 
 
 class CharDlog(Dlog):
-    def __init__(self, dlogpath, temp='25C'):
-        super(CharDlog, self).__init__(dlogpath, temp=temp)
+    def __init__(self, dlogpath, temp='25C', lotnum = 'TT'):
+        super(CharDlog, self).__init__(dlogpath, temp=temp, lotnumber=lotnum)
         # self.dlog_data = self.screen_pass(write_to_file=0)
         self.char_table = self.find_char_table()
 
@@ -103,10 +105,23 @@ class CharDlog(Dlog):
                 test_line.append(x.split())
             elif self.ln_match_load(x):
                 iload_line.append(x.split())
+
+        # Auto_Fill missing VDD Column Headers!!!
+        vdd_len = 0
+        for i in test_line:
+            if (len(i) > len(vdd_line)) & (len(i) > vdd_len):
+                vdd_len = len(i)
+                vdd_autofill = []
+                vdd_delta = round((vdd_line[-2]) - float(vdd_line[-1])), 3)
+                while vdd_len > len(vdd_line):
+                    vdd_line.append(str(float(vdd_line[-1]) - vdd_delta))
+                warnings.simplefilter('once', UserWarning)
+                warnings.warn("VDD Line Should be Matching Test Instances")
+
         for row in range(0, len(test_line)):
             if char_table[0] == 'DC':
-                pinnam = test_line[row][0].split('-')[0]
-                test = test_line[row][0].split('-')[1]
+                pinnam = test_line[row][0].split('-')[1]
+                test = test_line[row][0].split('-')[0]
                 for column in range(1, len(test_line[row])):
                     dataset.append([vdd_line[column], test, pinnam, test_line[row][column], iload_line[column]])
             elif char_table[0] == 'SMB':
@@ -115,8 +130,17 @@ class CharDlog(Dlog):
                 for column in range(1, len(test_line[row])):
                     dataset.append([vdd_line[column], test, pinnam, test_line[row][column]])
             elif char_table[0] == 'SUMMARY':
-                pinnam = test_line[row][0].split('-')[0]
-                test = test_line[row][0].split('-')[1]
+                pinnam = test_line[row][0].split('-')[1]
+                test = test_line[row][0].split('-')[0]
                 for column in range(1, len(test_line[row])):
                     dataset.append([vdd_line[column], test, pinnam, test_line[row][column]])
         return dataset
+
+    def gen_df(self):
+        all_dataset = []
+        for x in self.char_table:
+            all_dataset.append(self.parse_table(x))
+        df = pd.DataFrame(all_dataset, columns=['VDD', 'Test', 'Data', 'Load'])
+        df.Lot = self.lotnumber
+        df.Temp = self.temp
+        return df
