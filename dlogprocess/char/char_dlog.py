@@ -155,7 +155,7 @@ class CharDlog(Dlog):
         lkg_table = []
         out_lkg = self.filter_test_details(test_name)
         for x in range(0, len(out_lkg)):
-            lkg_table.append([out_lkg[x][14], test_name, out_lkg[x][4], out_lkg[x][8], out_lkg[x][12]])
+            lkg_table.append([out_lkg[x][14], test_name, out_lkg[x][4], out_lkg[x][8], out_lkg[x][12], out_lkg[x][9]])
         return lkg_table
 
     # Units: IDD:mA, DC(VOLH/ROLH):V, SMB:us,
@@ -166,7 +166,7 @@ class CharDlog(Dlog):
         all_dataset.extend(self.get_vco_max())
         all_dataset.extend(self.get_test_table("OutputLeakage"))
         all_dataset.extend(self.get_test_table("InputLeakage"))
-        df = pd.DataFrame(all_dataset, columns=['VDD', 'Test', 'Pin', 'Data', 'Iload'])
+        df = pd.DataFrame(all_dataset, columns=['VDD', 'Test', 'Pin', 'Data', 'Iload', 'Unit'])
         df.Lot = self.lotnumber
         df.Temp = self.temp
         return df

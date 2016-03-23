@@ -1,5 +1,6 @@
 import unittest
 from dlogprocess.char.char_dlog import CharDlog
+import pandas as pd
 
 
 class TestCharDlog(unittest.TestCase):
@@ -50,3 +51,4 @@ class TestCharDlog(unittest.TestCase):
 
     def test_gen_df(self):
         test_df = self.char.gen_df()
+        test_df.to_csv('raw_data.csv')
