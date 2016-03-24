@@ -5,10 +5,11 @@ import warnings
 
 
 class CharDlog(Dlog):
-    def __init__(self, dlogpath, temp='25C', lotnum='TT'):
+    def __init__(self, dlogpath, temp='25C', lotnum='TT', unitnum=1):
         super(CharDlog, self).__init__(dlogpath, temp=temp, lotnumber=lotnum)
         # self.dlog_data = self.screen_pass(write_to_file=0)
         self.char_table = self.find_char_table()
+        self.unit = unitnum
 
     @staticmethod
     def ln_match_header(str_in):
@@ -45,6 +46,11 @@ class CharDlog(Dlog):
             return 2   # SMB is the only one without pin name
         else:
             return False
+
+    @staticmethod
+    def ln_match_comment(str_in):
+        comment_ln = re.compile(r'^\s*(\d+\.)?\s*([a-zA-Z0-9/ ]+)\(([a-zA-Z]+)\)')
+        return comment_ln.search(str_in)
 
     @staticmethod
     def ln_match_eql(str_in):
@@ -99,6 +105,7 @@ class CharDlog(Dlog):
         vdd_val = 'Unknown'
         vco_table = []
         plln = 'PLL'
+        unit = 'Unknown'
         for x in self.dlog_data:
             if self.re_vdd_comment(x):
                 vdd_val = self.re_vdd_comment(x).group(1)
@@ -106,15 +113,18 @@ class CharDlog(Dlog):
                 max_vco = self.re_vco_freq_ln(x).group(3)
                 if self.re_vco_freq_ln(x).group(2):
                     plln = self.re_vco_freq_ln(x).group(2)
-                vco_table.append([vdd_val, 'VCO_max', plln, max_vco])
+                if self.re_vco_freq_ln(x).group(4):
+                    unit = self.re_vco_freq_ln(x).group(4)
+                vco_table.append([vdd_val, 'VCO_max', plln, max_vco, unit])
         return vco_table
 
-    # List [VDD, Test, Pin, Data, Load(forDCOnly)]
+    # List [VDD, Test, Pin, Data, unit, Load(forDCOnly)]
     def parse_table(self, char_table):
         dataset = []
         test_line = []
         iload_line = []
         vdd_line = []
+        unit = 'Unknown'
         for x in char_table:
             if self.ln_match_header(x):
                 vdd_line = x.split()
@@ -122,6 +132,8 @@ class CharDlog(Dlog):
                 test_line.append(x.split())
             elif self.ln_match_load(x):
                 iload_line.extend(x.split())
+            elif self.ln_match_comment(x):
+                unit = self.ln_match_comment(x).group(3)
         # Auto_Fill missing VDD Column Headers!!!
         vdd_len = 0
         for i in test_line:
@@ -132,22 +144,24 @@ class CharDlog(Dlog):
                     vdd_line.append(str(round(float(vdd_line[-1]) - vdd_delta, 3)))
                 warnings.simplefilter('once', UserWarning)
                 warnings.warn("VDD Line Should be Matching Test Instances")
+        # Warning finished, and auto filled missing VDD cols
+
         for row in range(0, len(test_line)):
             if char_table[0] == 'DC':
                 pinnam = test_line[row][0].split('-')[1]
                 test = test_line[row][0].split('-')[0]
                 for column in range(1, len(test_line[row])):
-                    dataset.append([vdd_line[column], test, pinnam, test_line[row][column], iload_line[column]])
+                    dataset.append([vdd_line[column], test, pinnam, test_line[row][column], unit, iload_line[column]])
             elif char_table[0] == 'SMB':
                 test = test_line[row][0]
                 pinnam = 'SMB'
                 for column in range(1, len(test_line[row])):
-                    dataset.append([vdd_line[column], test, pinnam, test_line[row][column]])
+                    dataset.append([vdd_line[column], test, pinnam, test_line[row][column], unit])
             elif char_table[0] == 'SUMMARY':
                 pinnam = test_line[row][0].split('-')[1]
                 test = test_line[row][0].split('-')[0]
                 for column in range(1, len(test_line[row])):
-                    dataset.append([vdd_line[column], test, pinnam, test_line[row][column]])
+                    dataset.append([vdd_line[column], test, pinnam, test_line[row][column], unit])
         return dataset
 
     # List [VDD, "OutputLeakage", Pin, Data, ForceV]
@@ -155,7 +169,7 @@ class CharDlog(Dlog):
         lkg_table = []
         out_lkg = self.filter_test_details(test_name)
         for x in range(0, len(out_lkg)):
-            lkg_table.append([out_lkg[x][14], test_name, out_lkg[x][4], out_lkg[x][8], out_lkg[x][12], out_lkg[x][9]])
+            lkg_table.append([out_lkg[x][14], test_name, out_lkg[x][4], out_lkg[x][8], out_lkg[x][9], out_lkg[x][12]])
         return lkg_table
 
     # Units: IDD:mA, DC(VOLH/ROLH):V, SMB:us,
@@ -166,7 +180,8 @@ class CharDlog(Dlog):
         all_dataset.extend(self.get_vco_max())
         all_dataset.extend(self.get_test_table("OutputLeakage"))
         all_dataset.extend(self.get_test_table("InputLeakage"))
-        df = pd.DataFrame(all_dataset, columns=['VDD', 'Test', 'Pin', 'Data', 'Iload', 'Unit'])
-        df.Lot = self.lotnumber
-        df.Temp = self.temp
+        df = pd.DataFrame(all_dataset, columns=['VDD', 'Test', 'Pin', 'Data', 'unit', 'Force'])
+        df['Lot'] = self.lotnumber
+        df['Temp'] = self.temp
+        df['UnitNum'] = self.unit
         return df

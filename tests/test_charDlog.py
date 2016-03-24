@@ -1,6 +1,5 @@
 import unittest
 from dlogprocess.char.char_dlog import CharDlog
-import pandas as pd
 
 
 class TestCharDlog(unittest.TestCase):
@@ -12,6 +11,9 @@ class TestCharDlog(unittest.TestCase):
             for x in self.char.char_table:
                 for y in x:
                     wtest.write(y + '\n')
+        with open('test_char_commentline.txt', 'w+') as wtest:
+            for x in self.char.char_table:
+                wtest.write(x[1] + '\n')
         pass
 
     def test_re_vc_freq_ln(self):
@@ -29,7 +31,7 @@ class TestCharDlog(unittest.TestCase):
         self.assertEqual(vco_table[0][2], 'PLL2')
         self.assertEqual(vco_table[0][3], '1.6')
 
-    # List [VDD, Test, Pin, Data, Load(forDCOnly)]
+    # List [VDD, Test, Pin, Data, unit, Load(forDCOnly)]
     def test_parse_table(self):
         smb_data = self.char.parse_table(self.char.char_table[0])
         for x in range(5, len(self.char.char_table[0])):
