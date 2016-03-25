@@ -2,6 +2,7 @@ from dlogprocess.dlogprocess import Dlog
 import re
 import pandas as pd
 import warnings
+from collections import Counter
 
 
 class CharDlog(Dlog):
@@ -185,3 +186,10 @@ class CharDlog(Dlog):
         df['Temp'] = self.temp
         df['UnitNum'] = self.unit
         return df
+
+    def gen_summary_test(self):
+        data = self.gen_df()
+        tests = Counter(data.Test).keys()
+        pins = Counter(data.Pin).keys()
+
+        print(tests)

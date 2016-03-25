@@ -54,3 +54,6 @@ class TestCharDlog(unittest.TestCase):
     def test_gen_df(self):
         test_df = self.char.gen_df()
         test_df.to_csv('raw_data.csv')
+
+    def test_summary_test(self):
+        self.char.gen_summary_test()
