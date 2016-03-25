@@ -1,0 +1,1755 @@
+    Device#: 10
+
+
+ Number     Site  Result   Test Name                 Pin       Channel   Low            Measured       High           Force          Loc
+ 0           1    PASS     PPST                      VDD33     0         -500.0000 uA   -319.1823 nA   500.0000 uA    300.0000 mV    0         
+ 1           1    PASS     PPST                      VDDA      1         -500.0000 uA   -2.2656 uA     500.0000 uA    300.0000 mV    0         
+ 2           1    PASS     PPST                      VDDSE1    2         -500.0000 uA   4.9434 uA      500.0000 uA    300.0000 mV    0         
+ 3           1    PASS     PPST                      VDDSE2_3  3         -500.0000 uA   3.1279 uA      500.0000 uA    300.0000 mV    0         
+ 4           1    PASS     PPST                      VBAT      22        -500.0000 uA   2.5397 uA      500.0000 uA    300.0000 mV    0         
+  
+Cont2gnd with forcing current = -0.0001A
+ 5           1    PASS     Cont2gnd                  SDA_DFC0  174       -800.0000 mV   -538.7182 mV   -200.0000 mV   -100.0381 uA   0         
+ 6           1    PASS     Cont2gnd                  SCL_DFC1  175       -800.0000 mV   -523.8624 mV   -200.0000 mV   -100.0381 uA   0         
+ 7           1    PASS     Cont2gnd                  DIFF2B    54        -800.0000 mV   -497.4347 mV   -200.0000 mV   -100.0381 uA   0         
+ 8           1    PASS     Cont2gnd                  DIFF2     55        -800.0000 mV   -507.5992 mV   -200.0000 mV   -100.0381 uA   0         
+ 9           1    PASS     Cont2gnd                  DIFF1B    188       -800.0000 mV   -503.5334 mV   -200.0000 mV   -100.0381 uA   0         
+ 10          1    PASS     Cont2gnd                  DIFF1     189       -800.0000 mV   -494.4636 mV   -200.0000 mV   -100.0381 uA   0         
+ 11          1    PASS     Cont2gnd                  SE3       164       -800.0000 mV   -546.8498 mV   -200.0000 mV   -100.0381 uA   0         
+ 12          1    PASS     Cont2gnd                  SE2       179       -800.0000 mV   -525.1135 mV   -200.0000 mV   -100.0381 uA   0         
+ 13          1    PASS     Cont2gnd                  REF       177       -800.0000 mV   -532.7759 mV   -200.0000 mV   -100.0381 uA   0         
+ 14          1    PASS     Cont2gnd                  SE1       186       -800.0000 mV   -549.1955 mV   -200.0000 mV   -100.0381 uA   0         
+ 15          1    PASS     Cont2gnd                  OE1       180       -800.0000 mV   -534.1833 mV   -200.0000 mV   -100.0381 uA   0         
+ 16          1    PASS     Cont2gnd                  OE2       178       -800.0000 mV   -532.6195 mV   -200.0000 mV   -100.0381 uA   0         
+ 17          1    PASS     Cont2gnd                  OE3       162       -800.0000 mV   -533.8705 mV   -200.0000 mV   -100.0381 uA   0         
+ 18          1    PASS     Cont2gnd                  X2        172       -800.0000 mV   -459.2788 mV   -200.0000 mV   -100.0381 uA   0         
+ 19          1    PASS     Cont2gnd                  X1        173       -800.0000 mV   -461.3117 mV   -200.0000 mV   -100.0381 uA   0         
+ 20          1    PASS     Cont2gnd                  NC0       176       -2.0000 V      -1.6789 V      -800.0000 mV   -100.0381 uA   0         
+  
+Cont2Vdd with forcing current = 0.0001A
+ 21          1    PASS     Cont2vdd                  SDA_DFC0  174       1.0000 V       1.8825 V       2.0000 V       100.0381 uA    0         
+ 22          1    PASS     Cont2vdd                  SCL_DFC1  175       1.0000 V       1.8823 V       2.0000 V       100.0381 uA    0         
+ 23          1    PASS     Cont2vdd                  SE1       186       200.0000 mV    443.0156 mV    800.0000 mV    100.0381 uA    0         
+ 24          1    PASS     Cont2vdd                  REF       177       200.0000 mV    440.6700 mV    800.0000 mV    100.0381 uA    0         
+ 25          1    PASS     Cont2vdd                  SE2       179       200.0000 mV    442.5465 mV    800.0000 mV    100.0381 uA    0         
+ 26          1    PASS     Cont2vdd                  SE3       164       200.0000 mV    444.4230 mV    800.0000 mV    100.0381 uA    0         
+ 27          1    PASS     Cont2vdd                  DIFF1     189       200.0000 mV    433.4766 mV    800.0000 mV    100.0381 uA    0         
+ 28          1    PASS     Cont2vdd                  DIFF2     55        200.0000 mV    431.2873 mV    800.0000 mV    100.0381 uA    0         
+ 29          1    PASS     Cont2vdd                  X1        173       900.0000 mV    1.2424 V       2.0000 V       100.0381 uA    0         
+ 30          1    PASS     Cont2vdd                  DIFF1B    188       200.0000 mV    412.9912 mV    800.0000 mV    100.0381 uA    0         
+ 31          1    PASS     Cont2vdd                  DIFF2B    54        200.0000 mV    415.0241 mV    800.0000 mV    100.0381 uA    0         
+ 32          1    PASS     Cont2vdd                  X2        172       900.0000 mV    1.2133 V       2.0000 V       100.0381 uA    0         
+ 33          1    PASS     Cont2vdd                  OE1       180       1.0000 V       1.8832 V       2.0000 V       100.0381 uA    0         
+ 34          1    PASS     Cont2vdd                  OE2       178       1.0000 V       1.8809 V       2.0000 V       100.0381 uA    0         
+ 35          1    PASS     Cont2vdd                  OE3       162       1.0000 V       1.8822 V       2.0000 V       100.0381 uA    0         
+ 36          1    PASS     Cont2vdd                  NC0       176       1.0000 V       1.8836 V       2.0000 V       100.0381 uA    0         
+DFC OTP program at VDDs=3.3V
+Burn config0(Burn_B11h_28h)
+Burn config1(Burn_B11h_20h)
+Burn config2(Burn_B11h_2Ch)
+Burn config3(Burn_B11h_30h)
+Recycle Power and check DFC function.
+  
+DFC HW Test.  VDDDIFF1/2 = VDDA = 3V.  VDD33 = 3V.  VDDSE1,2,3 = 3V.  VBAT = 3V 
+ SCL as DFC1 and SDA as DFC0
+ DIFF1=100M
+ 37          1    PASS     DFC_HW_Verify             SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 38          1    PASS     DFC_HW_Verify             REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 39          1    PASS     DFC_HW_Verify             SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 40          1    PASS     DFC_HW_Verify             SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 41          1    PASS     DFC_HW_Verify             DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 42          1    PASS     DFC_HW_Verify             DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 43          1    PASS     DFC_HW_Verify             DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 44          1    PASS     DFC_HW_Verify             DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ DIFF1=80M
+ 45          1    PASS     DFC_HW_Verify             SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 46          1    PASS     DFC_HW_Verify             REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 47          1    PASS     DFC_HW_Verify             SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 48          1    PASS     DFC_HW_Verify             SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 49          1    PASS     DFC_HW_Verify             DIFF1     189       79.8800 Mhz    80.0031 Mhz    80.1200 Mhz    80.0000 Mhz    0         
+ 50          1    PASS     DFC_HW_Verify             DIFF1B    188       79.8800 Mhz    80.0000 Mhz    80.1200 Mhz    80.0000 Mhz    0         
+ 51          1    PASS     DFC_HW_Verify             DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 52          1    PASS     DFC_HW_Verify             DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ DIFF1=110M
+ 53          1    PASS     DFC_HW_Verify             SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 54          1    PASS     DFC_HW_Verify             REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 55          1    PASS     DFC_HW_Verify             SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 56          1    PASS     DFC_HW_Verify             SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 57          1    PASS     DFC_HW_Verify             DIFF1     189       109.8350 Mhz   110.0031 Mhz   110.1650 Mhz   110.0000 Mhz   0         
+ 58          1    PASS     DFC_HW_Verify             DIFF1B    188       109.8350 Mhz   110.0031 Mhz   110.1650 Mhz   110.0000 Mhz   0         
+ 59          1    PASS     DFC_HW_Verify             DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 60          1    PASS     DFC_HW_Verify             DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ DIFF1=120M
+ 61          1    PASS     DFC_HW_Verify             SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 62          1    PASS     DFC_HW_Verify             REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 63          1    PASS     DFC_HW_Verify             SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 64          1    PASS     DFC_HW_Verify             SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 65          1    PASS     DFC_HW_Verify             DIFF1     189       119.8200 Mhz   120.0062 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 66          1    PASS     DFC_HW_Verify             DIFF1B    188       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 67          1    PASS     DFC_HW_Verify             DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 68          1    PASS     DFC_HW_Verify             DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+  
+ Write/Read Byte2 with data 55 all Addresses D0,D2,D4,D6 at VDDDIFF1/2 = VDDA = 3V.  VDD33 = 3V.  VDDSE1 = 3V V.  VDDSE2,3 = 3V 
+ Byte0 = 1000_0000
+
+ Number     Site  Result   Test Name                 Pattern
+ 69          1    PASS     WRsmbus33                 Read_Byte2_55_D0         
+ 70          1    PASS     WRsmbus33                 Read_Byte2_55_D2         
+ 71          1    PASS     WRsmbus33                 Read_Byte2_55_D4         
+ 72          1    PASS     WRsmbus33                 Read_Byte2_55_D6         
+ 73          1    PASS     WRsmbus33                 Read_55_First_15bytes    
+ 74          1    PASS     WRsmbus33                 Read_55_B16_B42_DFC      
+ 75          1    PASS     WRsmbus33                 Read_AA_First_15bytes    
+ 76          1    PASS     WRsmbus33                 Read_AA_B16_B42_DFC      
+  
+0. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(LVCMOS2).  Default.  SS=0%.  VDDDIFF1/2 = VDDA = 3V.  VDD33 = 3V.  VDDSE1 = 3V V.  VDDSE2,3 = 3V 
+ 77          1    PASS     GrossFuncLow3333          SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 78          1    PASS     GrossFuncLow3333          REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 79          1    PASS     GrossFuncLow3333          SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 80          1    PASS     GrossFuncLow3333          SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 81          1    PASS     GrossFuncLow3333          DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 82          1    PASS     GrossFuncLow3333          DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 83          1    PASS     GrossFuncLow3333          DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 84          1    PASS     GrossFuncLow3333          DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+1. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(LVCMOS)
+ 85          1    PASS     GrossFuncLow3333          SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 86          1    PASS     GrossFuncLow3333          REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 87          1    PASS     GrossFuncLow3333          SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 88          1    PASS     GrossFuncLow3333          SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 89          1    PASS     GrossFuncLow3333          DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 90          1    PASS     GrossFuncLow3333          DIFF1B    188       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 91          1    PASS     GrossFuncLow3333          DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 92          1    PASS     GrossFuncLow3333          DIFF2B    54        -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+2. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(LVPECL)
+ 93          1    PASS     GrossFuncLow3333          SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 94          1    PASS     GrossFuncLow3333          REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 95          1    PASS     GrossFuncLow3333          SE2       179       47.9280 Mhz    48.0022 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 96          1    PASS     GrossFuncLow3333          SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 97          1    PASS     GrossFuncLow3333          DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 98          1    PASS     GrossFuncLow3333          DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 99          1    PASS     GrossFuncLow3333          DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 100         1    PASS     GrossFuncLow3333          DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+3. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(LVDS)
+ 101         1    PASS     GrossFuncLow3333          SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 102         1    PASS     GrossFuncLow3333          REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 103         1    PASS     GrossFuncLow3333          SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 104         1    PASS     GrossFuncLow3333          SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 105         1    PASS     GrossFuncLow3333          DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 106         1    PASS     GrossFuncLow3333          DIFF1B    188       99.8500 Mhz    100.0062 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 107         1    PASS     GrossFuncLow3333          DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 108         1    PASS     GrossFuncLow3333          DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+3. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(HCSL)
+ 109         1    PASS     GrossFuncLow3333          SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 110         1    PASS     GrossFuncLow3333          REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 111         1    PASS     GrossFuncLow3333          SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 112         1    PASS     GrossFuncLow3333          SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 113         1    PASS     GrossFuncLow3333          DIFF1     189       99.8500 Mhz    100.0062 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 114         1    PASS     GrossFuncLow3333          DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 115         1    PASS     GrossFuncLow3333          DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 116         1    PASS     GrossFuncLow3333          DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+  
+0. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M.  Default.  SS=0%.  VDDDIFF1/2 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 117         1    PASS     GrossFuncHigh3333         SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 118         1    PASS     GrossFuncHigh3333         REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 119         1    PASS     GrossFuncHigh3333         SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 120         1    PASS     GrossFuncHigh3333         SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 121         1    PASS     GrossFuncHigh3333         DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 122         1    PASS     GrossFuncHigh3333         DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 123         1    PASS     GrossFuncHigh3333         DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 124         1    PASS     GrossFuncHigh3333         DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+1. Swap Dividers between DIFF1 and DIFF2
+ 125         1    PASS     GrossFuncHigh3333         SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 126         1    PASS     GrossFuncHigh3333         REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 127         1    PASS     GrossFuncHigh3333         SE2       179       47.9280 Mhz    48.0022 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 128         1    PASS     GrossFuncHigh3333         SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 129         1    PASS     GrossFuncHigh3333         DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 130         1    PASS     GrossFuncHigh3333         DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 131         1    PASS     GrossFuncHigh3333         DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 132         1    PASS     GrossFuncHigh3333         DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+2. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(LVPECL)
+ 133         1    PASS     GrossFuncHigh3333         SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 134         1    PASS     GrossFuncHigh3333         REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 135         1    PASS     GrossFuncHigh3333         SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 136         1    PASS     GrossFuncHigh3333         SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 137         1    PASS     GrossFuncHigh3333         DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 138         1    PASS     GrossFuncHigh3333         DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 139         1    PASS     GrossFuncHigh3333         DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 140         1    PASS     GrossFuncHigh3333         DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+3. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(LVDS)
+ 141         1    PASS     GrossFuncHigh3333         SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 142         1    PASS     GrossFuncHigh3333         REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 143         1    PASS     GrossFuncHigh3333         SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 144         1    PASS     GrossFuncHigh3333         SE3       164       59.9100 Mhz    60.0028 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 145         1    PASS     GrossFuncHigh3333         DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 146         1    PASS     GrossFuncHigh3333         DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 147         1    PASS     GrossFuncHigh3333         DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 148         1    PASS     GrossFuncHigh3333         DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+3. SE1/2/3 = 32K/48M/60M; DIFF1/2 = 100M/100M(HCSL)
+ 149         1    PASS     GrossFuncHigh3333         SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 150         1    PASS     GrossFuncHigh3333         REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 151         1    PASS     GrossFuncHigh3333         SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 152         1    PASS     GrossFuncHigh3333         SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 153         1    PASS     GrossFuncHigh3333         DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 154         1    PASS     GrossFuncHigh3333         DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 155         1    PASS     GrossFuncHigh3333         DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 156         1    PASS     GrossFuncHigh3333         DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+ 157         1    FAIL     Search_tsu_START          WRbyte2_AA_bstup         
+  
+  ==============================================================================================================================================================
+  *************************   BEGINNING OF DATA COLLECTION FOR CHARACTERIZATION   ************************************************
+  ==============================================================================================================================================================
+  
+  ================================
+  VDD POWER CONFIGURATION
+  VDD33 Separate
+  VDDSE1 Separate
+  VBAT Separate
+  VDDA: VDDA + VDDDIFF1 + VDDDIFF2
+  VDDSE2_3: VDDSE2 + VDDSE3
+  ================================
+  
+ 0. Search tsu:START(us).  Offset = 1.25us.   Temp_25C
+  ==============================================================================================================================================================
+  VCC tsuStar  1.60 1.58 1.56 1.54 1.52 1.50 1.48 1.46 1.44 1.42 1.40 1.38 1.36 1.34 1.32 1.30 1.28 1.26 1.24 1.22 1.20 1.18 1.16 1.14 1.12 1.10 
+  ==============================================================================================================================================================
+  3.6  0.090   1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    1    0    0    0    0    0    0    0    0    0    
+  3.5  0.050   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.4  0.050   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.3  0.090   1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.2  0.050   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.1  0.070   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  3.0  0.070   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  2.9  0.050   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.8  0.070   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  2.7  0.050   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    0    0    0    0    0    0    0    0    
+  2.6  0.030   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+  2.5  0.090   1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.4  0.090   1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    0    0    0    0    0    0    0    0    0    0    
+  2.3  0.070   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  
+ 158         1    PASS     Search_thd_START          WRbyte2_AA_bstup         
+  
+ 1. Search_thd:START(us).  Offset = 2.25us.  Temp_25C
+  ==============================================================================================================================================================
+  VCC thdStar  2.00 2.02 2.04 2.06 2.08 2.10 2.12 2.14 2.16 2.18 2.20 2.22 2.24 2.26 2.28 2.30 2.32 2.34 2.36 2.38 2.40 2.42 2.44 2.46 2.48 2.50 
+  ==============================================================================================================================================================
+  3.6  0.090   1    1    1    1    1    1    1    1    1    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.5  0.090   1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.4  0.090   1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.3  0.110   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.2  0.070   1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.1  0.110   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.0  0.110   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.9  0.090   1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.8  0.110   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.7  0.090   1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.6  0.110   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.5  0.050   1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.4  0.070   1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.3  0.090   1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  
+ 159         1    PASS     Search_tsu_DATA           WRbyte2_AA               
+  
+ 2.  Search tsu:DATA(us).  Offset = 1.26us.  Temp_25C
+  ==============================================================================================================================================================
+  VCC tsuData  1.00 1.02 1.04 1.06 1.08 1.10 1.12 1.14 1.16 1.18 1.20 1.22 1.24 1.26 1.28 1.30 1.32 1.34 1.36 1.38 1.40 1.42 1.44 1.46 1.48 1.50 
+  ==============================================================================================================================================================
+  3.6  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.5  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.4  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.3  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.2  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.1  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.0  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.9  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.8  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.7  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.6  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.5  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.4  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.3  0.020   1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  
+ 160         1    PASS     Search_thd_DATA           WRbyte2_AA               
+  
+ 3. Search thd:DATA(us).  Offset = 2.25us.  Temp_25C
+  ==============================================================================================================================================================
+  VCC thdData  2.40 2.38 2.36 2.34 2.32 2.30 2.28 2.26 2.24 2.22 2.20 2.18 2.16 2.14 2.12 2.10 2.08 2.06 2.04 2.02 2.00 1.98 1.96 1.94 1.92 1.90 
+  ==============================================================================================================================================================
+  3.6  -0.150   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    0    0    0    0    0    0    0    0    
+  3.5  -0.190   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    
+  3.4  -0.170   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+  3.3  -0.210   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    
+  3.2  -0.150   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.1  -0.150   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.0  -0.130   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  2.9  -0.130   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  2.8  -0.110   1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    1    0    0    0    0    0    0    0    0    0    
+  2.7  -0.130   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  2.6  -0.110   1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.5  -0.130   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  2.4  -0.130   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  2.3  -0.110   1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    
+  
+ 161         1    PASS     Search_tOVD               WRbyte2_AA               
+  
+ 4.  Search_tOVD(us) .  Offset = 0.25us.  Temp_25C
+  ==============================================================================================================================================================
+  VCC tOVD    0.80 0.78 0.76 0.74 0.72 0.70 0.68 0.66 0.64 0.62 0.60 0.58 0.56 0.54 0.52 0.50 0.48 0.46 0.44 0.42 0.40 0.38 0.36 0.34 0.32 0.30 0.28 0.26 0.24 
+  ==============================================================================================================================================================
+  3.6  0.990   1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.5  0.970   1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.4  0.970   1    1    1    1    1    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.3  0.950   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.2  0.950   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.1  0.930   1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.0  0.910   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.9  0.910   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.8  0.910   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.7  0.910   1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.6  0.890   1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.5  0.890   1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.4  0.870   1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.3  0.870   1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  
+ 162         1    PASS     Search_tHIGH              WRbyte2_AA               
+  
+ 5.  Search_tHIGH(us) .  Offset = 1.25us.  Temp_25C
+  ==============================================================================================================================================================
+  VCC tHIGH   1.70 1.68 1.66 1.64 1.62 1.60 1.58 1.56 1.54 1.52 1.50 1.48 1.46 1.44 1.42 1.40 1.38 1.36 1.34 1.32 1.30 1.28 1.26 
+  ==============================================================================================================================================================
+  3.6  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.5  0.430   1    1    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.4  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.3  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.2  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.1  0.410   1    1    1    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  3.0  0.390   1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.9  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.8  0.390   1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.7  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.6  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.5  0.390   1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.4  0.410   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  2.3  0.390   1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+  
+ 163         1    PASS     Search_tLOW               WRbyte2_AA               
+  
+ 6.  Search_tLOW(us) .   Temp_25C
+  ==============================================================================================================================================================
+  VCC tLOW    0.30 0.28 0.26 0.24 0.22 0.20 0.18 0.16 0.14 0.12 0.10 0.08 0.06 0.04 0.02 0.00 
+  ==============================================================================================================================================================
+  3.6  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.5  0.220   1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    
+  3.4  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.3  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.2  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.1  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  3.0  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.9  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.8  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.7  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.6  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.5  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.4  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  2.3  0.200   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    
+  
+ 164         1    PASS     Search_tBUF               WRbyte2_AA               
+  
+ 7.  Search tBUF(us) at Temp_25C
+  ==============================================================================================================================================================
+  VCC tBUF  0.50 0.48 0.46 0.44 0.42 0.40 0.38 0.36 0.34 0.32 0.30 0.28 0.26 0.24 0.22 0.20 0.18 0.16 0.14 0.12 0.10 0.08 0.06 0.04 0.02 0.00 
+  ==============================================================================================================================================================
+  3.6  0.140   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    
+  3.5  0.200   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    1    0    0    0    0    0    0    0    
+  3.4  0.180   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+  3.3  0.160   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    
+  3.2  0.180   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+  3.1  0.180   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+  3.0  0.220   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    1    1    0    0    0    0    0    0    0    
+  2.9  0.180   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+  2.8  0.140   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    
+  2.7  0.180   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+  2.6  0.220   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    1    0    0    0    0    0    0    0    0    
+  2.5  0.160   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    
+  2.4  0.180   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    1    0    0    0    0    0    0    0    
+  2.3  0.180   1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    
+ 
+ 8.  SMB timing parameters(us) vs. VCC(v) characterization at Temp_25C
+  =============================================================================================================
+    VCC(v)    3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    2.3   
+  =============================================================================================================
+  tBUF        0.140  0.200  0.180  0.160  0.180  0.180  0.220  0.180  0.140  0.180  0.220  0.160  0.180  0.180  
+  tOVD        0.990  0.970  0.970  0.950  0.950  0.930  0.910  0.910  0.910  0.910  0.890  0.890  0.870  0.870  
+  tHIGH       0.410  0.430  0.410  0.410  0.410  0.410  0.390  0.410  0.390  0.410  0.410  0.390  0.410  0.390  
+  tLOW        0.200  0.220  0.200  0.200  0.200  0.200  0.200  0.200  0.200  0.200  0.200  0.200  0.200  0.200  
+  tsu:START   0.090  0.050  0.050  0.090  0.050  0.070  0.070  0.050  0.070  0.050  0.030  0.090  0.090  0.070  
+  thd:START   0.090  0.090  0.090  0.110  0.070  0.110  0.110  0.090  0.110  0.090  0.110  0.050  0.070  0.090  
+  tsu:DATA    0.020  0.020  0.020  0.020  0.020  0.020  0.020  0.020  0.020  0.020  0.020  0.020  0.020  0.020  
+  thd:DATA   -0.150 -0.190 -0.170 -0.210 -0.150 -0.150 -0.130 -0.130 -0.110 -0.130 -0.110 -0.130 -0.130 -0.110 
+  
+  
+  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+    
+ 9.  Search_Vih_X1 at Temp_25C
+  =============================================================================================================================================
+  VCC  VIH  0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  =============================================================================================================================================
+  3.6  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.10  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.10  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  1.05  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 11.  Search_Vil_X1 at Temp_25C
+  =============================================================================================================================================
+  VCC  VIL  1.8   1.7   1.6   1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =============================================================================================================================================
+  3.6  1.40  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.40  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.35  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.30  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.30  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.25  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.20  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.20  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 165         1    PASS     Search_Vih_SDA_DFC0       SE1       186       31.1296 Khz    32.7692 Khz    34.4064 Khz    32.7680 Khz    0         
+ 166         1    PASS     Search_Vih_SDA_DFC0       SE2       179       47.9280 Mhz    48.0031 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 167         1    PASS     Search_Vih_SDA_DFC0       SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 168         1    PASS     Search_Vih_SDA_DFC0       REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 169         1    PASS     Search_Vih_SDA_DFC0       DIFF1     189       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 170         1    PASS     Search_Vih_SDA_DFC0       DIFF1B    188       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 171         1    PASS     Search_Vih_SDA_DFC0       DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 172         1    PASS     Search_Vih_SDA_DFC0       DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+    
+ 12.  Search_Vih_SDA_DFC0 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIH  0.3   0.4   0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  =================================================================================================================================================
+  3.6  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 1343        1    PASS     Search_Vil_SDA_DFC0       SE1       186       31.1296 Khz    32.7692 Khz    34.4064 Khz    32.7680 Khz    0         
+ 1344        1    PASS     Search_Vil_SDA_DFC0       SE2       179       47.9280 Mhz    48.0031 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 1345        1    PASS     Search_Vil_SDA_DFC0       SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 1346        1    PASS     Search_Vil_SDA_DFC0       REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 1347        1    PASS     Search_Vil_SDA_DFC0       DIFF1     189       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 1348        1    PASS     Search_Vil_SDA_DFC0       DIFF1B    188       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 1349        1    PASS     Search_Vil_SDA_DFC0       DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 1350        1    PASS     Search_Vil_SDA_DFC0       DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 14.  Search_Vil_SDA_DFC0 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIL  2.2   2.1   2.0   1.9   1.8   1.7   1.6   1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =================================================================================================================================================
+  3.6  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  0.90  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 2521        1    PASS     Search_Vih_SCL_DFC1       SE1       186       31.1296 Khz    32.7692 Khz    34.4064 Khz    32.7680 Khz    0         
+ 2522        1    PASS     Search_Vih_SCL_DFC1       SE2       179       47.9280 Mhz    48.0000 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 2523        1    PASS     Search_Vih_SCL_DFC1       SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 2524        1    PASS     Search_Vih_SCL_DFC1       REF       177       24.9625 Mhz    25.0031 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 2525        1    PASS     Search_Vih_SCL_DFC1       DIFF1     189       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 2526        1    PASS     Search_Vih_SCL_DFC1       DIFF1B    188       119.8200 Mhz   120.0062 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 2527        1    PASS     Search_Vih_SCL_DFC1       DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 2528        1    PASS     Search_Vih_SCL_DFC1       DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+    
+ 15.  Search_Vih_SCL_DFC1 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIH  0.3   0.4   0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  =================================================================================================================================================
+  3.6  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 3699        1    PASS     Search_Vil_SCL_DFC1       SE1       186       31.1296 Khz    32.7692 Khz    34.4064 Khz    32.7680 Khz    0         
+ 3700        1    PASS     Search_Vil_SCL_DFC1       SE2       179       47.9280 Mhz    48.0000 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 3701        1    PASS     Search_Vil_SCL_DFC1       SE3       164       59.9100 Mhz    60.0000 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 3702        1    PASS     Search_Vil_SCL_DFC1       REF       177       24.9625 Mhz    25.0031 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 3703        1    PASS     Search_Vil_SCL_DFC1       DIFF1     189       119.8200 Mhz   120.0062 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 3704        1    PASS     Search_Vil_SCL_DFC1       DIFF1B    188       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 3705        1    PASS     Search_Vil_SCL_DFC1       DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 3706        1    PASS     Search_Vil_SCL_DFC1       DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 17.  Search_Vil_SCL_DFC1 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIL  2.2   2.1   2.0   1.9   1.8   1.7   1.6   1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =================================================================================================================================================
+  3.6  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  0.90  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 4877        1    PASS     Search_Vih_OE3            SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 4878        1    PASS     Search_Vih_OE3            REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 4879        1    PASS     Search_Vih_OE3            SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 4880        1    PASS     Search_Vih_OE3            SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 4881        1    PASS     Search_Vih_OE3            DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 4882        1    PASS     Search_Vih_OE3            DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 4883        1    PASS     Search_Vih_OE3            DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 4884        1    PASS     Search_Vih_OE3            DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+    
+ 18.  Search_Vih_OE3 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIH  0.3   0.4   0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  =================================================================================================================================================
+  3.6  1.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.2  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.1  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  
+  2.0  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  
+  1.9  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  
+  1.8  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  
+  1.7  0.90  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  
+  1.6  0.85  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  
+  1.5  0.80  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  2  2  
+  1.4  0.80  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  0  1  1  1  0  1  0  1  1  1  0  1  0  1  1  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 5856        1    PASS     Search_Vil_OE3            SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 5857        1    PASS     Search_Vil_OE3            REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 5858        1    PASS     Search_Vil_OE3            SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 5859        1    PASS     Search_Vil_OE3            SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 5860        1    PASS     Search_Vil_OE3            DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 5861        1    PASS     Search_Vil_OE3            DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 5862        1    PASS     Search_Vil_OE3            DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 5863        1    PASS     Search_Vil_OE3            DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 20.  Search_Vil_OE3 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIL  2.2   2.1   2.0   1.9   1.8   1.7   1.6   1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =================================================================================================================================================
+  3.6  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  0.90  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  0.85  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.2  0.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.1  0.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.0  0.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.9  0.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.8  0.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.7  0.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.6  0.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  
+  1.5  0.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  
+  1.4  2.15  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  
+  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 6899        1    PASS     Search_Vih_OE2            SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 6900        1    PASS     Search_Vih_OE2            REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 6901        1    PASS     Search_Vih_OE2            SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 6902        1    PASS     Search_Vih_OE2            SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 6903        1    PASS     Search_Vih_OE2            DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 6904        1    PASS     Search_Vih_OE2            DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 6905        1    PASS     Search_Vih_OE2            DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 6906        1    PASS     Search_Vih_OE2            DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+    
+ 21.  Search_Vih_OE2 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIH  0.3   0.4   0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  =================================================================================================================================================
+  3.6  1.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.2  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.1  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  
+  2.0  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  
+  1.9  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  
+  1.8  0.90  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  
+  1.7  0.85  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  
+  1.6  0.80  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  
+  1.5  0.80  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  2  2  
+  1.4  0.75  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 7878        1    PASS     Search_Vil_OE2            SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 7879        1    PASS     Search_Vil_OE2            REF       177       24.9625 Mhz    25.0008 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 7880        1    PASS     Search_Vil_OE2            SE2       179       47.9280 Mhz    48.0015 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 7881        1    PASS     Search_Vil_OE2            SE3       164       59.9100 Mhz    60.0018 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 7882        1    PASS     Search_Vil_OE2            DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 7883        1    PASS     Search_Vil_OE2            DIFF1B    188       99.8500 Mhz    100.0062 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 7884        1    PASS     Search_Vil_OE2            DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 7885        1    PASS     Search_Vil_OE2            DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 23.  Search_Vil_OE2 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIL  2.2   2.1   2.0   1.9   1.8   1.7   1.6   1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =================================================================================================================================================
+  3.6  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  0.85  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.2  0.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.1  0.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.0  0.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.9  0.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.8  0.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.7  0.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.6  0.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.5  0.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  
+  1.4  0.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  
+  
+ 8921        1    PASS     Search_Vih_OE1            XTAL_to_DIV1             
+ 8922        1    PASS     Search_Vih_OE1            MUX_setup_1              
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 8923        1    PASS     Search_Vih_OE1            SE1       186       47.9280 Mhz    48.0000 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 8924        1    PASS     Search_Vih_OE1            REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 8925        1    PASS     Search_Vih_OE1            SE2       179       26.5682 Khz    33.8462 Khz    39.8524 Khz    33.2103 Khz    0         
+ 8926        1    PASS     Search_Vih_OE1            SE3       164       26.5682 Khz    33.8462 Khz    39.8524 Khz    33.2103 Khz    0         
+ 8927        1    PASS     Search_Vih_OE1            DIFF1     189       4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+ 8928        1    PASS     Search_Vih_OE1            DIFF1B    188       4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+ 8929        1    PASS     Search_Vih_OE1            DIFF2     55        4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+ 8930        1    PASS     Search_Vih_OE1            DIFF2B    54        4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+    
+ 24.  Search_Vih_OE1 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIH  0.3   0.4   0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  =================================================================================================================================================
+  3.6  1.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  1.15  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.2  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.1  1.05  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  
+  2.0  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  
+  1.9  0.90  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  
+  1.8  0.85  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  
+  1.7  0.80  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  
+  1.6  0.75  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  
+  1.5  0.70  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  2  2  
+  1.4  0.30  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  
+  
+    
+ 1.  VDD33 = 3.7V.  VDDA = 3.7V.  VDDSE1 = 3.7V.  VDDSE2_3 = 3.7V. 
+ 9902        1    PASS     Search_Vil_OE1            XTAL_to_DIV1             
+ 9903        1    PASS     Search_Vil_OE1            MUX_setup_1              
+ 9904        1    PASS     Search_Vil_OE1            SE1       186       47.9280 Mhz    48.0000 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 9905        1    PASS     Search_Vil_OE1            REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 9906        1    PASS     Search_Vil_OE1            SE2       179       26.5682 Khz    33.8462 Khz    39.8524 Khz    33.2103 Khz    0         
+ 9907        1    PASS     Search_Vil_OE1            SE3       164       26.5682 Khz    33.8462 Khz    39.8524 Khz    33.2103 Khz    0         
+ 9908        1    PASS     Search_Vil_OE1            DIFF1     189       4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+ 9909        1    PASS     Search_Vil_OE1            DIFF1B    188       4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+ 9910        1    PASS     Search_Vil_OE1            DIFF2     55        4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+ 9911        1    PASS     Search_Vil_OE1            DIFF2B    54        4.1607 Mhz     4.1662 Mhz     4.1733 Mhz     4.1670 Mhz     0         
+ 26.  Search_Vil_OE1 at Temp_25C
+  =================================================================================================================================================
+  VCC  VIL  2.2   2.1   2.0   1.9   1.8   1.7   1.6   1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =================================================================================================================================================
+  3.6  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.00  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  0.95  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  0.90  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  0.85  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  0.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.2  0.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.1  0.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.0  0.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  
+  1.9  0.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  
+  1.8  0.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  
+  1.7  0.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  
+  1.6  0.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  
+  1.5  0.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  
+  1.4  0.10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  
+  
+  
+ 1.  Select SSEN = 0, SADREF=1.   VCC3.3 = 1.4V.  VCCDIG = 0V.  VCCA = 0V.  VCCIO = 0V. 
+  
+ 10947       1    PASS     Search_Viln_SCL           WRbyte2_AA               
+ 27.  Search_Vil_SCL at Temp_25C
+  =============================================================================================================================================
+  VCC  VIL  1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =============================================================================================================================================
+  3.6  1.35  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.30  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.25  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.25  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.15  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.15  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.10  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.05  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.05  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  0.95  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  0.90  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  0.90  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  0.85  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  0.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+  
+  
+ 10948       1    PASS     Search_Vihn_SCL           WRbyte2_AA               
+ 28.  Search_VIH_SCL at Temp_25C
+  ==================================================================================================================================================
+  VCC  VIH  0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  ================================================================================================================================================== 
+  3.6  1.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+ 
+ 10949       1    PASS     Search_Viln_SDA           WRbyte2_AA               
+ 29.  Search_VIL_SDA at Temp_25C
+  =============================================================================================================================================
+  VCC  VIL  1.5   1.4   1.3   1.2   1.1   1.0   0.9   0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  =============================================================================================================================================
+  3.6  1.35  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.30  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.25  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.20  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.20  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.15  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.15  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.05  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.05  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.00  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  0.90  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  0.90  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  0.85  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  0.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+  
+ 
+ 10950       1    PASS     Search_Vihn_SDA           WRbyte2_AA               
+ 30.  Search_VIH_SDA at VCC = 0V. Temp_25C
+  =======================================================================================================================================================
+  VCC  VIH  0.2   0.3   0.4   0.5   0.6   0.7   0.8   0.9   1.0   1.1   1.2   1.3   1.4   1.5   1.6   1.7   1.8   1.9   2.0   2.1   2.2   2.3   2.4   2.5   
+  ======================================================================================================================================================= 
+  3.6  1.80  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.5  1.75  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.4  1.70  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.3  1.65  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.2  1.60  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.1  1.55  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  3.0  1.50  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.9  1.45  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.8  1.40  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.7  1.35  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.6  1.30  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.5  1.25  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.4  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  2.3  1.20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  
+  
+  
+  
+ 1.  Select SSEN = 0, SADREF=1.   VCC3.3 = 2.3V.  VCCDIG = 0V.  VCCA = 0V.  VCCIO = 0V. 
+ 
+ 10951       1    PASS     Search_Vol_SDA            WRbyte32_AA              
+ 31.  Search_Vol_SDA @4mA at Temp_25C
+  ==================================================================================================================================================
+  VCC  VOL  0.8   0.7   0.6   0.5   0.4   0.3   0.2   0.1   0.0   
+  ================================================================================================================================================== 
+  3.6  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  3.5  0.25  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  0  
+  3.4  0.25  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  0  
+  3.3  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  3.2  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  3.1  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  3.0  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  2.9  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  2.8  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  2.7  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  2.6  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  2.5  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  2.4  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+  2.3  0.20  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  
+ 
+ 32.  VIL/VIH(v) vs. VCC(v) characterization at Temp_25C
+  ================================================================================================================================================
+    VCC(v)      3.6   3.5   3.4   3.3   3.2   3.1   3.0   2.9   2.8   2.7   2.6   2.5   2.4   2.3   2.2   2.1   2.0   1.9   1.8   1.7   1.6   1.5 
+  ================================================================================================================================================
+  VIH-X1        1.45  1.45  1.40  1.35  1.35  1.30  1.25  1.25  1.20  1.20  1.15  1.10  1.10  
+  VIL-X1        1.40  1.40  1.35  1.30  1.30  1.25  1.20  1.20  1.15  1.15  1.10  1.05  1.05  
+  VIH-OE3       1.80  1.75  1.70  1.65  1.60  1.55  1.50  1.45  1.40  1.35  1.30  1.25  1.20  1.15  1.10  1.05  1.00  1.00  0.95  0.90  0.85  0.80  
+  VIL-OE3       1.45  1.40  1.35  1.30  1.30  1.25  1.20  1.15  1.10  1.05  1.05  0.95  0.90  0.85  0.80  0.75  0.70  0.65  0.60  0.55  0.50  0.45  
+  VIH-OE2       1.80  1.70  1.70  1.60  1.55  1.50  1.45  1.40  1.35  1.30  1.25  1.20  1.15  1.15  1.10  1.05  1.00  0.95  0.90  0.85  0.80  0.80  
+  VIL-OE2       1.45  1.40  1.35  1.30  1.30  1.25  1.20  1.15  1.10  1.05  1.00  1.00  0.95  0.85  0.80  0.75  0.75  0.70  0.60  0.60  0.55  0.50  
+  VIH-OE1       1.80  1.75  1.70  1.65  1.60  1.55  1.50  1.45  1.40  1.35  1.30  1.25  1.20  1.15  1.10  1.05  0.95  0.90  0.85  0.80  0.75  0.70  
+  VIL-OE1       1.45  1.40  1.35  1.30  1.25  1.25  1.20  1.10  1.10  1.00  0.95  0.90  0.85  0.75  0.70  0.65  0.55  0.45  0.40  0.35  0.25  0.20  
+  VIL-SCL_DFC1  1.70  1.70  1.65  1.55  1.55  1.50  1.45  1.35  1.35  1.30  1.25  1.20  1.15  
+  VIH-SCL_DFC1  1.40  1.40  1.35  1.30  1.25  1.20  1.20  1.15  1.10  1.05  1.00  0.95  0.90  
+  VIL-SDA_DFC0  1.70  1.70  1.65  1.55  1.50  1.45  1.45  1.40  1.35  1.30  1.25  1.20  1.15  
+  VIH-SDA_DFC0  1.40  1.35  1.35  1.30  1.25  1.20  1.15  1.10  1.05  1.05  1.00  0.95  0.90  
+  VIL-SCL       1.35  1.30  1.25  1.25  1.15  1.15  1.10  1.05  1.05  0.95  0.90  0.90  0.85  
+  VIH-SCL       1.80  1.75  1.70  1.65  1.60  1.55  1.50  1.45  1.40  1.35  1.30  1.25  1.25  
+  VIL-SDA       1.35  1.30  1.25  1.20  1.20  1.15  1.15  1.05  1.05  1.00  0.90  0.90  0.85  
+  VIH-SDA       1.80  1.75  1.70  1.65  1.60  1.55  1.50  1.45  1.40  1.35  1.30  1.25  1.20  
+  VOL-SDA4mA    0.20  0.25  0.25  0.20  0.20  0.20  0.20  0.20  0.20  0.20  0.20  0.20  0.20  
+  
+  
+  
+ 1.  IDD_PLL3 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+  
+ 10952       1    PASS     IDDCore_PLL3              VDD33     0         6.3000 mA      8.5295 mA      11.7000 mA     3.6012 V       0         
+  
+ 33.  IDD33(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDs(V)             3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    
+  =========================================================================================================================================================== 
+ IDDCore_PLL3-VDD33  8.776  8.914  8.771  8.566  8.377  8.178  8.162  7.948  7.835  7.661  7.554  7.467  
+  
+ 10953       1    PASS     IDDCore_PLL3              VDD33     0         -50.0000 uA    2.5781 mA      5.0000 mA      3.6012 V       0         
+  
+ 33.  IDD33(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDs(V)              3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    
+  =========================================================================================================================================================== 
+ IDDCore_PLL3-VDD33     2.805  2.718  2.754  2.606  2.539  2.462  2.508  2.437  2.375  2.396  2.365  2.381  
+ IDD_Core_Delta-VDD33   5.97   6.20   6.02   5.96   5.84   5.72   5.65   5.51   5.46   5.27   5.19   5.09
+  
+  
+ 1.  IDD_LVPECL 156M on DIFF1/2 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 10954       1    PASS     IDDLVPECL_156M            SE1       186       9.5808 Mhz     9.6000 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 10955       1    PASS     IDDLVPECL_156M            REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 10956       1    PASS     IDDLVPECL_156M            SE2       179       9.5856 Mhz     9.6000 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 10957       1    PASS     IDDLVPECL_156M            SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 10958       1    PASS     IDDLVPECL_156M            DIFF1     189       166.4100 Mhz   166.6708 Mhz   166.9100 Mhz   166.6600 Mhz   0         
+ 10959       1    PASS     IDDLVPECL_156M            DIFF1B    188       166.4100 Mhz   166.6738 Mhz   166.9100 Mhz   166.6600 Mhz   0         
+ 10960       1    PASS     IDDLVPECL_156M            DIFF2     55        149.7750 Mhz   150.0061 Mhz   150.2250 Mhz   150.0000 Mhz   0         
+ 10961       1    PASS     IDDLVPECL_156M            DIFF2B    54        149.7750 Mhz   150.0031 Mhz   150.2250 Mhz   150.0000 Mhz   0         
+  
+ 10962       1    PASS     IDDLVPECL_156M            VDDA      1         28.7000 mA     35.2269 mA     53.3000 mA     3.5998 V       0         
+  
+ 34.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2      3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    
+  =========================================================================================================================================================== 
+  IDDLVPECL_156M-VDDA  35.23  35.02  34.82  34.62  34.42  34.22  34.03  33.83  33.65  33.45  33.27  33.07  32.88  
+  
+  
+ 1.  IDD_LVPECL 500M on DIFF1/2 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 10963       1    PASS     IDDLVPECL_500M            SE1       186       9.5808 Mhz     9.6000 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 10964       1    PASS     IDDLVPECL_500M            REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 10965       1    PASS     IDDLVPECL_500M            SE2       179       9.5856 Mhz     9.6000 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 10966       1    PASS     IDDLVPECL_500M            SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+  
+ 10967       1    PASS     IDDLVPECL_500M            VDDA      1         28.7000 mA     51.2844 mA     53.3000 mA     3.5998 V       0         
+  
+ 35.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2      3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    
+  =========================================================================================================================================================== 
+  IDDLVPECL_500M-VDDA  51.29  50.57  49.87  49.16  48.48  47.80  47.13  46.46  45.80  45.15  44.50  43.84  43.20  
+  
+  
+ 1.  IDD_LVDS 125M on DIFF1/2 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 10968       1    PASS     IDDLVDS_125M              SE1       186       9.5808 Mhz     9.6000 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 10969       1    PASS     IDDLVDS_125M              REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 10970       1    PASS     IDDLVDS_125M              SE2       179       9.5856 Mhz     9.6031 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 10971       1    PASS     IDDLVDS_125M              SE3       164       59.9100 Mhz    60.0000 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 10972       1    PASS     IDDLVDS_125M              DIFF1     189       124.8125 Mhz   125.0031 Mhz   125.1875 Mhz   125.0000 Mhz   0         
+ 10973       1    PASS     IDDLVDS_125M              DIFF1B    188       124.8125 Mhz   125.0031 Mhz   125.1875 Mhz   125.0000 Mhz   0         
+ 10974       1    PASS     IDDLVDS_125M              DIFF2     55        119.8200 Mhz   120.0062 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 10975       1    PASS     IDDLVDS_125M              DIFF2B    54        119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+  
+ 10976       1    PASS     IDDLVDS_125M              VDDA      1         28.7000 mA     40.9448 mA     53.3000 mA     3.5998 V       0         
+  
+ 36.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2     3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    
+  =========================================================================================================================================================== 
+  IDDLVDS_125M-VDDA   40.95  40.76  40.58  40.39  40.20  40.02  39.82  39.63  39.43  39.23  39.02  38.78  38.49  
+  
+  
+ 1.  IDD_LVDS 250M on DIFF1/2 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 10977       1    PASS     IDDLVDS_250M              SE1       186       9.5808 Mhz     9.6000 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 10978       1    PASS     IDDLVDS_250M              REF       177       24.9625 Mhz    25.0031 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 10979       1    PASS     IDDLVDS_250M              SE2       179       9.5856 Mhz     9.6000 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 10980       1    PASS     IDDLVDS_250M              SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+  
+ 10981       1    PASS     IDDLVDS_250M              VDDA      1         28.7000 mA     46.5315 mA     53.3000 mA     3.5998 V       0         
+  
+ 37.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2     3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    
+  =========================================================================================================================================================== 
+  IDDLVDS_250M-VDDA   46.54  46.16  45.78  45.41  45.04  44.67  44.31  43.96  43.59  43.23  42.88  42.50  42.13  
+  
+  
+ 1.  IDD_LVDS 500M on DIFF1/2 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 10982       1    PASS     IDDLVDS_500M              SE1       186       9.5808 Mhz     9.6031 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 10983       1    PASS     IDDLVDS_500M              REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 10984       1    PASS     IDDLVDS_500M              SE2       179       9.5856 Mhz     9.6031 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 10985       1    PASS     IDDLVDS_500M              SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+  
+ 10986       1    PASS     IDDLVDS_500M              VDDA      1         39.2000 mA     56.0419 mA     72.8000 mA     3.5998 V       0         
+  
+ 38.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2     3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    
+  =========================================================================================================================================================== 
+  IDDLVDS_500M-VDDA   56.05  55.35  54.67  53.99  53.33  52.68  52.02  51.37  50.73  50.09  49.45  48.80  48.16  
+  
+  
+ 1.  IDD_LPHCSL 100M on DIFF1/2 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 10987       1    PASS     IDDLPHCSL_100M            SE1       186       9.5808 Mhz     9.6000 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 10988       1    PASS     IDDLPHCSL_100M            REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 10989       1    PASS     IDDLPHCSL_100M            SE2       179       9.5856 Mhz     9.6000 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 10990       1    PASS     IDDLPHCSL_100M            SE3       164       59.9100 Mhz    60.0000 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 10991       1    PASS     IDDLPHCSL_100M            DIFF1     189       99.8500 Mhz    100.0000 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 10992       1    PASS     IDDLPHCSL_100M            DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 10993       1    PASS     IDDLPHCSL_100M            DIFF2     55        99.8500 Mhz    100.0000 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 10994       1    PASS     IDDLPHCSL_100M            DIFF2B    54        99.8500 Mhz    100.0000 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+ 10995       1    PASS     IDDLPHCSL_100M            VDDA      1         28.7000 mA     41.2768 mA     53.3000 mA     3.5998 V       0         
+  
+ 39.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2       3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    
+  =========================================================================================================================================================== 
+  IDDLPHCSL_100M-VDDA   41.28  41.04  40.80  40.56  40.31  40.05  39.79  39.51  39.21  38.89  38.55  38.16  37.75  
+  
+  
+ 1.  IDD_LPHCSL 125M on DIFF1/2 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 10996       1    PASS     IDDLPHCSL_125M            SE1       186       9.5808 Mhz     9.6031 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 10997       1    PASS     IDDLPHCSL_125M            REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 10998       1    PASS     IDDLPHCSL_125M            SE2       179       9.5856 Mhz     9.6031 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 10999       1    PASS     IDDLPHCSL_125M            SE3       164       59.9100 Mhz    60.0000 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 11000       1    PASS     IDDLPHCSL_125M            DIFF1     189       124.8125 Mhz   125.0031 Mhz   125.1875 Mhz   125.0000 Mhz   0         
+ 11001       1    PASS     IDDLPHCSL_125M            DIFF1B    188       124.8125 Mhz   125.0000 Mhz   125.1875 Mhz   125.0000 Mhz   0         
+ 11002       1    PASS     IDDLPHCSL_125M            DIFF2     55        119.8200 Mhz   120.0000 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 11003       1    PASS     IDDLPHCSL_125M            DIFF2B    54        119.8200 Mhz   120.0000 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+  
+ 11004       1    PASS     IDDLPHCSL_125M            VDDA      1         28.7000 mA     38.4013 mA     53.3000 mA     3.5998 V       0         
+  
+ 40.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2       3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    
+  =========================================================================================================================================================== 
+  IDDLPHCSL_125M-VDDA   38.40  38.18  37.96  37.74  37.51  37.29  37.05  36.81  36.55  36.28  36.01  35.71  35.39  
+  
+  
+ 1.  IDD_CMOS 8M on SE1 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 11005       1    PASS     IDDCMOS_8M                SE1       186       9.5808 Mhz     9.6000 Mhz     9.6192 Mhz     9.6000 Mhz     0         
+ 11006       1    PASS     IDDCMOS_8M                REF       177       24.9625 Mhz    25.0000 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 11007       1    PASS     IDDCMOS_8M                SE2       179       9.5856 Mhz     9.6000 Mhz     9.6144 Mhz     9.6000 Mhz     0         
+ 11008       1    PASS     IDDCMOS_8M                SE3       164       59.9100 Mhz    60.0000 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 11009       1    PASS     IDDCMOS_8M                DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11010       1    PASS     IDDCMOS_8M                DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11011       1    PASS     IDDCMOS_8M                DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11012       1    PASS     IDDCMOS_8M                DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+ 11013       1    PASS     IDDCMOS_8M                VDDSE1    2         -50.0000 uA    2.4582 mA      6.0000 mA      3.5991 V       0         
+  
+ 41.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ====================================================================================================================================================================
+  VDDSE1(V)          3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    2.3    2.2    2.1    2.0    1.9    1.8    1.7    1.6    
+  ==================================================================================================================================================================== 
+  IDDCMOS_8M-VDDSE1  2.456  2.385  2.310  2.238  2.163  2.096  2.028  1.958  1.889  1.822  1.755  1.685  1.618  1.554  1.490  1.418  1.351  1.284  1.224  1.160  1.091  
+  
+  
+ 1.  IDD_CMOS 160M on SE1 Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 11014       1    PASS     IDDCMOS_160M              SE1       186       159.6800 Mhz   160.0031 Mhz   160.3200 Mhz   160.0000 Mhz   0         
+ 11015       1    PASS     IDDCMOS_160M              REF       177       24.9625 Mhz    25.0031 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 11016       1    PASS     IDDCMOS_160M              SE2       179       159.7600 Mhz   160.0031 Mhz   160.2400 Mhz   160.0000 Mhz   0         
+ 11017       1    PASS     IDDCMOS_160M              SE3       164       59.9100 Mhz    60.0031 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 11018       1    PASS     IDDCMOS_160M              DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11019       1    PASS     IDDCMOS_160M              DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11020       1    PASS     IDDCMOS_160M              DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11021       1    PASS     IDDCMOS_160M              DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+ 11022       1    PASS     IDDCMOS_160M              VDDSE1    2         2.0000 mA      4.1077 mA      8.0000 mA      3.5991 V       0         
+  
+ 42.  IDDSE1(mA) across Vcc(V) at Temp_25C
+  ======================================================================================================================================================================
+  VDDSE1(V)            3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    2.3    2.2    2.1    2.0    1.9    1.8    1.7    1.6    
+  ======================================================================================================================================================================
+  IDDCMOS_160M-VDDSE1  4.106  3.945  3.790  3.631  3.477  3.326  3.172  3.021  2.868  2.711  2.548  2.378  2.191  1.982  1.733  1.432  1.154  0.924  0.760  0.642  0.555  
+  
+  
+ 1.  IDD SD Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 11023       1    PASS     IDD_Default               SE1       186       32.7023 Khz    32.7692 Khz    32.8333 Khz    32.7678 Khz    0         
+ 11024       1    PASS     IDD_Default               REF       177       24.9625 Mhz    25.0004 Mhz    25.0375 Mhz    25.0000 Mhz    0         
+ 11025       1    PASS     IDD_Default               SE2       179       47.9280 Mhz    48.0007 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+ 11026       1    PASS     IDD_Default               SE3       164       59.9100 Mhz    60.0009 Mhz    60.0900 Mhz    60.0000 Mhz    0         
+ 11027       1    PASS     IDD_Default               DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11028       1    PASS     IDD_Default               DIFF1B    188       99.8500 Mhz    100.0000 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11029       1    PASS     IDD_Default               DIFF2     55        99.8500 Mhz    100.0000 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11030       1    PASS     IDD_Default               DIFF2B    54        99.8500 Mhz    100.0000 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  
+  
+ 43.  IDD33(mA) across Vcc(V) at Temp_25C
+  ========================================================================================================================================================================
+  All_VDDs(V)            3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    
+  ========================================================================================================================================================================
+  IDD_Default-VDD33      9.089  8.958  8.819  8.666  8.500  8.326  8.150  7.977  7.809  7.645  7.509  7.328  
+  IDD_Default-VDDA       41.23  41.01  40.78  40.54  40.31  40.05  39.79  39.51  39.22  38.90  38.56  38.18  
+  IDD_Default-VDDSE1     0.063  0.050  0.040  0.037  0.029  0.025  0.026  0.026  0.024  0.028  0.028  0.024  0.024  0.022  0.022  0.022  0.021  0.021  0.022  0.023  0.024  
+  IDD_Default-VDDSE2_3   20.02  19.45  18.88  18.31  17.75  17.19  16.64  16.08  15.52  14.96  14.40  13.83  13.21  12.57  11.85  11.01  10.00  8.819  7.468  5.996  4.474  
+  IDD_Default-VBAT       0.024  0.013  0.012  0.013  0.011  0.012  0.014  0.011  0.010  0.012  0.013  0.009  
+  
+  
+ 1.  IDD SD Test  VDD33 = 3.6V.  VDDA = 3.6V.  VDDSE1 = 3.6V.  VDDSE2_3 = 3.6V. 
+ 11031       1    PASS     IDD_SD_Char               SE1       186       31.1296 Khz    33.6615 Khz    34.4064 Khz    32.7680 Khz    0         
+ 11032       1    PASS     IDD_SD_Char               SE2       179       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11033       1    PASS     IDD_SD_Char               SE3       164       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11034       1    PASS     IDD_SD_Char               REF       177       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11035       1    PASS     IDD_SD_Char               DIFF1     189       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11036       1    PASS     IDD_SD_Char               DIFF1B    188       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11037       1    PASS     IDD_SD_Char               DIFF2     55        -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11038       1    PASS     IDD_SD_Char               DIFF2B    54        -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+  
+  
+ 44.  IDD33(mA) across Vcc(V) at Temp_25C
+  ========================================================================================================================================================================
+   All_VDDs(V)           3.6    3.5    3.4    3.3    3.2    3.1    3.0    2.9    2.8    2.7    2.6    2.5    2.4    2.3    2.2    2.1    2.0    1.9    1.8    1.7    1.6    
+  ========================================================================================================================================================================
+  IDD_SD-VDD33           1.077  1.058  1.044  1.032  1.022  1.013  1.003  0.992  0.982  0.972  0.963  1.090  
+  IDD_SD-VDDA            2.528  2.509  2.493  2.481  2.462  2.452  2.439  2.426  2.412  2.402  2.390  2.380  
+  IDD_SD-VDDSE1          0.031  0.029  0.029  0.028  0.027  0.026  0.027  0.027  0.024  0.024  0.025  0.024  0.022  0.020  0.024  0.021  0.023  0.023  0.022  0.023  0.020  
+  IDD_SD-VDDSE2_3        0.011  0.009  0.008  0.012  0.009  0.010  0.010  0.011  0.007  0.008  0.008  0.008  0.008  0.009  0.008  0.007  0.010  0.009  0.008  0.008  0.009  
+  IDD_SD-VBAT            0.075  0.050  0.029  1.071  0.013  0.013  0.011  0.013  0.011  0.011  0.014  0.013  
+  
+  
+ 1.  IDD Suspend Test  VDD33 = 0V.  VDDA = 0V.  VDDSE1 = 3.6V.  VDDSE2_3 = 0V. ; VBAT = 3.6V
+ 11039       1    PASS     IDD_Suspend_Char          SE1       186       31.1296 Khz    32.7385 Khz    34.4064 Khz    32.7680 Khz    0         
+ 11040       1    PASS     IDD_Suspend_Char          SE2       179       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11041       1    PASS     IDD_Suspend_Char          SE3       164       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11042       1    PASS     IDD_Suspend_Char          REF       177       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11043       1    PASS     IDD_Suspend_Char          DIFF1     189       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11044       1    PASS     IDD_Suspend_Char          DIFF1B    188       -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11045       1    PASS     IDD_Suspend_Char          DIFF2     55        -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+ 11046       1    PASS     IDD_Suspend_Char          DIFF2B    54        -1.0000 hz     0.0000 hz      1.0000 hz      0.0000 hz      0         
+  
+  
+ 45.  IDD33(mA) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDSE1/VDDBAT(V)      3.6     3.5     3.4     3.3     3.2     3.1     3.0     2.9     2.8     2.7     2.6     2.5     
+  =========================================================================================================================================================== 
+ IDD_Suspend-VDDSE1     0.0082  0.0084  0.0078  0.0077  0.0073  0.0070  0.0068  0.0064  0.0062  0.0058  0.0056  0.0054  
+ IDD_Suspend-VBAT       0.0023  0.0017  0.0660  0.0011  0.0006  0.8344  0.0007  0.0006  0.0006  0.0003  0.0002  0.0001  
+  
+
+
+1. X1=0V. HCSL Default 800mV. Output current test at Vout = 0V.  VDD = 3V.  VDDA, VDDIFF1,2 = 3V.  VDDSE2,3 = 3 VBAT = 3V.
+ 11047       1    PASS     VOH_hcsl_char             DIFF1     189       -50.0000 mV    -3.0233 mV     380.0000 mV    1.5259 uA      0         
+ 11048       1    PASS     VOH_hcsl_char             DIFF2     55        -50.0000 mV    0.0000 V       380.0000 mV    1.5259 uA      0         
+ 11049       1    PASS     VOH_hcsl_char             DIFF1B    188       650.0000 mV    803.1515 mV    950.0000 mV    1.5259 uA      0         
+ 11050       1    PASS     VOH_hcsl_char             DIFF2B    54        650.0000 mV    825.2527 mV    950.0000 mV    1.5259 uA      0         
+1. X1=0V. HCSL. Output current test at Vout = 0V.  VDD = 3V.  VDDA, VDDIFF1,2 = 3V.  VDDSE2,3 = 3 VBAT = 3V.
+ 11051       1    PASS     VOH_hcsl_char             DIFF1     189       650.0000 mV    792.9348 mV    950.0000 mV    1.5259 uA      0         
+ 11052       1    PASS     VOH_hcsl_char             DIFF2     55        650.0000 mV    824.7314 mV    950.0000 mV    1.5259 uA      0         
+ 11053       1    PASS     VOH_hcsl_char             DIFF1B    188       -50.0000 mV    3.5445 mV      380.0000 mV    1.5259 uA      0         
+ 11054       1    PASS     VOH_hcsl_char             DIFF2B    54        -50.0000 mV    1.4595 mV      380.0000 mV    1.5259 uA      0         
+  
+ 47.  LPHCSL VOH(mV)_HCSL across Vcc(V) at Temp_25C
+  ===========================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   
+  ===========================================================================================================================
+  LPHCSL_VOH-DIFF1    0.793  0.793  0.793  0.793  0.793  0.793  0.793  0.793  0.793  0.793  0.793  0.793  0.793  0.794  0.794  
+  LPHCSL_VOH-DIFF2    0.825  0.825  0.825  0.824  0.825  0.825  0.824  0.825  0.825  0.825  0.825  0.826  0.825  0.827  0.828  
+  LPHCSL_VOH-DIFF1B   0.802  0.801  0.802  0.802  0.802  0.801  0.803  0.803  0.802  0.803  0.803  0.804  0.804  0.805  0.806  
+  LPHCSL_VOH-DIFF2B   0.826  0.826  0.826  0.826  0.826  0.825  0.826  0.826  0.826  0.826  0.825  0.826  0.827  0.828  0.829  
+  
+
+
+1. X1=0V. HCSL Default 800mV. Output current test at Vout = 0V.  VDD = 3V.  VDDA, VDDIFF1,2 = 3V.  VDDSE2,3 = 3 VBAT = 3V.
+ 11055       1    PASS     VOL_hcsl_char             DIFF1     189       -50.0000 mV    -2.9190 mV     380.0000 mV    1.5259 uA      0         
+ 11056       1    PASS     VOL_hcsl_char             DIFF2     55        -50.0000 mV    -312.7537 uV   380.0000 mV    1.5259 uA      0         
+ 11057       1    PASS     VOL_hcsl_char             DIFF1B    188       650.0000 mV    801.5877 mV    950.0000 mV    1.5259 uA      0         
+ 11058       1    PASS     VOL_hcsl_char             DIFF2B    54        650.0000 mV    825.9825 mV    950.0000 mV    1.5259 uA      0         
+1. X1=0V. HCSL. Output current test at Vout = 0V.  VDD = 3V.  VDDA, VDDIFF1,2 = 3V.  VDDSE2,3 = 3 VBAT = 3V.
+ 11059       1    PASS     VOL_hcsl_char             DIFF1     189       650.0000 mV    793.3519 mV    950.0000 mV    1.5259 uA      0         
+ 11060       1    PASS     VOL_hcsl_char             DIFF2     55        650.0000 mV    823.8975 mV    950.0000 mV    1.5259 uA      0         
+ 11061       1    PASS     VOL_hcsl_char             DIFF1B    188       -50.0000 mV    3.5445 mV      380.0000 mV    1.5259 uA      0         
+ 11062       1    PASS     VOL_hcsl_char             DIFF2B    54        -50.0000 mV    1.6680 mV      380.0000 mV    1.5259 uA      0         
+  
+ 49.  LPHCSL VOL(mV)_HCSL across Vcc(V) at Temp_25C
+  ===========================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   
+  ===========================================================================================================================
+  LPHCSL_VOL-DIFF1    -0.003  -0.003  -0.003  -0.003  -0.003  -0.003  -0.003  -0.003  -0.003  -0.003  -0.004  -0.003  -0.004  -0.003  -0.003  
+  LPHCSL_VOL-DIFF2    0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  
+  LPHCSL_VOL-DIFF1B   0.004  0.004  0.004  0.003  0.004  0.004  0.004  0.005  0.004  0.004  0.004  0.004  0.003  0.004  0.004  
+  LPHCSL_VOL-DIFF2B   0.001  0.001  0.002  0.002  0.002  0.002  0.001  0.001  0.001  0.001  0.002  0.001  0.001  0.001  0.002  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11063       1    PASS     VOL_SE1_3_char            SE1       186       -100.0000 V    294.7901 mV    1.4000 V       15.0011 mA     0         
+ 11064       1    PASS     VOL_SE1_3_char            SE3       164       -100.0000 V    287.1798 mV    1.4000 V       15.0011 mA     0         
+  
+ 50.  VOL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ===================================================================================================================================================================
+  VDDSE1/VDDSE2_3  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)        15.0   15.0   15.0   15.0   15.0   15.0   15.0   15.0   12.0   12.0   12.0   12.0   12.0   12.0   12.0   8.0    8.0    8.0    8.0    8.0    8.0    
+  =================================================================================================================================================================== 
+  VOL-SE1          0.277  0.279  0.283  0.286  0.290  0.294  0.298  0.304  0.201  0.205  0.210  0.216  0.222  0.229  0.239  0.121  0.126  0.133  0.141  0.151  0.166  
+  VOL-SE3          0.270  0.272  0.275  0.278  0.281  0.286  0.291  0.296  0.195  0.199  0.204  0.210  0.216  0.224  0.232  0.118  0.123  0.130  0.138  0.148  0.163  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11065       1    PASS     VOH_SE1_3_char            SE1       186       1.7000 V       2.6978 V       3.0000 V       -15.0011 mA    0         
+ 11066       1    PASS     VOH_SE1_3_char            SE3       164       1.7000 V       2.7018 V       3.0000 V       -15.0011 mA    0         
+  
+ 51.  VOH(V) across Vcc(V) at Temp_25C
+  ==================================================================================================================================================================
+  VDDSE1/VDDSE2_3  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)       -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -12.0  -12.0  -12.0  -12.0  -12.0  -12.0  -12.0  -8.0   -8.0   -8.0   -8.0   -8.0   -8.0   
+  ================================================================================================================================================================== 
+  VOH-SE1          3.320  3.217  3.113  3.008  2.904  2.799  2.692  2.587  2.592  2.488  2.383  2.277  2.171  2.064  1.955  1.969  1.864  1.759  1.652  1.543  1.432  
+  VOH-SE3          3.325  3.221  3.118  3.013  2.908  2.803  2.697  2.591  2.596  2.491  2.386  2.280  2.172  2.064  1.955  1.971  1.866  1.761  1.654  1.545  1.433  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11067       1    PASS     VOL_SE2_char              SE2       179       -100.0000 V    286.7951 mV    1.4000 V       15.0011 mA     0         
+  
+ 52.  VOL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ================================================================================================================================================================
+  VDDSE2_3(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)    15.0   15.0   15.0   15.0   15.0   15.0   15.0   15.0   12.0   12.0   12.0   12.0   12.0   12.0   12.0   8.0    8.0    8.0    8.0    8.0    8.0    
+  ================================================================================================================================================================ 
+  VOL-SE2      0.265  0.267  0.270  0.274  0.277  0.281  0.287  0.292  0.191  0.195  0.200  0.205  0.212  0.220  0.229  0.115  0.120  0.127  0.135  0.146  0.160  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11068       1    PASS     VOH_SE2_char              SE2       179       1.5000 V       2.7025 V       3.6000 V       -15.0011 mA    0         
+  
+ 53.  ROH(V) across Vcc(V) at Temp_25C
+  ===============================================================================================================================================================
+  VDDSE2_3(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)    -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -13.0  -13.0  -13.0  -13.0  -13.0  -13.0  -13.0  -8.0   -8.0   -8.0   -8.0   -8.0   -8.0   
+  ===============================================================================================================================================================
+  VOH-SE2      3.331  3.227  3.123  3.019  2.914  2.808  2.703  2.596  2.583  2.478  2.372  2.266  2.156  2.048  1.938  1.974  1.870  1.763  1.657  1.547  1.436  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11069       1    PASS     VOL_REF_char              REF       177       -100.0000 V    287.1079 mV    1.4000 V       15.0011 mA     0         
+  
+ 54.  VOL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ============================================================================================================================================================
+  VDD33(V)   3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)  15.0   15.0   15.0   15.0   15.0   15.0   15.0   15.0   12.0   12.0   12.0   12.0   12.0   12.0   
+  ============================================================================================================================================================ 
+  VOL-REF    0.265  0.268  0.270  0.274  0.278  0.282  0.287  0.293  0.235  0.241  0.247  0.254  0.263  0.274  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11070       1    PASS     VOH_REF_char              REF       177       1.5000 V       2.7047 V       3.6000 V       -15.0011 mA    0         
+  
+ 55.  VOH(V) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDD33(V)   3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA) -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -12.0  -12.0  -12.0  -12.0  -12.0  -12.0  
+  =========================================================================================================================================================== 
+  VOH-REF   3.334  3.228  3.124  3.020  2.915  2.810  2.705  2.598  2.556  2.450  2.343  2.236  2.127  2.017  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11071       1    PASS     VOL_DIF1_2_char           DIFF1     189       -100.0000 V    243.2900 mV    1.4000 V       15.0011 mA     0         
+ 11072       1    PASS     VOL_DIF1_2_char           DIFF2     55        -100.0000 V    254.7576 mV    1.4000 V       15.0011 mA     0         
+  
+ 56.  VOL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ============================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)           15.0   15.0   15.0   15.0   15.0   15.0   15.0   15.0   12.0   12.0   12.0   12.0   12.0   12.0   
+  ============================================================================================================================================================ 
+  VOL-DF1             0.230  0.232  0.235  0.237  0.240  0.244  0.248  0.252  0.202  0.207  0.212  0.218  0.225  0.234  
+  VOL-DF2             0.242  0.244  0.246  0.249  0.252  0.255  0.260  0.264  0.213  0.217  0.222  0.228  0.235  0.244  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11073       1    PASS     VOH_DIF1_2_char           DIFF1     189       -400.0000 mV   2.7065 V       3.0000 V       -15.0011 mA    0         
+ 11074       1    PASS     VOH_DIF1_2_char           DIFF2     55        -400.0000 mV   2.7008 V       3.0000 V       -15.0011 mA    0         
+  
+ 57.  VOH(V) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)           -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -12.0  -12.0  -12.0  -12.0  -12.0  -12.0  
+  =========================================================================================================================================================== 
+  VOH-DF1             3.328  3.223  3.120  3.017  2.911  2.807  2.701  2.595  2.552  2.446  2.340  2.229  2.121  2.011  
+  VOH-DF2             3.323  3.219  3.115  3.011  2.907  2.801  2.695  2.590  2.548  2.442  2.336  2.226  2.117  2.008  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11075       1    PASS     VOL_DIF1B_2B_char         DIFF1B    188       -100.0000 V    622.3920 mV    1.4000 V       33.0007 mA     0         
+ 11076       1    PASS     VOL_DIF1B_2B_char         DIFF2B    54        -100.0000 V    635.2149 mV    1.4000 V       33.0007 mA     0         
+  
+ 58.  ROL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ============================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)           33.0   33.0   33.0   33.0   33.0   33.0   33.0   33.0   25.0   25.0   25.0   25.0   25.0   25.0   
+  ============================================================================================================================================================ 
+  VOL-DF1B            0.557  0.565  0.574  0.585  0.599  0.614  0.632  0.654  0.473  0.488  0.508  0.533  0.566  0.611  
+  VOL-DF2B            0.571  0.579  0.588  0.599  0.611  0.627  0.645  0.667  0.482  0.498  0.516  0.541  0.572  0.617  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11077       1    PASS     VOH_DIF1B_2B_char         DIFF1B    188       -400.0000 mV   2.7186 V       3.0000 V       -15.0011 mA    0         
+ 11078       1    PASS     VOH_DIF1B_2B_char         DIFF2B    54        -400.0000 mV   2.7059 V       3.0000 V       -15.0011 mA    0         
+  
+ 59.  VOH(V) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)          -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -15.0  -12.0  -12.0  -12.0  -12.0  -12.0  -12.0  
+  =========================================================================================================================================================== 
+  VOH-DF1B            3.340  3.236  3.134  3.028  2.924  2.819  2.713  2.607  2.564  2.458  2.351  2.241  2.133  2.023  
+  VOH-DF2B            3.328  3.224  3.120  3.016  2.912  2.807  2.701  2.595  2.552  2.447  2.341  2.230  2.122  2.012  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11079       1    PASS     ROL_SE1_3_char            SE1       186       -100.0000 V    759.5867 mV    1.4000 V       33.0007 mA     0         
+ 11080       1    PASS     ROL_SE1_3_char            SE3       164       -100.0000 V    736.4429 mV    1.4000 V       33.0007 mA     0         
+  
+ 60.  ROL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ==================================================================================================================================================================
+  VDDSE1/VDDSE2_3  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)        33.0   33.0   33.0   33.0   33.0   33.0   33.0   33.0   25.0   25.0   25.0   25.0   25.0   25.0   25.0   18.0   18.0   18.0   18.0   18.0   18.0   
+  ==================================================================================================================================================================
+  ROL-SE1          0.661  0.673  0.685  0.700  0.719  0.741  0.769  0.805  0.446  0.458  0.474  0.494  0.518  0.551  0.597  0.289  0.306  0.329  0.361  0.415  0.550  
+  ROL-SE3          0.641  0.652  0.665  0.680  0.698  0.719  0.746  0.780  0.431  0.444  0.459  0.478  0.502  0.534  0.579  0.280  0.297  0.319  0.350  0.402  0.527  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11081       1    PASS     ROH_SE1_3_char            SE1       186       1.7000 V       2.2766 V       3.0000 V       -33.0007 mA    0         
+ 11082       1    PASS     ROH_SE1_3_char            SE3       164       1.7000 V       2.2841 V       3.0000 V       -33.0007 mA    0         
+  
+ 61.  ROH(V) across Vcc(V) at Temp_25C
+  =================================================================================================================================================================
+  VDDSE1/VDDSE2_3  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)        -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -25.0  -25.0  -25.0  -25.0  -25.0  -25.0  -25.0  -18.0  -18.0  -18.0  -18.0  -18.0  -18.0  
+  =================================================================================================================================================================
+  ROH-SE1          2.957  2.846  2.733  2.619  2.504  2.385  2.264  2.140  2.351  2.239  2.124  2.007  1.888  1.763  1.633  1.797  1.683  1.565  1.441  1.309  1.157  
+  ROH-SE3          2.966  2.855  2.742  2.628  2.512  2.393  2.272  2.147  2.358  2.245  2.131  2.014  1.890  1.766  1.635  1.802  1.687  1.570  1.446  1.312  1.159  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11083       1    PASS     ROL_SE2_char              SE2       179       -100.0000 V    739.0370 mV    1.4000 V       33.0007 mA     0         
+  
+ 62.  ROL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ============================================================================================================================================================
+  VDDSE2_3(V) 3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)   33.0   33.0   33.0   33.0   33.0   33.0   33.0   33.0   25.0   25.0   25.0   25.0   25.0   25.0   25.0   18.0   18.0   18.0   18.0   18.0   18.0   
+  ============================================================================================================================================================
+  ROL-SE2     0.634  0.645  0.658  0.673  0.691  0.712  0.739  0.773  0.425  0.438  0.453  0.472  0.496  0.528  0.572  0.275  0.292  0.314  0.346  0.397  0.522  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11084       1    PASS     ROH_SE2_char              SE2       179       1.5000 V       2.2853 V       3.6000 V       -33.0007 mA    0         
+  
+ 63.  ROH(V) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDSE2_3(V) 3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   2.20   2.10   2.00   1.90   1.80   1.70   1.60   
+  Iload(mA)  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -25.0  -25.0  -25.0  -25.0  -25.0  -25.0  -25.0  -18.0  -18.0  -18.0  -18.0  -18.0  -18.0  
+  =========================================================================================================================================================== 
+  ROH-SE2     2.978  2.867  2.754  2.640  2.524  2.406  2.285  2.160  2.366  2.254  2.139  2.023  1.900  1.774  1.644  1.809  1.694  1.576  1.452  1.319  1.166  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11085       1    PASS     ROL_REF_char              REF       177       -100.0000 V    742.3730 mV    1.4000 V       33.0007 mA     0         
+  
+ 64.  ROL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ============================================================================================================================================================
+  VDD33(V)   3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)  33.0   33.0   33.0   33.0   33.0   33.0   33.0   33.0   25.0   25.0   25.0   25.0   25.0   25.0   
+  ============================================================================================================================================================ 
+  ROL-REF   0.636  0.647  0.660  0.675  0.693  0.715  0.742  0.777  0.545  0.567  0.595  0.632  0.684  0.771  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11086       1    PASS     ROH_REF_char              REF       177       1.5000 V       2.2911 V       3.6000 V       -33.0007 mA    0         
+  
+ 65.  ROH(V) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDD33(V)   3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA) -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -25.0  -25.0  -25.0  -25.0  -25.0  -25.0  
+  =========================================================================================================================================================== 
+  ROH-REF   2.985  2.871  2.759  2.644  2.529  2.411  2.290  2.166  2.257  2.138  2.017  1.890  1.757  1.614  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11087       1    PASS     ROL_DIF1_2_char           DIFF1     189       -100.0000 V    608.3181 mV    1.4000 V       33.0007 mA     0         
+ 11088       1    PASS     ROL_DIF1_2_char           DIFF2     55        -100.0000 V    631.5662 mV    1.4000 V       33.0007 mA     0         
+  
+ 66.  ROL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ============================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)           33.0   33.0   33.0   33.0   33.0   33.0   33.0   33.0   25.0   25.0   25.0   25.0   25.0   25.0   
+  ============================================================================================================================================================ 
+  ROL-DF1             0.544  0.552  0.562  0.572  0.584  0.600  0.618  0.640  0.460  0.476  0.495  0.520  0.551  0.595  
+  ROL-DF2             0.568  0.576  0.586  0.596  0.609  0.624  0.641  0.663  0.479  0.495  0.514  0.539  0.569  0.613  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11089       1    PASS     ROH_DIF1_2_char           DIFF1     189       -400.0000 mV   2.3007 V       3.0000 V       -33.0007 mA    0         
+ 11090       1    PASS     ROH_DIF1_2_char           DIFF2     55        -400.0000 mV   2.2825 V       3.0000 V       -33.0007 mA    0         
+  
+ 67.  ROH(V) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)          -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -25.0  -25.0  -25.0  -25.0  -25.0  -25.0  
+  =========================================================================================================================================================== 
+  ROH-DF1             2.981  2.870  2.758  2.643  2.528  2.410  2.290  2.165  2.256  2.138  2.016  1.886  1.754  1.611  
+  ROH-DF2             2.962  2.851  2.738  2.624  2.509  2.391  2.271  2.147  2.243  2.124  2.003  1.874  1.742  1.600  
+  
+ 
+ 1. CMOSD. IOL/H= +/-0.015A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11091       1    PASS     ROL_DIF1B_2B_char         DIFF1B    188       -100.0000 V    252.2556 mV    1.4000 V       15.0011 mA     0         
+ 11092       1    PASS     ROL_DIF1B_2B_char         DIFF2B    54        -100.0000 V    258.6149 mV    1.4000 V       15.0011 mA     0         
+  
+ 68.  ROL(mV) across Vcc1,2,3,4(V) at Temp_25C
+  ============================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)          15.0   15.0   15.0   15.0   15.0   15.0   15.0   15.0   12.0   12.0   12.0   12.0   12.0   12.0   
+  ============================================================================================================================================================ 
+  ROL-DF1B            0.238  0.240  0.243  0.246  0.249  0.252  0.256  0.262  0.211  0.216  0.221  0.227  0.235  0.244  
+  ROL-DF2B            0.245  0.247  0.250  0.252  0.256  0.259  0.263  0.267  0.216  0.220  0.225  0.232  0.239  0.248  
+  
+ 
+ 1. 0. CMOSD. IOL/H= +/-0.033A.  VDD0 = VDDA = 3V.  VDDD = 3V.  SE1,2,3 = 3V 
+ 11093       1    PASS     ROH_DIF1B_2B_char         DIFF1B    188       -400.0000 mV   2.3164 V       3.0000 V       -33.0007 mA    0         
+ 11094       1    PASS     ROH_DIF1B_2B_char         DIFF2B    54        -400.0000 mV   2.2922 V       3.0000 V       -33.0007 mA    0         
+  
+ 69.  ROH(V) across Vcc(V) at Temp_25C
+  ===========================================================================================================================================================
+  VDDA/VDDDIFF1/2(V)  3.60   3.50   3.40   3.30   3.20   3.10   3.00   2.90   2.80   2.70   2.60   2.50   2.40   2.30   
+  Iload(mA)          -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -33.0  -25.0  -25.0  -25.0  -25.0  -25.0  -25.0  
+  =========================================================================================================================================================== 
+  ROH-DF1B            2.996  2.885  2.772  2.658  2.543  2.425  2.305  2.181  2.269  2.151  2.030  1.901  1.769  1.627  
+  ROH-DF2B            2.972  2.861  2.749  2.635  2.519  2.402  2.281  2.157  2.251  2.133  2.011  1.882  1.749  1.608  
+  
+  
+1. Input Leakgae Low.  Vin = 0V.   CMOSD33.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11095       1    PASS     InputCurrent_char         X1        173       -24.0000 uA    -19.5453 uA    -14.0000 uA    0.0000 V       0         
+ 11096       1    PASS     InputCurrent_char         SDA_DFC0  174       -3.0000 uA     7.0617 nA      3.0000 uA      0.0000 V       0         
+ 11097       1    PASS     InputCurrent_char         SCL_DFC1  175       -3.0000 uA     2.0577 nA      3.0000 uA      0.0000 V       0         
+ 11098       1    PASS     InputCurrent_char         OE2       178       -3.0000 uA     -57.1570 nA    3.0000 uA      0.0000 V       0         
+ 11099       1    PASS     InputCurrent_char         OE3       162       -3.0000 uA     -38.8088 nA    3.0000 uA      0.0000 V       0         
+ 11100       1    FAIL     InputCurrent_char         OE1       180       -3.0000 uA     -47.7200 uA    3.0000 uA      0.0000 V       0         
+  
+2. Input Leakgae High.   all pins, Vin = 3.6V.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11101       1    PASS     InputCurrent_char         X1        173       13.0000 uA     19.6365 uA     23.0000 uA     3.5999 V       0         
+ 11102       1    PASS     InputCurrent_char         SDA_DFC0  174       -3.0000 uA     46.2602 nA     3.0000 uA      3.5999 V       0         
+ 11103       1    PASS     InputCurrent_char         SCL_DFC1  175       -3.0000 uA     15.4018 nA     3.0000 uA      3.5999 V       0         
+ 11104       1    PASS     InputCurrent_char         OE1       180       13.0000 uA     16.8426 uA     23.0000 uA     3.5999 V       0         
+ 11105       1    PASS     InputCurrent_char         OE2       178       13.0000 uA     16.7758 uA     23.0000 uA     3.5999 V       0         
+ 11106       1    PASS     InputCurrent_char         OE3       162       13.0000 uA     16.8759 uA     23.0000 uA     3.5999 V       0         
+  
+ 70.  Input current(uA) at VIN(V)  across VCC = 3.6V.  at Temp_25C
+  ========================================================================================================================================================================================================================================
+  VIN(V)   0.00  0.10  0.20  0.30  0.40  0.50  0.60  0.70  0.80  0.90  1.00  1.10  1.20  1.30  1.40  1.50  1.60  1.70  1.80  1.90  2.00  2.10  2.20  2.30  2.40  2.50  2.60  2.70  2.80  2.90  3.00  3.10  3.20  3.30  3.40  3.50  3.60  3.70  
+  ========================================================================================================================================================================================================================================
+  X1       -19.53 -19.02 -18.48 -17.94 -17.39 -16.80 -16.27 -15.68 -14.94 -13.67 4.733 5.642 6.284 6.818 7.418 8.010 8.578 9.145 9.687 10.26 10.81 11.35 11.93 12.46 12.98 13.58 14.12 14.67 15.25 15.78 16.33 16.88 17.39 17.99 18.49 19.04 19.59 20.15 
+  SDA_DFC0 0.046 0.046 0.046 0.062 0.046 0.046 0.062 0.037 0.046 0.054 0.037 0.046 0.037 0.062 0.054 0.054 0.079 0.054 0.062 0.046 0.046 0.062 0.046 0.071 0.062 0.046 0.054 0.054 0.079 0.071 0.046 0.062 0.071 0.071 0.062 0.071 0.054 0.062 
+  SCL_DFC1 -0.03 0.012 0.012 0.012 0.029 0.021 0.021 0.004 0.004 0.029 0.029 0.029 0.029 0.012 0.029 0.029 0.012 0.004 0.004 0.00 0.046 0.037 0.012 0.029 0.029 0.021 0.012 0.004 0.021 0.004 0.029 0.004 0.046 0.029 0.012 0.021 0.029 0.021 
+  OE1      -467.13F -467.13F -467.14F -467.16F -467.13F -467.16F -467.16F -467.16F -467.16F -467.05F -465.46F -399.29F -97.58F -1.48 12.86 14.78 15.40 15.84 16.19 16.46 16.69 16.83 16.89 16.91 16.94 16.93 16.96 16.93 16.93 16.95 16.93 16.98 16.94 16.95 16.98 16.98 16.96 16.98 
+  OE2      -0.09 1.288 2.606 3.849 5.108 6.276 7.393 8.469 9.503 10.46 11.38 12.20 12.99 13.69 14.37 14.93 15.42 15.84 16.18 16.46 16.63 16.75 16.81 16.85 16.86 16.84 16.85 16.85 16.87 16.86 16.88 16.87 16.87 16.89 16.87 16.90 16.89 16.89 
+  OE3      -0.08 1.297 2.623 3.907 5.150 6.301 7.460 8.536 9.537 10.50 11.43 12.26 13.06 13.77 14.41 15.01 15.50 15.93 16.28 16.54 16.74 16.89 16.93 16.97 16.95 16.99 16.96 16.99 16.98 16.99 17.00 16.98 16.98 17.02 17.00 16.98 17.01 17.02 
+  
+ 71.  Input current(uA) at VIN(V)  across VCC = 2.8V.  at Temp_25C
+  ========================================================================================================================================================================================================================================
+  VIN(V)   0.00  0.10  0.20  0.30  0.40  0.50  0.60  0.70  0.80  0.90  1.00  1.10  1.20  1.30  1.40  1.50  1.60  1.70  1.80  1.90  2.00  2.10  2.20  2.30  2.40  2.50  2.60  2.70  2.80  2.90  
+  ========================================================================================================================================================================================================================================
+  X1       -19.50 -18.99 -18.42 -17.88 -17.33 -16.77 -16.23 -15.63 -14.91 -13.68 4.708 5.650 6.292 6.859 7.402 7.985 8.536 9.145 9.670 10.25 10.81 11.36 11.93 12.46 13.01 13.55 14.10 14.67 15.22 15.76 
+  SDA_DFC0 0.071 0.046 0.054 0.046 0.021 0.046 0.046 0.062 0.054 0.046 0.062 0.071 0.054 0.054 0.071 0.046 0.054 0.046 0.062 0.062 0.062 0.054 0.054 0.062 0.062 0.046 0.046 0.062 0.054 0.062 
+  SCL_DFC1 0.00 0.004 0.012 0.029 0.021 0.012 0.029 0.012 0.00 0.021 0.012 0.021 0.029 0.012 0.021 0.029 0.029 0.00 0.029 0.004 0.029 0.012 0.012 0.021 0.037 0.021 0.029 0.029 0.004 0.004 
+  OE1      -467.18F -467.18F -467.18F -467.19F -467.18F -467.19F -467.20F -467.18F -467.17F -467.08F -465.42F -397.13F -94.34F -0.71 13.01 14.88 15.49 15.93 16.28 16.58 16.77 16.91 16.97 16.98 16.99 16.99 17.03 17.00 17.02 17.01 
+  OE2      -0.10 1.297 2.614 3.890 5.133 6.301 7.427 8.544 9.570 10.51 11.42 12.28 13.07 13.77 14.41 14.99 15.51 15.93 16.28 16.53 16.73 16.83 16.88 16.90 16.91 16.91 16.91 16.93 16.94 16.94 
+  OE3      -0.06 1.288 2.656 3.915 5.175 6.367 7.477 8.561 9.595 10.55 11.50 12.32 13.12 13.84 14.50 15.07 15.58 15.99 16.35 16.61 16.83 16.93 16.99 17.03 17.04 17.04 17.05 17.07 17.04 17.05 
+  
+ 72.  Input current(uA) at VIN(V)  across VCC = 1.9V.  at Temp_25C
+  ========================================================================================================================================================================================================================================
+  VIN(V)   0.00  0.10  0.20  0.30  0.40  0.50  0.60  0.70  0.80  0.90  1.00  1.10  1.20  1.30  1.40  1.50  1.60  1.70  1.80  1.90  2.00  
+  ========================================================================================================================================================================================================================================
+  X1       -19.46 -18.94 -18.41 -17.86 -17.33 -16.78 -16.21 -15.65 -14.91 -13.66 4.716 5.650 6.276 6.834 7.427 7.985 8.561 9.111 9.653 10.23 10.77 
+  SDA_DFC0 0.054 0.054 0.046 0.046 0.062 0.046 0.037 0.037 0.054 0.046 0.071 0.062 0.029 0.062 0.054 0.046 0.062 0.037 0.054 0.062 0.062 
+  SCL_DFC1 -0.01 0.00 0.029 0.004 -0.01 0.012 0.012 0.004 0.037 0.004 0.021 0.029 0.029 0.021 0.012 0.021 0.004 0.021 0.004 0.021 0.021 
+  OE1      -467.17F -467.19F -467.20F -467.20F -467.20F -467.21F -467.19F -467.21F -467.19F -467.07F -465.42F -394.59F -92.79F -0.24 13.11 14.92 15.52 15.97 16.33 16.61 16.81 
+  OE2      -0.07 1.313 2.614 3.899 5.133 6.317 7.443 8.544 9.570 10.55 11.47 12.31 13.11 13.82 14.47 15.07 15.57 15.96 16.29 16.56 16.75 
+  OE3      -0.08 1.288 2.664 3.949 5.208 6.376 7.502 8.619 9.620 10.60 11.51 12.37 13.17 13.88 14.52 15.12 15.62 16.03 16.38 16.68 16.87 
+  
+2. Output Leakgae Low.  Vin=0V.   CMOSD33. Vin = 0V.   CMOSD33.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11107       1    PASS     OutputCurrent_char        DIFF1     189       -3.0000 uA     2.0577 nA      3.0000 uA      0.0000 V       0         
+ 11108       1    PASS     OutputCurrent_char        DIFF2     55        -3.0000 uA     -11.2865 nA    3.0000 uA      0.0000 V       0         
+ 11109       1    PASS     OutputCurrent_char        DIFF1B    188       -3.0000 uA     5.3937 nA      3.0000 uA      0.0000 V       0         
+ 11110       1    PASS     OutputCurrent_char        DIFF2B    54        -3.0000 uA     389.6603 pA    3.0000 uA      0.0000 V       0         
+ 11111       1    PASS     OutputCurrent_char        SE1       186       -3.0000 uA     -444.3495 pA   3.0000 uA      0.0000 V       0         
+ 11112       1    PASS     OutputCurrent_char        REF       177       -3.0000 uA     -4.6144 nA     3.0000 uA      0.0000 V       0         
+ 11113       1    PASS     OutputCurrent_char        SE2       179       -3.0000 uA     -9.6185 nA     3.0000 uA      0.0000 V       0         
+ 11114       1    PASS     OutputCurrent_char        SE3       164       -3.0000 uA     -444.3495 pA   3.0000 uA      0.0000 V       0         
+  
+2. Output Leakgae High.  all Output pins, Vin = 3.6V.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11115       1    PASS     OutputCurrent_char        DIFF1     189       -3.0000 uA     37.9201 nA     3.0000 uA      3.5999 V       0         
+ 11116       1    PASS     OutputCurrent_char        DIFF2     55        -3.0000 uA     30.4140 nA     3.0000 uA      3.5999 V       0         
+ 11117       1    PASS     OutputCurrent_char        DIFF1B    188       -3.0000 uA     17.9039 nA     3.0000 uA      3.5999 V       0         
+ 11118       1    PASS     OutputCurrent_char        DIFF2B    54        -3.0000 uA     17.9039 nA     3.0000 uA      3.5999 V       0         
+ 11119       1    PASS     OutputCurrent_char        SE1       186       -3.0000 uA     9.5638 nA      3.0000 uA      3.5999 V       0         
+ 11120       1    PASS     OutputCurrent_char        REF       177       -3.0000 uA     5.3937 nA      3.0000 uA      3.5999 V       0         
+ 11121       1    PASS     OutputCurrent_char        SE2       179       -3.0000 uA     389.6603 pA    3.0000 uA      3.5999 V       0         
+ 11122       1    PASS     OutputCurrent_char        SE3       164       -3.0000 uA     10.3978 nA     3.0000 uA      3.5999 V       0         
+  
+ 73.  Output current(uA) across VOUT(V)  at VCC = 3.6V.  at Temp_25C
+  ========================================================================================================================================================================================================================================
+  VIN(V)   0.00  0.10  0.20  0.30  0.40  0.50  0.60  0.70  0.80  0.90  1.00  1.10  1.20  1.30  1.40  1.50  1.60  1.70  1.80  1.90  2.00  2.10  2.20  2.30  2.40  2.50  2.60  2.70  2.80  2.90  3.00  3.10  3.20  3.30  3.40  3.50  3.60  3.70  
+  ========================================================================================================================================================================================================================================
+  SE1      0.029 0.046 0.054 0.029 0.037 0.021 0.046 0.029 0.046 0.029 0.062 0.062 0.037 0.046 0.012 0.046 0.046 0.037 0.012 0.046 0.071 0.037 0.046 0.037 0.046 0.046 0.037 0.037 0.054 0.037 0.046 0.054 0.062 0.029 0.062 0.062 0.046 0.054 
+  SE2      -0.07 -0.07 -0.05 -0.06 -0.05 -0.06 -0.07 -0.05 -0.05 -0.05 -0.05 -0.07 -0.04 -0.05 -0.05 -0.05 -0.05 -0.06 -0.08 -0.05 -0.05 -0.04 -0.03 -0.05 -0.04 -0.05 -0.07 -0.05 -0.04 -0.03 -0.05 -0.05 -0.05 -0.05 -0.05 -0.04 -0.06 -0.05 
+  SE3      0.012 0.004 0.021 0.021 0.021 0.012 0.021 0.004 0.029 0.021 0.046 0.012 0.046 0.021 0.021 0.029 0.021 0.029 0.021 0.021 0.029 0.021 0.037 0.046 0.062 0.029 0.046 0.046 0.054 0.046 0.029 0.029 0.046 0.029 0.029 0.037 0.037 0.054 
+  REF      -0.05 -0.05 -0.05 -0.05 -0.06 -0.07 -0.05 -0.05 -0.07 -0.04 -0.05 -0.04 -0.05 -0.05 -0.05 -0.05 -0.06 -0.05 -0.06 -0.05 -0.05 -0.03 -0.04 -0.05 -0.06 -0.05 -0.05 -0.02 -0.06 -0.05 -0.05 -0.07 -0.05 -0.05 -0.04 -0.02 -0.03 -0.05 
+  DIFF1    -0.04 -0.06 -0.01 -0.01 -0.04 -0.02 -0.02 -0.05 -0.03 -0.01 -0.03 -0.02 -0.02 -0.02 -0.03 0.00 -0.01 0.00 -0.03 -0.04 -0.02 -0.04 -0.01 -0.01 0.004 -0.04 -0.04 -0.01 -0.04 -0.03 -0.01 -0.03 -0.03 -0.02 -0.02 -0.02 -0.02 0.00 
+  DIFF1B   0.037 0.029 0.037 0.029 0.029 0.029 0.029 0.046 0.046 0.029 0.029 0.029 0.062 0.037 0.062 0.046 0.062 0.079 0.046 0.071 0.029 0.046 0.079 0.046 0.062 0.079 0.062 0.071 0.062 0.046 0.037 0.054 0.062 0.046 0.062 0.046 0.062 0.071 
+  DIFF2    -0.05 -0.09 -0.06 -0.08 -0.05 -0.05 -0.06 -0.08 -0.05 -0.07 -0.06 -0.04 -0.06 -0.07 -0.05 -0.08 -0.07 -0.07 -0.09 -0.07 -0.05 -0.05 -0.05 -0.08 -0.05 -0.07 -0.07 -0.05 -0.05 -0.03 -0.04 -0.04 -0.05 -0.08 -0.05 -0.05 -0.05 -0.04 
+  DIFF2B   0.071 0.104 0.104 0.104 0.096 0.087 0.121 0.079 0.062 0.104 0.096 0.096 0.071 0.121 0.079 0.096 0.129 0.079 0.104 0.121 0.104 0.129 0.112 0.154 0.121 0.121 0.104 0.121 0.129 0.146 0.104 0.104 0.112 0.129 0.112 0.104 0.104 0.129 
+  
+  
+ 74.  Output current(uA) across VOUT(V)  at VCC = 2.8V.  at Temp_25C
+  ========================================================================================================================================================================================================================================
+  VIN(V)   0.00  0.10  0.20  0.30  0.40  0.50  0.60  0.70  0.80  0.90  1.00  1.10  1.20  1.30  1.40  1.50  1.60  1.70  1.80  1.90  2.00  2.10  2.20  2.30  2.40  2.50  2.60  2.70  2.80  2.90  
+  ========================================================================================================================================================================================================================================
+  SE1      0.029 0.037 0.046 0.029 0.054 0.029 0.037 0.029 0.012 0.046 0.046 0.054 0.054 0.054 0.054 0.054 0.037 0.046 0.054 0.054 0.037 0.046 0.046 0.037 0.054 0.046 0.062 0.054 0.054 0.029 
+  SE2      -0.07 -0.06 -0.06 -0.05 -0.07 -0.08 -0.06 -0.04 -0.05 -0.06 -0.05 -0.06 -0.05 -0.06 -0.07 -0.07 -0.05 -0.05 -0.06 -0.05 -0.05 -0.05 -0.04 -0.05 -0.04 -0.04 -0.05 -0.05 -0.05 -0.05 
+  SE3      0.021 0.012 0.004 0.029 0.021 0.029 0.046 0.021 0.037 0.012 0.029 0.037 0.012 0.029 0.037 0.037 0.004 0.012 0.037 0.037 0.037 0.037 0.029 0.029 0.046 0.021 0.021 0.037 0.029 0.029 
+  REF      -0.07 -0.06 -0.05 -0.05 -0.05 -0.03 -0.06 -0.04 -0.08 -0.06 -0.07 -0.07 -0.04 -0.05 -0.05 -0.07 -0.06 -0.05 -0.04 -0.05 -0.05 -0.02 -0.03 -0.05 -0.03 -0.04 -0.05 -0.05 -0.04 -0.05 
+  DIFF1    -0.02 -0.01 -0.05 -0.06 -0.02 -0.01 -0.02 -0.02 -0.03 0.00 -0.02 -0.03 -0.02 -0.02 -0.01 -0.01 -0.03 -0.04 -0.02 -0.02 -0.03 -0.03 0.00 -0.01 0.00 -0.03 -0.03 -0.02 -0.02 0.00 
+  DIFF1B   0.037 0.037 0.062 0.054 0.021 0.054 0.054 0.054 0.029 0.054 0.071 0.046 0.062 0.046 0.046 0.029 0.054 0.054 0.071 0.054 0.062 0.062 0.054 0.054 0.071 0.079 0.029 0.046 0.037 0.071 
+  DIFF2    -0.07 -0.09 -0.05 -0.09 -0.05 -0.06 -0.07 -0.06 -0.08 -0.07 -0.06 -0.09 -0.07 -0.09 -0.07 -0.06 -0.05 -0.07 -0.07 -0.04 -0.07 -0.06 -0.06 -0.05 -0.07 -0.08 -0.08 -0.06 -0.05 -0.05 
+  DIFF2B   0.112 0.062 0.079 0.112 0.087 0.121 0.079 0.087 0.096 0.096 0.087 0.121 0.104 0.129 0.112 0.121 0.112 0.104 0.121 0.104 0.112 0.129 0.087 0.129 0.137 0.096 0.096 0.121 0.121 0.121 
+  
+  
+ 75.  Output current(uA) across VOUT(V)  at VCC = 1.9V.  at Temp_25C
+  ========================================================================================================================================================================================================================================
+  VIN(V)   0.00  0.10  0.20  0.30  0.40  0.50  0.60  0.70  0.80  0.90  1.00  1.10  1.20  1.30  1.40  1.50  1.60  1.70  1.80  1.90  2.00  
+  ========================================================================================================================================================================================================================================
+  SE1      0.021 0.037 0.046 0.021 0.046 0.046 0.021 0.029 0.037 0.012 0.046 0.046 0.021 0.029 0.029 0.046 0.037 0.046 0.029 0.046 0.037 
+  SE2      -0.05 -0.05 -0.05 -0.05 -0.07 -0.05 -0.07 -0.06 -0.06 -0.06 -0.05 -0.06 -0.07 -0.06 -0.05 -0.07 -0.07 -0.05 -0.05 -0.06 -0.04 
+  SE3      0.012 0.021 0.037 0.037 0.046 0.021 0.029 0.037 0.012 0.029 0.029 0.021 0.012 0.037 0.021 0.021 0.012 0.012 0.012 0.029 0.021 
+  REF      -0.04 -0.05 -0.05 -0.05 -0.05 -0.04 -0.05 -0.08 -0.05 -0.04 -0.05 -0.05 -0.07 -0.05 -0.05 -0.05 -0.05 -0.05 -0.06 -0.05 -0.05 
+  DIFF1    -0.04 -0.03 -0.03 -0.02 -0.04 -0.01 -0.03 -0.01 -0.01 -0.03 -0.02 -0.04 -0.02 -0.03 -0.04 -0.05 -0.03 -0.02 -0.01 -0.03 -0.04 
+  DIFF1B   0.037 0.037 0.029 0.054 0.037 0.037 0.021 0.046 0.054 0.054 0.054 0.062 0.054 0.054 0.054 0.037 0.029 0.062 0.054 0.037 0.054 
+  DIFF2    -0.06 -0.09 -0.09 -0.09 -0.08 -0.05 -0.06 -0.08 -0.07 -0.07 -0.05 -0.06 -0.08 -0.09 -0.07 -0.05 -0.06 -0.08 -0.09 -0.07 -0.07 
+  DIFF2B   0.087 0.112 0.104 0.104 0.112 0.121 0.071 0.129 0.121 0.079 0.087 0.096 0.121 0.087 0.096 0.104 0.079 0.096 0.121 0.087 0.096 
+  
+  
+2. Output Leakgae Low.  Vin=0V.   CMOSD33. Vin = 0V.   CMOSD33.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11123       1    PASS     OutputLeakage             DIFF1     189       -3.0000 uA     -7.9504 nA     3.0000 uA      0.0000 V       0         
+ 11124       1    PASS     OutputLeakage             DIFF2     55        -3.0000 uA     -21.2946 nA    3.0000 uA      0.0000 V       0         
+ 11125       1    PASS     OutputLeakage             DIFF1B    188       -3.0000 uA     1.2237 nA      3.0000 uA      0.0000 V       0         
+ 11126       1    PASS     OutputLeakage             DIFF2B    54        -3.0000 uA     -2.9464 nA     3.0000 uA      0.0000 V       0         
+ 11127       1    PASS     OutputLeakage             SE1       186       -3.0000 uA     -4.6144 nA     3.0000 uA      0.0000 V       0         
+ 11128       1    PASS     OutputLeakage             REF       177       -3.0000 uA     -7.1164 nA     3.0000 uA      0.0000 V       0         
+ 11129       1    PASS     OutputLeakage             SE2       179       -3.0000 uA     -11.2865 nA    3.0000 uA      0.0000 V       0         
+ 11130       1    PASS     OutputLeakage             SE3       164       -3.0000 uA     -2.1124 nA     3.0000 uA      0.0000 V       0         
+  
+2. Output Leakgae High.  all Output pins, Vin = 3.6V.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11131       1    PASS     OutputLeakage             DIFF1     189       -3.0000 uA     37.0861 nA     3.0000 uA      3.5999 V       0         
+ 11132       1    PASS     OutputLeakage             DIFF2     55        -3.0000 uA     29.5800 nA     3.0000 uA      3.5999 V       0         
+ 11133       1    PASS     OutputLeakage             DIFF1B    188       -3.0000 uA     21.2399 nA     3.0000 uA      3.5999 V       0         
+ 11134       1    PASS     OutputLeakage             DIFF2B    54        -3.0000 uA     14.5678 nA     3.0000 uA      3.5999 V       0         
+ 11135       1    PASS     OutputLeakage             SE1       186       -3.0000 uA     8.7298 nA      3.0000 uA      3.5999 V       0         
+ 11136       1    PASS     OutputLeakage             REF       177       -3.0000 uA     2.8917 nA      3.0000 uA      3.5999 V       0         
+ 11137       1    PASS     OutputLeakage             SE2       179       -3.0000 uA     1.2237 nA      3.0000 uA      3.5999 V       0         
+ 11138       1    PASS     OutputLeakage             SE3       164       -3.0000 uA     8.7298 nA      3.0000 uA      3.5999 V       0         
+  
+  
+1. Input Leakgae Low.  Vin = 0V.   CMOSD33.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11139       1    PASS     InputLeakage              X1        173       -25.0000 uA    -19.5119 uA    -14.0000 uA    0.0000 V       0         
+ 11140       1    PASS     InputLeakage              SDA_DFC0  174       -3.0000 uA     -4.6144 nA     3.0000 uA      0.0000 V       0         
+ 11141       1    PASS     InputLeakage              SCL_DFC1  175       -3.0000 uA     -1.2784 nA     3.0000 uA      0.0000 V       0         
+ 11142       1    PASS     InputLeakage              OE2       178       -3.0000 uA     -47.9829 nA    3.0000 uA      0.0000 V       0         
+ 11143       1    PASS     InputLeakage              OE3       162       -3.0000 uA     -31.3027 nA    3.0000 uA      0.0000 V       0         
+ 11144       1    FAIL     InputLeakage              OE1       180       -3.0000 uA     -47.7217 uA    3.0000 uA      0.0000 V       0         
+  
+2. Input Leakgae High.   all pins, Vin = 3.6V.  VDD0 = VDDA = 3.6V.  VDD33 = 3.6V.  VDDSE1,2,3 = 3.6V 
+ 11145       1    PASS     InputLeakage              X1        173       13.0000 uA     19.5948 uA     23.0000 uA     3.5999 V       0         
+ 11146       1    PASS     InputLeakage              SDA_DFC0  174       -3.0000 uA     37.0861 nA     3.0000 uA      3.5999 V       0         
+ 11147       1    PASS     InputLeakage              SCL_DFC1  175       -3.0000 uA     14.5678 nA     3.0000 uA      3.5999 V       0         
+ 11148       1    PASS     InputLeakage              OE1       180       13.0000 uA     16.9510 uA     23.0000 uA     3.5999 V       0         
+ 11149       1    PASS     InputLeakage              OE2       178       13.0000 uA     16.9009 uA     23.0000 uA     3.5999 V       0         
+ 11150       1    PASS     InputLeakage              OE3       162       13.0000 uA     17.0260 uA     23.0000 uA     3.5999 V       0         
+  
+  
+1. DIFF1 : PLL2; VCO=1G;  SS=0%.  VDDDIFF1/2 = VDDA = 3V.  VDD33 = 3V.  VDDSE1 = 3V V.  VDDSE2,3 = 3V 
+  VCO=1G
+ 11151       1    PASS     VCO_Range                 DIFF1B    188       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11152       1    PASS     VCO_Range                 DIFF1     189       99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  VCO=1.05G
+ 11153       1    PASS     VCO_Range                 DIFF1B    188       104.8425 Mhz   105.0031 Mhz   105.1575 Mhz   105.0000 Mhz   0         
+ 11154       1    PASS     VCO_Range                 DIFF1     189       104.8425 Mhz   105.0031 Mhz   105.1575 Mhz   105.0000 Mhz   0         
+  VCO=1.1G
+ 11155       1    PASS     VCO_Range                 DIFF1B    188       109.8350 Mhz   110.0031 Mhz   110.1650 Mhz   110.0000 Mhz   0         
+ 11156       1    PASS     VCO_Range                 DIFF1     189       109.8350 Mhz   110.0031 Mhz   110.1650 Mhz   110.0000 Mhz   0         
+  VCO=1.15G
+ 11157       1    PASS     VCO_Range                 DIFF1B    188       114.8275 Mhz   115.0031 Mhz   115.1725 Mhz   115.0000 Mhz   0         
+ 11158       1    PASS     VCO_Range                 DIFF1     189       114.8275 Mhz   115.0031 Mhz   115.1725 Mhz   115.0000 Mhz   0         
+  VCO=1.2G
+ 11159       1    PASS     VCO_Range                 DIFF1B    188       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+ 11160       1    PASS     VCO_Range                 DIFF1     189       119.8200 Mhz   120.0031 Mhz   120.1800 Mhz   120.0000 Mhz   0         
+  VCO=1.25G
+ 11161       1    PASS     VCO_Range                 DIFF1B    188       124.8125 Mhz   125.0031 Mhz   125.1875 Mhz   125.0000 Mhz   0         
+ 11162       1    PASS     VCO_Range                 DIFF1     189       124.8125 Mhz   125.0062 Mhz   125.1875 Mhz   125.0000 Mhz   0         
+  VCO=1.3G
+ 11163       1    PASS     VCO_Range                 DIFF1B    188       129.8050 Mhz   130.0061 Mhz   130.1950 Mhz   130.0000 Mhz   0         
+ 11164       1    PASS     VCO_Range                 DIFF1     189       129.8050 Mhz   130.0031 Mhz   130.1950 Mhz   130.0000 Mhz   0         
+  VCO=1.35G
+ 11165       1    PASS     VCO_Range                 DIFF1B    188       134.7975 Mhz   135.0031 Mhz   135.2025 Mhz   135.0000 Mhz   0         
+ 11166       1    PASS     VCO_Range                 DIFF1     189       134.7975 Mhz   135.0031 Mhz   135.2025 Mhz   135.0000 Mhz   0         
+  VCO=1.4G
+ 11167       1    PASS     VCO_Range                 DIFF1B    188       139.7900 Mhz   140.0031 Mhz   140.2100 Mhz   140.0000 Mhz   0         
+ 11168       1    PASS     VCO_Range                 DIFF1     189       139.7900 Mhz   140.0061 Mhz   140.2100 Mhz   140.0000 Mhz   0         
+  VCO=1.45G
+ 11169       1    PASS     VCO_Range                 DIFF1B    188       144.7825 Mhz   145.0031 Mhz   145.2175 Mhz   145.0000 Mhz   0         
+ 11170       1    PASS     VCO_Range                 DIFF1     189       144.7825 Mhz   145.0061 Mhz   145.2175 Mhz   145.0000 Mhz   0         
+  VCO=1.5G
+ 11171       1    PASS     VCO_Range                 DIFF1B    188       149.7750 Mhz   150.0031 Mhz   150.2250 Mhz   150.0000 Mhz   0         
+ 11172       1    PASS     VCO_Range                 DIFF1     189       149.7750 Mhz   150.0061 Mhz   150.2250 Mhz   150.0000 Mhz   0         
+  VCO=1.55G
+ 11173       1    PASS     VCO_Range                 DIFF1B    188       154.7675 Mhz   155.0061 Mhz   155.2325 Mhz   155.0000 Mhz   0         
+ 11174       1    PASS     VCO_Range                 DIFF1     189       154.7675 Mhz   155.0061 Mhz   155.2325 Mhz   155.0000 Mhz   0         
+  VCO=1.6G
+ 11175       1    PASS     VCO_Range                 DIFF1B    188       159.7600 Mhz   160.0092 Mhz   160.2400 Mhz   160.0000 Mhz   0         
+ 11176       1    PASS     VCO_Range                 DIFF1     189       159.7600 Mhz   160.0061 Mhz   160.2400 Mhz   160.0000 Mhz   0         
+  VCO=1.65G
+ 11177       1    FAIL     VCO_Range                 DIFF1B    0         164.7525 Mhz   160.9138 Mhz   165.2475 Mhz   165.0000 Mhz   0         
+ 11178       1    FAIL     VCO_Range                 DIFF1     0         164.7525 Mhz   160.9138 Mhz   165.2475 Mhz   165.0000 Mhz   0         
+  VCO=1.7G
+ 11179       1    FAIL     VCO_Range                 DIFF1B    0         169.7450 Mhz   160.9046 Mhz   170.2550 Mhz   170.0000 Mhz   0         
+ 11180       1    FAIL     VCO_Range                 DIFF1     0         169.7450 Mhz   160.9046 Mhz   170.2550 Mhz   170.0000 Mhz   0         
+  VCO=1.75G
+ 11181       1    FAIL     VCO_Range                 DIFF1B    0         174.7375 Mhz   161.0400 Mhz   175.2625 Mhz   175.0000 Mhz   0         
+ 11182       1    FAIL     VCO_Range                 DIFF1     0         174.7375 Mhz   161.0400 Mhz   175.2625 Mhz   175.0000 Mhz   0         
+  
+ Fmax VCO for PLL2 is  1.6 Ghz
+  
+1. DIFF2 : PLL1; VCO=600M;  SS=0%.  VDDDIFF1/2 = VDDA = 3V.  VDD33 = 3V.  VDDSE1 = 3V V.  VDDSE2,3 = 3V 
+  VCO=600M
+ 11183       1    PASS     VCO_Range                 DIFF2B    54        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+ 11184       1    PASS     VCO_Range                 DIFF2     55        99.8500 Mhz    100.0031 Mhz   100.1500 Mhz   100.0000 Mhz   0         
+  VCO=632M
+ 11185       1    PASS     VCO_Range                 DIFF2B    54        105.1720 Mhz   105.3385 Mhz   105.4880 Mhz   105.3300 Mhz   0         
+ 11186       1    PASS     VCO_Range                 DIFF2     55        105.1720 Mhz   105.3354 Mhz   105.4880 Mhz   105.3300 Mhz   0         
+  VCO=664M
+ 11187       1    PASS     VCO_Range                 DIFF2B    54        110.4940 Mhz   110.6708 Mhz   110.8260 Mhz   110.6600 Mhz   0         
+ 11188       1    PASS     VCO_Range                 DIFF2     55        110.4940 Mhz   110.6677 Mhz   110.8260 Mhz   110.6600 Mhz   0         
+  VCO=696M
+ 11189       1    PASS     VCO_Range                 DIFF2B    54        115.8260 Mhz   116.0062 Mhz   116.1740 Mhz   116.0000 Mhz   0         
+ 11190       1    PASS     VCO_Range                 DIFF2     55        115.8260 Mhz   116.0031 Mhz   116.1740 Mhz   116.0000 Mhz   0         
+  VCO=728M
+ 11191       1    PASS     VCO_Range                 DIFF2B    54        121.1480 Mhz   121.3385 Mhz   121.5120 Mhz   121.3300 Mhz   0         
+ 11192       1    PASS     VCO_Range                 DIFF2     55        121.1480 Mhz   121.3354 Mhz   121.5120 Mhz   121.3300 Mhz   0         
+  VCO=760M
+ 11193       1    PASS     VCO_Range                 DIFF2B    54        126.4700 Mhz   126.6708 Mhz   126.8500 Mhz   126.6600 Mhz   0         
+ 11194       1    PASS     VCO_Range                 DIFF2     55        126.4700 Mhz   126.6708 Mhz   126.8500 Mhz   126.6600 Mhz   0         
+  VCO=792M
+ 11195       1    PASS     VCO_Range                 DIFF2B    54        131.8020 Mhz   132.0061 Mhz   132.1980 Mhz   132.0000 Mhz   0         
+ 11196       1    PASS     VCO_Range                 DIFF2     55        131.8020 Mhz   132.0031 Mhz   132.1980 Mhz   132.0000 Mhz   0         
+  VCO=824M
+ 11197       1    PASS     VCO_Range                 DIFF2B    54        137.1240 Mhz   137.3385 Mhz   137.5360 Mhz   137.3300 Mhz   0         
+ 11198       1    PASS     VCO_Range                 DIFF2     55        137.1240 Mhz   137.3385 Mhz   137.5360 Mhz   137.3300 Mhz   0         
+  VCO=856M
+ 11199       1    PASS     VCO_Range                 DIFF2B    54        142.4560 Mhz   142.6708 Mhz   142.8840 Mhz   142.6700 Mhz   0         
+ 11200       1    PASS     VCO_Range                 DIFF2     55        142.4560 Mhz   142.6708 Mhz   142.8840 Mhz   142.6700 Mhz   0         
+  VCO=888M
+ 11201       1    PASS     VCO_Range                 DIFF2B    54        147.7780 Mhz   148.0061 Mhz   148.2220 Mhz   148.0000 Mhz   0         
+ 11202       1    PASS     VCO_Range                 DIFF2     55        147.7780 Mhz   148.0031 Mhz   148.2220 Mhz   148.0000 Mhz   0         
+  VCO=920M
+ 11203       1    PASS     VCO_Range                 DIFF2B    54        153.1000 Mhz   153.3385 Mhz   153.5600 Mhz   153.3300 Mhz   0         
+ 11204       1    PASS     VCO_Range                 DIFF2     55        153.1000 Mhz   153.3385 Mhz   153.5600 Mhz   153.3300 Mhz   0         
+  VCO=952M
+ 11205       1    PASS     VCO_Range                 DIFF2B    54        158.4320 Mhz   158.6492 Mhz   158.9080 Mhz   158.6700 Mhz   0         
+ 11206       1    PASS     VCO_Range                 DIFF2     55        158.4320 Mhz   158.6492 Mhz   158.9080 Mhz   158.6700 Mhz   0         
+  VCO=984M
+ 11207       1    FAIL     VCO_Range                 DIFF2B    0         163.7540 Mhz   158.5508 Mhz   164.2460 Mhz   164.0000 Mhz   0         
+ 11208       1    FAIL     VCO_Range                 DIFF2     0         163.7540 Mhz   158.5477 Mhz   164.2460 Mhz   164.0000 Mhz   0         
+  
+ Fmax VCO for PLL1 is  0.952 Ghz
+  
+2. SE2 : PLL3; VCO=480M;  SS=0%.  VDDDIFF1/2 = VDDA = 3V.  VDD33 = 3V.  VDDSE1 = 3V V.  VDDSE2,3 = 3V 
+  VCO=480M
+ 11209       1    PASS     VCO_Range                 SE2       179       47.9280 Mhz    48.0000 Mhz    48.0720 Mhz    48.0000 Mhz    0         
+  VCO=530M
+ 11210       1    PASS     VCO_Range                 SE2       179       52.9205 Mhz    53.0000 Mhz    53.0795 Mhz    53.0000 Mhz    0         
+  VCO=580M
+ 11211       1    PASS     VCO_Range                 SE2       179       57.9130 Mhz    58.0031 Mhz    58.0870 Mhz    58.0000 Mhz    0         
+  VCO=630M
+ 11212       1    PASS     VCO_Range                 SE2       179       62.9055 Mhz    63.0031 Mhz    63.0945 Mhz    63.0000 Mhz    0         
+  VCO=680M
+ 11213       1    PASS     VCO_Range                 SE2       179       67.8980 Mhz    68.0031 Mhz    68.1020 Mhz    68.0000 Mhz    0         
+  VCO=730M
+ 11214       1    PASS     VCO_Range                 SE2       179       72.8905 Mhz    73.0000 Mhz    73.1095 Mhz    73.0000 Mhz    0         
+  VCO=780M
+ 11215       1    PASS     VCO_Range                 SE2       179       77.8830 Mhz    78.0031 Mhz    78.1170 Mhz    78.0000 Mhz    0         
+  VCO=830M
+ 11216       1    PASS     VCO_Range                 SE2       179       82.8755 Mhz    83.0031 Mhz    83.1245 Mhz    83.0000 Mhz    0         
+  VCO=880M
+ 11217       1    PASS     VCO_Range                 SE2       179       87.8680 Mhz    88.0031 Mhz    88.1320 Mhz    88.0000 Mhz    0         
+  VCO=930M
+ 11218       1    PASS     VCO_Range                 SE2       179       92.8605 Mhz    93.0031 Mhz    93.1395 Mhz    93.0000 Mhz    0         
+  VCO=980
+ 11219       1    PASS     VCO_Range                 SE2       179       97.8530 Mhz    98.0031 Mhz    98.1470 Mhz    98.0000 Mhz    0         
+  VCO=1030M
+ 11220       1    PASS     VCO_Range                 SE2       179       102.8455 Mhz   103.0031 Mhz   103.1545 Mhz   103.0000 Mhz   0         
+  VCO=1080M
+ 11221       1    PASS     VCO_Range                 SE2       179       107.8380 Mhz   108.0031 Mhz   108.1620 Mhz   108.0000 Mhz   0         
+  VCO=1130M
+ 11222       1    PASS     VCO_Range                 SE2       179       112.8305 Mhz   113.0031 Mhz   113.1695 Mhz   113.0000 Mhz   0         
+  VCO=1180M
+ 11223       1    PASS     VCO_Range                 SE2       179       117.8230 Mhz   118.0031 Mhz   118.1770 Mhz   118.0000 Mhz   0         
+  VCO=1230M
+ 11224       1    PASS     VCO_Range                 SE2       179       122.8155 Mhz   123.0031 Mhz   123.1845 Mhz   123.0000 Mhz   0         
+  VCO=1280M
+ 11225       1    PASS     VCO_Range                 SE2       179       127.8080 Mhz   128.0031 Mhz   128.1920 Mhz   128.0000 Mhz   0         
+  VCO=1330M
+ 11226       1    PASS     VCO_Range                 SE2       179       132.8005 Mhz   133.0061 Mhz   133.1995 Mhz   133.0000 Mhz   0         
+  VCO=1380M
+ 11227       1    PASS     VCO_Range                 SE2       179       137.7930 Mhz   138.0031 Mhz   138.2070 Mhz   138.0000 Mhz   0         
+  VCO=1430M
+ 11228       1    FAIL     VCO_Range                 SE2       0         142.7855 Mhz   139.6954 Mhz   143.2145 Mhz   143.0000 Mhz   0         
+  
+ Fmax VCO for PLL3 is  1.38 Ghz
+  
+
+ Site Failed tests/Executed tests
+------------------------------------
+    1        12       531
+
+ Site    Sort     Bin
+------------------------------------
+    1         1         1
+=========================================================================
