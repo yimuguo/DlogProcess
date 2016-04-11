@@ -9,7 +9,7 @@ class DlyLineDlog(Dlog):
 
     def __init__(self, dlogpath, temp, lotnumber):
         super(DlyLineDlog, self).__init__(dlogpath)
-        self.dlog_data = self.screen_pass(write_to_file=0)
+        self.dlog_data = self.screen_pass()
         self.temp = temp
         self.lotnumber = lotnumber
 
