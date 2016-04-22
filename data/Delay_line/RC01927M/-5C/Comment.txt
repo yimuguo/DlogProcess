@@ -1,0 +1,10 @@
+Device # 7 is not valid fail, adjusted test limits later for lkg
+Device # 10 is not valid fail
+Device # 11 is dummy at ROOM
+
+
+3/02
+Device # 4 is dummy at HOT.
+Device # 5 is dummy at Cold.
+Device # 6 is dummy at Cold.
+Device # 7 is dummy at Cold.
